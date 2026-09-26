@@ -1,0 +1,13 @@
+# Floppy account setup
+
+The app remains a local preview while `cloud-config.js` has blank values. This is intentional: no account or production storage is claimed until a real Supabase project has been provisioned and verified. Existing `floppy-projects-v3` browser data is left untouched.
+
+1. Create a Supabase project. Enable email Magic Link authentication. In Auth URL Configuration, add the exact hosted Floppy URL and any local preview URL used for testing (for example `http://127.0.0.1:8766/index.html`). Set the production Site URL to the hosted app.
+2. Apply `supabase/migrations/20260925000000_floppy_accounts.sql`. Check that only authenticated owners can read collections and that `anon` cannot read either table. `floppy_gemini_keys` must have no client read/write grant.
+3. Generate a fresh, random 32-byte encryption key, encode it as base64, and set it as the Edge Function secret `FLOPPY_KEY_ENCRYPTION_SECRET`. Set `FLOPPY_ALLOWED_ORIGINS` to exact comma-separated origins (scheme, host, and optional port; no path or trailing slash). Never commit either secret. Deploy `supabase/functions/gemini-vault` with JWT verification enabled.
+4. Put only the Supabase project URL and **publishable** key in `cloud-config.js`. Never put a Supabase secret/service-role key or a Gemini key in browser code. Host the static app over HTTPS.
+5. Test a new account: request a Magic Link, open it, create a project, edit Idea, wait for “Saved to account,” refresh, sign out/in, and confirm the project returns. Test another account cannot read it. Test explicit import of an existing on-device project; confirm the original browser copy remains. Add a Gemini key through Settings, refresh, confirm the masked connection returns, generate a Working Idea and Project Art, and verify no plaintext key appears in project data or responses. Simulate a stale-tab conflict and a failed network save; confirm work is preserved and the user sees the warning.
+
+The cloud foundation stores each account's existing version-4 project collection as an account-owned JSON snapshot with an atomic revision. It also retains an account-scoped on-device pending backup for failed saves. This keeps the current data model intact during migration; large binary attachments should eventually move to private object storage with account-scoped access rules. The current 8 MiB snapshot ceiling is deliberate and must be tested with real project sizes before opening the app to users.
+
+The repository has mocked account and vault journeys, but these do **not** verify a live Supabase deployment, real email delivery, encryption-secret configuration, or live Gemini. Those are release gates, not optional polish.

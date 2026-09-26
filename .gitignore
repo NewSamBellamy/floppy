@@ -1,0 +1,5 @@
+# Never commit locally provisioned account or encryption secrets.
+.env
+.env.*
+supabase/functions/.env
+supabase/functions/.env.*

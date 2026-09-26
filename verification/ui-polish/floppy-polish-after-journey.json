@@ -1,0 +1,4644 @@
+{
+  "reports": [
+    {
+      "name": "new-empty",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 825.71875,
+          "y": 477.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 517.75,
+          "right": 963
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 363,
+        "y": 174.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 593.25,
+        "right": 1003
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-empty",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 862.71875,
+          "y": 543.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 583.75,
+          "right": 1000
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 400,
+        "y": 240.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 659.25,
+        "right": 1040
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-empty",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 1102.71875,
+          "y": 633.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 673.75,
+          "right": 1240
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 640,
+        "y": 330.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 749.25,
+        "right": 1280
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-empty",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 782.71875,
+          "y": 453.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 493.75,
+          "right": 920
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 320,
+        "y": 150.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 569.25,
+        "right": 960
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-empty",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 201.71875,
+          "y": 517.5,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 557.5,
+          "right": 339
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 19,
+        "y": 219,
+        "width": 352,
+        "height": 406,
+        "bottom": 625,
+        "right": 371
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-menu",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 825.71875,
+          "y": 477.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 517.75,
+          "right": 963
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 363,
+        "y": 174.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 593.25,
+        "right": 1003
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-menu",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 862.71875,
+          "y": 543.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 583.75,
+          "right": 1000
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 400,
+        "y": 240.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 659.25,
+        "right": 1040
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-menu",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 1102.71875,
+          "y": 633.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 673.75,
+          "right": 1240
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 640,
+        "y": 330.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 749.25,
+        "right": 1280
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-menu",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 782.71875,
+          "y": 453.75,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 493.75,
+          "right": 920
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 320,
+        "y": 150.75,
+        "width": 640,
+        "height": 418.5,
+        "bottom": 569.25,
+        "right": 960
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-menu",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "createIdea",
+          "x": 201.71875,
+          "y": 517.5,
+          "width": 137.28125,
+          "height": 40,
+          "bottom": 557.5,
+          "right": 339
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 19,
+        "y": 219,
+        "width": 352,
+        "height": 406,
+        "bottom": 625,
+        "right": 371
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-context",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 828.34375,
+          "y": 554.4375,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 594.4375,
+          "right": 954
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 383,
+        "y": 144.546875,
+        "width": 600,
+        "height": 478.890625,
+        "bottom": 623.4375,
+        "right": 983
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-context",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 865.34375,
+          "y": 620.4375,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 660.4375,
+          "right": 991
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 420,
+        "y": 210.546875,
+        "width": 600,
+        "height": 478.890625,
+        "bottom": 689.4375,
+        "right": 1020
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-context",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 1105.34375,
+          "y": 710.4375,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 750.4375,
+          "right": 1231
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 660,
+        "y": 300.546875,
+        "width": 600,
+        "height": 478.890625,
+        "bottom": 779.4375,
+        "right": 1260
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-context",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 785.34375,
+          "y": 530.4375,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 570.4375,
+          "right": 911
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 340,
+        "y": 120.546875,
+        "width": 600,
+        "height": 478.890625,
+        "bottom": 599.4375,
+        "right": 940
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "new-context",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 228.34375,
+          "y": 592.4375,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 632.4375,
+          "right": 354
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 19,
+        "y": 194.546875,
+        "width": 352,
+        "height": 454.890625,
+        "bottom": 649.4375,
+        "right": 371
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "idea-with-context",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-with-context",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-with-context",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-with-context",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 351.1875,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 391.1875,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-with-context",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 257.34375,
+          "y": 446.5,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 486.5,
+          "right": 363
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "disconnected",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "disconnected",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "disconnected",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "disconnected",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 351.1875,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 391.1875,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "disconnected",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 257.34375,
+          "y": 446.5,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 486.5,
+          "right": 363
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "settings-empty-error",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveSettings",
+          "x": 810.03125,
+          "y": 522.71875,
+          "width": 103.96875,
+          "height": 40,
+          "bottom": 562.71875,
+          "right": 914
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 423,
+        "y": 176.28125,
+        "width": 520,
+        "height": 415.4375,
+        "bottom": 591.71875,
+        "right": 943
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-empty-error",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveSettings",
+          "x": 847.03125,
+          "y": 588.71875,
+          "width": 103.96875,
+          "height": 40,
+          "bottom": 628.71875,
+          "right": 951
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 460,
+        "y": 242.28125,
+        "width": 520,
+        "height": 415.4375,
+        "bottom": 657.71875,
+        "right": 980
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-empty-error",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveSettings",
+          "x": 1087.03125,
+          "y": 678.71875,
+          "width": 103.96875,
+          "height": 40,
+          "bottom": 718.71875,
+          "right": 1191
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 700,
+        "y": 332.28125,
+        "width": 520,
+        "height": 415.4375,
+        "bottom": 747.71875,
+        "right": 1220
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-empty-error",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveSettings",
+          "x": 767.03125,
+          "y": 498.71875,
+          "width": 103.96875,
+          "height": 40,
+          "bottom": 538.71875,
+          "right": 871
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 380,
+        "y": 152.28125,
+        "width": 520,
+        "height": 415.4375,
+        "bottom": 567.71875,
+        "right": 900
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-empty-error",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveSettings",
+          "x": 246.03125,
+          "y": 571.109375,
+          "width": 103.96875,
+          "height": 40,
+          "bottom": 611.109375,
+          "right": 350
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 19,
+        "y": 211.875,
+        "width": 352,
+        "height": 420.234375,
+        "bottom": 632.109375,
+        "right": 371
+      },
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "settings-connected",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 423,
+        "y": 215.171875,
+        "width": 520,
+        "height": 337.640625,
+        "bottom": 552.8125,
+        "right": 943
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-connected",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 460,
+        "y": 281.171875,
+        "width": 520,
+        "height": 337.640625,
+        "bottom": 618.8125,
+        "right": 980
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-connected",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 700,
+        "y": 371.171875,
+        "width": 520,
+        "height": 337.640625,
+        "bottom": 708.8125,
+        "right": 1220
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-connected",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 380,
+        "y": 191.171875,
+        "width": 520,
+        "height": 337.640625,
+        "bottom": 528.8125,
+        "right": 900
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "settings-connected",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 19,
+        "y": 261.171875,
+        "width": 352,
+        "height": 321.640625,
+        "bottom": 582.8125,
+        "right": 371
+      },
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "idea-loading",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-loading",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-loading",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-loading",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-loading",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "idea-error",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-error",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-error",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 393.390625,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 433.390625,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-error",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 889.34375,
+          "y": 351.1875,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 391.1875,
+          "right": 995
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-error",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueIdea",
+          "x": 257.34375,
+          "y": 446.5,
+          "width": 105.65625,
+          "height": 40,
+          "bottom": 486.5,
+          "right": 363
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "idea-review",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "confirmWorkingIdea",
+          "x": 908,
+          "y": 327.078125,
+          "width": 98,
+          "height": 40,
+          "bottom": 367.078125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-review",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "confirmWorkingIdea",
+          "x": 908,
+          "y": 327.078125,
+          "width": 98,
+          "height": 40,
+          "bottom": 367.078125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-review",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "confirmWorkingIdea",
+          "x": 908,
+          "y": 327.078125,
+          "width": 98,
+          "height": 40,
+          "bottom": 367.078125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-review",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "confirmWorkingIdea",
+          "x": 908,
+          "y": 288.875,
+          "width": 98,
+          "height": 40,
+          "bottom": 328.875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-review",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "confirmWorkingIdea",
+          "x": 276,
+          "y": 411.53125,
+          "width": 98,
+          "height": 40,
+          "bottom": 451.53125,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "idea-edit",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveWorkingIdea",
+          "x": 862.328125,
+          "y": 421.890625,
+          "width": 89.8125,
+          "height": 40,
+          "bottom": 461.890625,
+          "right": 952.140625
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-edit",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveWorkingIdea",
+          "x": 862.328125,
+          "y": 421.890625,
+          "width": 89.8125,
+          "height": 40,
+          "bottom": 461.890625,
+          "right": 952.140625
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-edit",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveWorkingIdea",
+          "x": 862.328125,
+          "y": 421.890625,
+          "width": 89.8125,
+          "height": 40,
+          "bottom": 461.890625,
+          "right": 952.140625
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-edit",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveWorkingIdea",
+          "x": 862.328125,
+          "y": 383.6875,
+          "width": 89.8125,
+          "height": 40,
+          "bottom": 423.6875,
+          "right": 952.140625
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-edit",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveWorkingIdea",
+          "x": 230.328125,
+          "y": 475,
+          "width": 89.8125,
+          "height": 40,
+          "bottom": 515,
+          "right": 320.140625
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "chapter-1",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-1",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-1",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-1",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 429.375,
+          "width": 98,
+          "height": 40,
+          "bottom": 469.375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 189,
+        "width": 174,
+        "height": 32,
+        "bottom": 221,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-1",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 276,
+          "y": 510.25,
+          "width": 98,
+          "height": 40,
+          "bottom": 550.25,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 100,
+        "y": 133.5,
+        "width": 94.28125,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 194.28125
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "investigation",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "analyzeReturnedWork",
+          "x": 845.921875,
+          "y": 609.5,
+          "width": 160.078125,
+          "height": 40,
+          "bottom": 649.5,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "investigation",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "analyzeReturnedWork",
+          "x": 845.921875,
+          "y": 648.390625,
+          "width": 160.078125,
+          "height": 40,
+          "bottom": 688.390625,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "investigation",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "analyzeReturnedWork",
+          "x": 845.921875,
+          "y": 648.390625,
+          "width": 160.078125,
+          "height": 40,
+          "bottom": 688.390625,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "investigation",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "analyzeReturnedWork",
+          "x": 845.921875,
+          "y": 550.984375,
+          "width": 160.078125,
+          "height": 40,
+          "bottom": 590.984375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 189,
+        "width": 174,
+        "height": 32,
+        "bottom": 221,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "investigation",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "analyzeReturnedWork",
+          "x": 16,
+          "y": 708.828125,
+          "width": 160.078125,
+          "height": 40,
+          "bottom": 748.828125,
+          "right": 176.078125
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 100,
+        "y": 133.5,
+        "width": 94.28125,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 194.28125
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "research-capture",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 828.34375,
+          "y": 584.0625,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 624.0625,
+          "right": 954
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 383,
+        "y": 114.921875,
+        "width": 600,
+        "height": 538.140625,
+        "bottom": 653.0625,
+        "right": 983
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-capture",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 865.34375,
+          "y": 650.0625,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 690.0625,
+          "right": 991
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 420,
+        "y": 180.921875,
+        "width": 600,
+        "height": 538.140625,
+        "bottom": 719.0625,
+        "right": 1020
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-capture",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 1105.34375,
+          "y": 740.0625,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 780.0625,
+          "right": 1231
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 660,
+        "y": 270.921875,
+        "width": 600,
+        "height": 538.140625,
+        "bottom": 809.0625,
+        "right": 1260
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-capture",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 785.34375,
+          "y": 560.0625,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 600.0625,
+          "right": 911
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 340,
+        "y": 90.921875,
+        "width": 600,
+        "height": 538.140625,
+        "bottom": 629.0625,
+        "right": 940
+      },
+      "currentBox": {
+        "x": 42,
+        "y": 189,
+        "width": 174,
+        "height": 32,
+        "bottom": 221,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-capture",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "",
+          "x": 228.34375,
+          "y": 642.6875,
+          "width": 125.65625,
+          "height": 40,
+          "bottom": 682.6875,
+          "right": 354
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 19,
+        "y": 144.296875,
+        "width": 352,
+        "height": 555.390625,
+        "bottom": 699.6875,
+        "right": 371
+      },
+      "currentBox": {
+        "x": 100,
+        "y": 133.5,
+        "width": 94.28125,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 194.28125
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "research-review",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-review",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-review",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-review",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 429.375,
+          "width": 98,
+          "height": 40,
+          "bottom": 469.375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 189,
+        "width": 174,
+        "height": 32,
+        "bottom": 221,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-review",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 276,
+          "y": 510.25,
+          "width": 98,
+          "height": 40,
+          "bottom": 550.25,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 100,
+        "y": 133.5,
+        "width": 94.28125,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 194.28125
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "research-evidence",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 78,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-evidence",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-evidence",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 218,
+        "width": 174,
+        "height": 32,
+        "bottom": 250,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-evidence",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 429.375,
+          "width": 98,
+          "height": 40,
+          "bottom": 469.375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 95,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 189,
+        "width": 174,
+        "height": 32,
+        "bottom": 221,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "research-evidence",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 276,
+          "y": 510.25,
+          "width": 98,
+          "height": 40,
+          "bottom": 550.25,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 112,
+      "dialog": null,
+      "currentBox": {
+        "x": 100,
+        "y": 133.5,
+        "width": 94.28125,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 194.28125
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "chapter-2",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 251,
+        "width": 174,
+        "height": 32,
+        "bottom": 283,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-3",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 284,
+        "width": 174,
+        "height": 32,
+        "bottom": 316,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-4",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 317,
+        "width": 174,
+        "height": 32,
+        "bottom": 349,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-5",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 350,
+        "width": 174,
+        "height": 32,
+        "bottom": 382,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-6",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 497.96875,
+          "width": 98,
+          "height": 40,
+          "bottom": 537.96875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 411,
+        "width": 174,
+        "height": 32,
+        "bottom": 443,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-6",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 497.96875,
+          "width": 98,
+          "height": 40,
+          "bottom": 537.96875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 411,
+        "width": 174,
+        "height": 32,
+        "bottom": 443,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-6",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 497.96875,
+          "width": 98,
+          "height": 40,
+          "bottom": 537.96875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 411,
+        "width": 174,
+        "height": 32,
+        "bottom": 443,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-6",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 429.375,
+          "width": 98,
+          "height": 40,
+          "bottom": 469.375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 382,
+        "width": 174,
+        "height": 32,
+        "bottom": 414,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-6",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 276,
+          "y": 510.25,
+          "width": 98,
+          "height": 40,
+          "bottom": 550.25,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16.46875,
+        "y": 133.5,
+        "width": 115.453125,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 131.921875
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "chapter-7",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 497.96875,
+          "width": 98,
+          "height": 40,
+          "bottom": 537.96875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 444,
+        "width": 174,
+        "height": 32,
+        "bottom": 476,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-8",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 477,
+        "width": 174,
+        "height": 32,
+        "bottom": 509,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-9",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 497.96875,
+          "width": 98,
+          "height": 40,
+          "bottom": 537.96875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 538,
+        "width": 174,
+        "height": 32,
+        "bottom": 570,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-9",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 497.96875,
+          "width": 98,
+          "height": 40,
+          "bottom": 537.96875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 538,
+        "width": 174,
+        "height": 32,
+        "bottom": 570,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-9",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 497.96875,
+          "width": 98,
+          "height": 40,
+          "bottom": 537.96875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 538,
+        "width": 174,
+        "height": 32,
+        "bottom": 570,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-9",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 466.5625,
+          "width": 98,
+          "height": 40,
+          "bottom": 506.5625,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 509,
+        "width": 174,
+        "height": 32,
+        "bottom": 541,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-9",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 276,
+          "y": 544,
+          "width": 98,
+          "height": 40,
+          "bottom": 584,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16.140625,
+        "y": 133.5,
+        "width": 89.046875,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 105.1875
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "chapter-10",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 571,
+        "width": 174,
+        "height": 32,
+        "bottom": 603,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-11",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 632,
+        "width": 174,
+        "height": 32,
+        "bottom": 664,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-11",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 632,
+        "width": 174,
+        "height": 32,
+        "bottom": 664,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-11",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 632,
+        "width": 174,
+        "height": 32,
+        "bottom": 664,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-11",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 429.375,
+          "width": 98,
+          "height": 40,
+          "bottom": 469.375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 603,
+        "width": 174,
+        "height": 32,
+        "bottom": 635,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-11",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 276,
+          "y": 510.25,
+          "width": 98,
+          "height": 40,
+          "bottom": 550.25,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 162.1875,
+        "y": 133.5,
+        "width": 98.203125,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 260.390625
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "chapter-12",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 665,
+        "width": 174,
+        "height": 32,
+        "bottom": 697,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-12",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 665,
+        "width": 174,
+        "height": 32,
+        "bottom": 697,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-12",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 459.578125,
+          "width": 98,
+          "height": 40,
+          "bottom": 499.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 665,
+        "width": 174,
+        "height": 32,
+        "bottom": 697,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-12",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 908,
+          "y": 429.375,
+          "width": 98,
+          "height": 40,
+          "bottom": 469.375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 636,
+        "width": 174,
+        "height": 32,
+        "bottom": 668,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "chapter-12",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "resolveChapter",
+          "x": 276,
+          "y": 510.25,
+          "width": 98,
+          "height": 40,
+          "bottom": 550.25,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 267.8125,
+        "y": 133.5,
+        "width": 99.9375,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 367.75
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "readiness-confirmed",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "beginPrototype",
+          "x": 855.078125,
+          "y": 427.578125,
+          "width": 150.921875,
+          "height": 40,
+          "bottom": 467.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 665,
+        "width": 174,
+        "height": 32,
+        "bottom": 697,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "readiness-confirmed",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "beginPrototype",
+          "x": 855.078125,
+          "y": 427.578125,
+          "width": 150.921875,
+          "height": 40,
+          "bottom": 467.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 665,
+        "width": 174,
+        "height": 32,
+        "bottom": 697,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "readiness-confirmed",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "beginPrototype",
+          "x": 855.078125,
+          "y": 427.578125,
+          "width": 150.921875,
+          "height": 40,
+          "bottom": 467.578125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 665,
+        "width": 174,
+        "height": 32,
+        "bottom": 697,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "readiness-confirmed",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "beginPrototype",
+          "x": 855.078125,
+          "y": 397.375,
+          "width": 150.921875,
+          "height": 40,
+          "bottom": 437.375,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 636,
+        "width": 174,
+        "height": 32,
+        "bottom": 668,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "readiness-confirmed",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "beginPrototype",
+          "x": 223.078125,
+          "y": 526.25,
+          "width": 150.921875,
+          "height": 40,
+          "bottom": 566.25,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 267.8125,
+        "y": 133.5,
+        "width": 99.9375,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 367.75
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "prototype",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "savePhase",
+          "x": 254,
+          "y": 472.390625,
+          "width": 148.375,
+          "height": 40,
+          "bottom": 512.390625,
+          "right": 402.375
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "prototype",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "savePhase",
+          "x": 254,
+          "y": 472.390625,
+          "width": 148.375,
+          "height": 40,
+          "bottom": 512.390625,
+          "right": 402.375
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "prototype",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "savePhase",
+          "x": 254,
+          "y": 472.390625,
+          "width": 148.375,
+          "height": 40,
+          "bottom": 512.390625,
+          "right": 402.375
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "prototype",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "savePhase",
+          "x": 254,
+          "y": 430.1875,
+          "width": 148.375,
+          "height": 40,
+          "bottom": 470.1875,
+          "right": 402.375
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "prototype",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "savePhase",
+          "x": 16,
+          "y": 451.75,
+          "width": 148.375,
+          "height": 40,
+          "bottom": 491.75,
+          "right": 164.375
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "idea-confirmed",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "defineProblemFromIdea",
+          "x": 834.625,
+          "y": 364.078125,
+          "width": 171.375,
+          "height": 40,
+          "bottom": 404.078125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 602,
+        "bottom": 768,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-confirmed",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "defineProblemFromIdea",
+          "x": 834.625,
+          "y": 364.078125,
+          "width": 171.375,
+          "height": 40,
+          "bottom": 404.078125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 734,
+        "bottom": 900,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-confirmed",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "defineProblemFromIdea",
+          "x": 834.625,
+          "y": 364.078125,
+          "width": 171.375,
+          "height": 40,
+          "bottom": 404.078125,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 185,
+        "width": 174,
+        "height": 32,
+        "bottom": 217,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 166,
+        "width": 190,
+        "height": 914,
+        "bottom": 1080,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-confirmed",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "defineProblemFromIdea",
+          "x": 834.625,
+          "y": 325.875,
+          "width": 171.375,
+          "height": 40,
+          "bottom": 365.875,
+          "right": 1006
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 42,
+        "y": 156,
+        "width": 174,
+        "height": 32,
+        "bottom": 188,
+        "right": 216
+      },
+      "railBox": {
+        "x": 32,
+        "y": 137,
+        "width": 190,
+        "height": 583,
+        "bottom": 720,
+        "right": 222
+      }
+    },
+    {
+      "name": "idea-confirmed",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "defineProblemFromIdea",
+          "x": 202.625,
+          "y": 466.78125,
+          "width": 171.375,
+          "height": 40,
+          "bottom": 506.78125,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": {
+        "x": 16,
+        "y": 133.5,
+        "width": 76,
+        "height": 40,
+        "bottom": 173.5,
+        "right": 92
+      },
+      "railBox": {
+        "x": 16,
+        "y": 136,
+        "width": 358,
+        "height": 48,
+        "bottom": 184,
+        "right": 374
+      }
+    },
+    {
+      "name": "fresh-project-home",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueProject",
+          "x": 1048.90625,
+          "y": 690.5,
+          "width": 154.09375,
+          "height": 40,
+          "bottom": 730.5,
+          "right": 1203
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "fresh-project-home",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueProject",
+          "x": 1085.90625,
+          "y": 822.5,
+          "width": 154.09375,
+          "height": 40,
+          "bottom": 862.5,
+          "right": 1240
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "fresh-project-home",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueProject",
+          "x": 1325.90625,
+          "y": 1002.5,
+          "width": 154.09375,
+          "height": 40,
+          "bottom": 1042.5,
+          "right": 1480
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "fresh-project-home",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueProject",
+          "x": 1005.90625,
+          "y": 642.5,
+          "width": 154.09375,
+          "height": 40,
+          "bottom": 682.5,
+          "right": 1160
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "fresh-project-home",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "continueProject",
+          "x": 16,
+          "y": 788,
+          "width": 358,
+          "height": 44,
+          "bottom": 832,
+          "right": 374
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": null,
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "project-details",
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "documentHeight": 768,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveProjectInfo",
+          "x": 836.671875,
+          "y": 589.6875,
+          "width": 117.328125,
+          "height": 40,
+          "bottom": 629.6875,
+          "right": 954
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 383,
+        "y": 109.296875,
+        "width": 600,
+        "height": 549.390625,
+        "bottom": 658.6875,
+        "right": 983
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "project-details",
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "documentHeight": 900,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveProjectInfo",
+          "x": 873.671875,
+          "y": 655.6875,
+          "width": 117.328125,
+          "height": 40,
+          "bottom": 695.6875,
+          "right": 991
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 420,
+        "y": 175.296875,
+        "width": 600,
+        "height": 549.390625,
+        "bottom": 724.6875,
+        "right": 1020
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "project-details",
+      "width": 1920,
+      "height": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveProjectInfo",
+          "x": 1113.671875,
+          "y": 745.6875,
+          "width": 117.328125,
+          "height": 40,
+          "bottom": 785.6875,
+          "right": 1231
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 660,
+        "y": 265.296875,
+        "width": 600,
+        "height": 549.390625,
+        "bottom": 814.6875,
+        "right": 1260
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "project-details",
+      "width": 1280,
+      "height": 720,
+      "documentWidth": 1280,
+      "documentHeight": 720,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveProjectInfo",
+          "x": 793.671875,
+          "y": 565.6875,
+          "width": 117.328125,
+          "height": 40,
+          "bottom": 605.6875,
+          "right": 911
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 340,
+        "y": 85.296875,
+        "width": 600,
+        "height": 549.390625,
+        "bottom": 634.6875,
+        "right": 940
+      },
+      "currentBox": null,
+      "railBox": null
+    },
+    {
+      "name": "project-details",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "documentHeight": 844,
+      "scrollY": 0,
+      "actions": [
+        {
+          "id": "saveProjectInfo",
+          "x": 236.671875,
+          "y": 627.6875,
+          "width": 117.328125,
+          "height": 40,
+          "bottom": 667.6875,
+          "right": 354
+        }
+      ],
+      "workspaceScroll": 0,
+      "dialog": {
+        "x": 19,
+        "y": 159.296875,
+        "width": 352,
+        "height": 525.390625,
+        "bottom": 684.6875,
+        "right": 371
+      },
+      "currentBox": null,
+      "railBox": null
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+  ]
+}
