@@ -1,5 +1,24 @@
 # Floppy handoff
 
+## V3 naming and picker follow-up (2026-09-28)
+
+- The picker action is now explicitly **Edit title**; the dialog clarifies that this is the workspace title shown on the disk. The Idea tab has a separate autosaved product-name field, present in both Discovery Studio intake and the detailed Idea composer. The workspace header follows the product name; the picker and disk keep the workspace title.
+- Product name is carried as a distinct value into the first Working Idea prompt, Discovery context/synthesis, chapter/research prompts, Project Art context, Idea Brief/PDF, and the prototype system prompt, agent PRD, and context bundle. Older saved projects remain compatible and use their existing title as the fallback until the founder enters a product name.
+- **Verification:** `node --test`: 87/87 passing. Isolated browser check created a project with distinct names, set the product name, reloaded, verified the saved value and workspace header, opened the picker title editor, saved a changed workspace title, and confirmed the two values remained distinct. Discovery intake and detailed Idea view both expose the product-name field. Desktop screenshot inspected at 1280×720. This browser check used an isolated local origin; the user’s existing 8767 tab/data was not modified. No live Gemini request was made.
+- **Still open:** the requested replacement logo image was not attached or otherwise identifiable in the workspace, so the existing header mark is unchanged. Share/attach the intended image before changing it. The synchronized static build loads locally with the product-name control.
+
+## Discovery Studio and responsive follow-up (2026-09-28)
+
+- Added a direct section editor to Discovery Studio, retained evidence separately, and labeled whether the last change came from the founder or an accepted AI proposal. Pending AI edits are blocked while a proposal is running, and stale proposals cannot overwrite a section changed mid-request. Handoff now has a direct return to the saved map.
+- Added a one-click Idea Brief PDF action to the research synthesis map. It exports the saved map without triggering another AI request, carries details, evidence, questions, and authorship, and uses more accurate working-direction language.
+- PDF review found and fixed overlapping title/section headings. Long titles wrap by font size, and pages have a footer and page count. A synthetic three-page export was rendered and visually inspected; the long cover title and section content fit within page bounds.
+- Interview Back now returns to the last answered question when the adaptive interview reports readiness. Question index is clamped during initial loading.
+- Short desktop windows preserve disk size and scroll vertically; a resize observer recenters the selected disk. Touch controls have 44px targets. Verified local picker at 904x558, 768x1024, 390x844, and 1366x768, with no horizontal page overflow.
+- Isolated browser sample verified new idea creation, question entry, answer save, continue, reload/reopen, and Back restoring the saved answer. Preview console showed no errors. Gemini was not live-tested.
+- `node --test`: 83/83 passing; app, PDF, and discovery module syntax; `git diff --check` pass.
+- **Still open:** full browser test of scope edits, PDF download, handoff, and project switching across sizes; verify attached PDF/image content reaches Gemini; measure live focused-research latency with a safe configured credential; synchronize `dist`, refresh hosted asset caches, publish and verify the owner-only Site.
+- Local changes remain unpublished. External GitHub/MCP infrastructure is still only represented as a connection boundary.
+
 ## Product-wide visual finish pass (2026-09-25)
 
 - **Design thesis:** warm paper and soft sage frame; crisp dark green ink; restrained amber for primary actions; retro cues carried by the floppy, frame, and desktop grid. Large open areas now serve the project answer instead of additional dashboard furniture.

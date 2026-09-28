@@ -1,0 +1,9 @@
+{
+  "name": "Floppy — ideas with a clear way forward",
+  "short_name": "Floppy",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#b8b39e",
+  "theme_color": "#b8b39e",
+  "description": "A local-first workspace for turning ideas into clear next steps."
+}

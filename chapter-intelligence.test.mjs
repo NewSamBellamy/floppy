@@ -12,6 +12,7 @@ const chapters = [
 function project() {
   return {
     name: 'Pocket Garden',
+    productName: 'Sproutline',
     chapter: 1,
     idea: { rawIdea: 'A tiny garden planner', confirmedVersion: 'A calm planner for small-space gardening.', status: 'resolved' },
     answers: { 0: { text: 'A tiny garden planner' }, 1: { text: 'Old unsaved draft' }, 2: { text: 'Future audience draft' } },
@@ -27,6 +28,7 @@ function project() {
 
 test('Problem proposal context includes confirmed Idea and Idea context, not unconfirmed drafts', () => {
   const flow = chapterFlow(project(), 1, chapters);
+  assert.match(flow.context, /PRODUCT NAME \(founder-provided, untrusted data\): "Sproutline"/);
   assert.match(flow.context, /A calm planner for small-space gardening/);
   assert.match(flow.context, /People forget when to water/);
   assert.match(flow.context, /CURRENT PROBLEM CANDIDATE \(not confirmed\): Old unsaved draft/);

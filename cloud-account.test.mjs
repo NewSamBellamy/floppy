@@ -1,12 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {CloudCollection,validCollection} from './cloud-account.mjs';
+import {CloudCollection,validCollection,signInWithGoogle} from './cloud-account.mjs';
 import {ACCOUNT_GEMINI_KEY,setAccountGeminiGateway,generateWorkingIdea,verifyGeminiKey} from './identity.js';
 
 const snapshot=(name='One')=>({version:4,active:'one',projects:[{id:'one',name,projectArt:{sourceUrl:'art/orbit.png'}}]});
 test('cloud snapshots exclude malformed collection shapes',()=>{
  assert.equal(validCollection(snapshot()),true);
  assert.equal(validCollection({...snapshot(),projects:[{id:'one',name:'One'}]}),false);
+});
+test('Google sign-in uses the configured Supabase OAuth redirect',async()=>{
+ const calls=[];
+ await signInWithGoogle({auth:{signInWithOAuth:async options=>{calls.push(options);return {error:null};}}},'https://floppy.example.com/');
+ assert.deepEqual(calls,[{provider:'google',options:{redirectTo:'https://floppy.example.com/'}}]);
 });
 test('cloud load leaves an empty account empty and never imports local data automatically',async()=>{
  const client={from:()=>({select:()=>({eq:()=>({maybeSingle:async()=>({data:null,error:null})})})})};

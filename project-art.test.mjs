@@ -74,6 +74,19 @@ test('new upload or generation remains a candidate until explicitly committed', 
   assert.equal('art' in saved, false);
 });
 
+test('committed artwork does not reuse an old current-art edit reference forever', () => {
+  const project = { projectArt: createProjectArt({ sourceUrl: 'art/orbit.png' }), customArt: false };
+  const candidate = createProjectArt({
+    sourceUrl: 'data:image/jpeg;base64,AA==',
+    sourceType: 'generated',
+    references: [{ id: 'current', title: 'Current disk artwork', type: 'current', sourceUrl: 'data:image/png;base64,AA==' }],
+  });
+
+  commitProjectArt(project, candidate);
+
+  assert.equal(project.projectArt.references[0].type, 'uploaded');
+});
+
 test('image generation selects the closest supported ratio to the floppy art window', () => {
   assert.equal(FLOPPY_ART_WINDOW_ASPECT_RATIO, 2);
   assert.equal(FLOPPY_GEOMETRY.artAspectRatio, 2);
