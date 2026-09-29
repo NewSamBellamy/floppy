@@ -1,5 +1,11 @@
 # Floppy handoff
 
+## Floppy brand mark (2026-09-28)
+
+- Added the founder-provided transparent mascot artwork as the header mark and browser favicon in the source app and static preview. Existing project disk art and titles are unchanged.
+- Updated responsive mark sizing, static asset cache key, and service-worker precache for the logo.
+- **Verification:** `node --test`: 87/87 pass; service-worker syntax and `git diff --check` pass. Inspected isolated source and static-preview browser renders at 1280×720 and 390×844; the transparent mark is visible, the existing project-disk art remains unchanged, and the picker actions fit at both sizes. The source and `dist/` HTML, CSS, worker, and image assets are synchronized. No real account or Gemini call was made.
+
 ## V3 naming and picker follow-up (2026-09-28)
 
 - The picker action is now explicitly **Edit title**; the dialog clarifies that this is the workspace title shown on the disk. The Idea tab has a separate autosaved product-name field, present in both Discovery Studio intake and the detailed Idea composer. The workspace header follows the product name; the picker and disk keep the workspace title.

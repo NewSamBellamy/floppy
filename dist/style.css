@@ -77,7 +77,7 @@ input[type="file"] { padding: 8px; font-size: 13px; }
 /* Application frame: quiet navigation, a single working surface. */
 .topbar { z-index: 2; display: flex; flex: 0 0 58px; align-items: center; justify-content: space-between; gap: 16px; padding-inline: 28px; border-bottom: 1px solid #566e5e28; background: var(--surface); }
 .brand { display: inline-flex; align-items: center; gap: 10px; font: 700 17px/1 var(--font-heading); letter-spacing: .04em; }
-.brand > span { display: grid; width: 25px; height: 25px; place-items: center; border: 1px solid var(--line); border-radius: 4px; background: var(--accent); font-size: 19px; box-shadow: 1px 2px 0 var(--line); }
+.brand-mark { display: block; width: 40px; height: 40px; flex: 0 0 auto; object-fit: contain; }
 .brand small { font: 12px var(--font-ui); color: var(--text-muted); }
 .top-actions { display: flex; align-items: center; gap: 22px; }
 .top-actions .quiet { font-size: 13px; }
@@ -557,7 +557,7 @@ dialog[open], #project.entering { animation: window-enter .16s ease-out; }
 @media (max-width: 760px) {
   .topbar { flex-basis: 54px; gap: 10px; padding-inline: 14px; }
   .brand { gap: 8px; font-size: 14px; }
-  .brand > span { width: 22px; height: 22px; font-size: 17px; }
+  .brand-mark { width: 34px; height: 34px; }
   .top-actions { gap: 12px; }
   .top-actions .quiet { font-size: 12px; }
   #newProject { padding: 6px 8px; }
