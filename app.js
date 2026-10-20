@@ -13,6 +13,7 @@ import {DISCOVERY_SECTIONS,createDiscoveryState,hydrateDiscoveryState,discoveryC
 import {productNameFor} from './project-identity.mjs';
 import {assessDiscoveryInterview,startFocusedResearch} from './identity.js?v=discovery-research-1';
 import {createDiscoveryRunner} from './discovery-runner.mjs';
+import {createAtlasState,mergeFounderAtlasProjects,projectMatchesAtlasFilters,renderAtlasCommandBar,renderAtlasGridView,renderAtlasMatrixView,renderCrossHistoryVaultView,renderFounderDossierBanner,renderStageGateDossierPanel} from './atlas-ui.mjs?v=founder-atlas-1';
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),safeLink=s=>{try{const u=new URL(s);return ['http:','https:'].includes(u.protocol)?u.href:'';}catch{return '';}};
 const DISK_COLORS=['#cf6c2c','#8672c5','#358eaa','#539c76','#d76883','#d7a43e','#6d83bd','#ba7253'];
 const colorOf=p=>/^#[\da-f]{6}$/i.test(p.color||'')?p.color:DISK_COLORS[Math.max(0,projects.indexOf(p))%DISK_COLORS.length];
@@ -111,13 +112,18 @@ const discoveryRunner=createDiscoveryRunner({
  notify:p=>{if(current()?.id===p.id&&view==='project')renderProject();}
 });
 const STORE='floppy-projects-v3';
+const ATLAS_STORE='floppy-founder-atlas-v1';
+let atlasState=createAtlasState();
 let localSaveChain=Promise.resolve(),latestLocalSerialized='';
 function validCollection(saved){return [2,3,4].includes(saved?.version)&&Array.isArray(saved.projects)&&saved.projects.length&&saved.projects.every(p=>['id','name','subtitle','context','problem','audience'].every(k=>typeof p[k]==='string')&&Number.isInteger(p.stage)&&p.stage>=0&&p.stage<5&&Array.isArray(p.notes)&&Array.isArray(p.history)&&p.done&&typeof p.done==='object'&&(saved.version===4?typeof p.projectArt?.sourceUrl==='string':typeof p.art==='string'));}
-function applyCollection(saved,raw){projects=saved.projects.map(p=>hydrateProject(p,saved.version));active=projects.some(p=>p.id===saved.active)?saved.active:projects[0].id;lastStored=raw;lastSavedAt=savedAtFromSnapshot(raw)||0;deviceSnapshot=structuredClone({version:4,projects,active});}
+function applyCollection(saved,raw){projects=saved.projects.map(p=>hydrateProject(p,saved.version));if(projects.length<=3)projects=mergeFounderAtlasProjects(projects,hydrateProject);active=projects.some(p=>p.id===saved.active)?saved.active:projects[0].id;lastStored=raw;lastSavedAt=savedAtFromSnapshot(raw)||0;deviceSnapshot=structuredClone({version:4,projects,active});}
 function queueLocalSnapshot(serialized){latestLocalSerialized=serialized;localSaveChain=localSaveChain.catch(()=>{}).then(()=>saveLocalSnapshot(serialized)).catch(error=>{if(serialized===latestLocalSerialized){saveError='Your local workspace could not be saved. Keep this tab open and try again.';showSaveError();toast(saveError);}});}
 function hydrateProject(p,version){const answers=p.answers||{0:{text:p.context||''}},resolved={...(p.resolved||{})};let idea=p.idea;if(!idea||typeof idea.rawIdea!=='string'){idea=blankIdea(answers[0]?.text||p.context||'',answers[0]?.text?'drafted':'unresolved');delete resolved[0];}else idea={...blankIdea(idea.rawIdea),...idea};const contexts=(Array.isArray(p.contexts)?p.contexts:[]).map(c=>({...c,id:c.id||crypto.randomUUID()}));const project={...p,productName:typeof p.productName==='string'?p.productName:'',stage:version>=3?p.stage:0,chapter:version>=3?Math.min(Number.isInteger(p.chapter)?p.chapter:0,chapters.length-1):0,answers,idea,resolved,contexts,discovery:hydrateDiscoveryState(p.discovery),workBriefs:p.workBriefs||{},problemSynthesis:p.problemSynthesis||null,phaseNotes:p.phaseNotes||{},done:p.done||{},notes:p.notes||[],history:p.history||[]};project.projectArt=normalizeProjectArt(p.projectArt,p.art);delete project.art;return project;}
-try{lastStored=localStorage.getItem(STORE);const legacy=localStorage.getItem('floppy-projects-v2'),raw=lastStored||legacy,saved=JSON.parse(raw||'null');if(raw!==null){if(!validCollection(saved))throw Error('Invalid save');applyCollection(saved,localStorage.getItem(STORE)||raw);}}catch{saveError='Saved projects could not be loaded. Changes will not overwrite them.';}
+projects=mergeFounderAtlasProjects(projects,hydrateProject);
+try{lastStored=localStorage.getItem(STORE);const atlasRaw=localStorage.getItem(ATLAS_STORE),legacy=localStorage.getItem('floppy-projects-v2'),raw=lastStored||atlasRaw||legacy,saved=JSON.parse(raw||'null');if(raw!==null){if(!validCollection(saved))throw Error('Invalid save');applyCollection(saved,localStorage.getItem(STORE)||raw);}}catch{saveError='Saved projects could not be loaded. Changes will not overwrite them.';}
 projects.forEach(recoverProjectSession);
+function syncFounderAtlasVault(){projects=mergeFounderAtlasProjects(projects,hydrateProject);if(!projects.some(p=>p.id===active)&&projects[0])active=projects[0].id;persist();library();if(view==='project')renderProject();toast(`Synced ${projects.length} Founder Atlas ventures & ideas.`);}
+$('syncVaultBtn')?.addEventListener('click',syncFounderAtlasVault);
 const current=()=>projects.find(p=>p.id===active),ideaDone=p=>p.resolved&&p.resolved[chapters.length-1],task=p=>p.stage===0?null:phaseTasks[p.stage]?.[0];
 function toast(message){$('toast').textContent=message;$('toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('visible'),4500);}
 function relativeSavedTime(){if(!lastSavedAt)return 'on this device';const seconds=Math.max(0,Math.round((Date.now()-lastSavedAt)/1000));if(seconds<10)return 'just now';if(seconds<60)return `${seconds}s ago`;const minutes=Math.round(seconds/60);return minutes<60?`${minutes}m ago`:`${Math.round(minutes/60)}h ago`;}
@@ -135,12 +141,46 @@ function state(p){if(p.stage===0){const c=p.chapter||0;return p.resolved?.[c]?'R
 function projectDescription(p){const value=p.projectDescription||p.idea?.confirmedVersion||p.idea?.workingIdea||p.idea?.rawIdea||p.subtitle||'';return value.length>260?value.slice(0,257).trimEnd()+'…':value;}
 function projectProgress(p){const resolved=Object.keys(p.resolved||{}).filter(key=>p.resolved[key]).length+(p.idea?.status==='resolved'?1:0);const completed=p.stage>0?chapters.length+p.stage:Math.min(chapters.length,resolved);return Math.min(100,Math.round(completed/(chapters.length+4)*100));}
 function projectUpdatedAt(p){const dates=[p.updatedAt,p.createdAt,p.idea?.updatedAt,...(p.history||[]).map(item=>item.date),...(p.contexts||[]).map(item=>item.createdAt||item.date)].map(value=>Date.parse(value||'')).filter(Number.isFinite);return dates.length?Math.max(...dates):0;}
-function visibleProjects(){const query=libraryQuery.trim().toLowerCase(),filtered=projects.filter(p=>!query||[p.name,p.subtitle,p.projectDescription,p.context,p.idea?.rawIdea].some(value=>String(value||'').toLowerCase().includes(query)));return filtered.sort((a,b)=>librarySort==='title'?a.name.localeCompare(b.name):librarySort==='progress'?projectProgress(b)-projectProgress(a)||a.name.localeCompare(b.name):projectUpdatedAt(b)-projectUpdatedAt(a));}
+function visibleProjects(){const filtered=projects.filter(p=>projectMatchesAtlasFilters(p,{query:libraryQuery,category:atlasState.category,source:atlasState.source}));return filtered.sort((a,b)=>librarySort==='title'?a.name.localeCompare(b.name):librarySort==='progress'?projectProgress(b)-projectProgress(a)||a.name.localeCompare(b.name):projectUpdatedAt(b)-projectUpdatedAt(a));}
 function disk(p){const art=normalizeProjectArt(p.projectArt,p.art),image=`<div class="disk-art-window" data-floppy-art-frame><img data-floppy-art-image data-crop-x="${art.crop.x}" data-crop-y="${art.crop.y}" data-crop-zoom="${art.crop.zoom}" src="${esc(projectArtSource(p))}" alt="Artwork for ${esc(p.name)}"></div>`;return `<article class="disk-card ${p.id===active?'selected':''}" data-id="${esc(p.id)}"><button class="disk-select" data-id="${esc(p.id)}" aria-label="Choose ${esc(p.name)} · ${projectProgress(p)}% complete" aria-pressed="${p.id===active}">${diskShell(colorOf(p),image,`<strong>${esc(p.name)}</strong><span class="disk-progress">${projectProgress(p)}%</span>`)}</button><button class="art-edit" data-art-id="${esc(p.id)}" aria-label="Edit image for ${esc(p.name)}">Edit image</button></article>`;}
 function applyFloppyArtCrop(image,crop){if(!image?.naturalWidth||!image.naturalHeight)return;const style=cropImageStyle({imageWidth:image.naturalWidth,imageHeight:image.naturalHeight,frameAspectRatio:FLOPPY_ART_WINDOW_ASPECT_RATIO,crop});if(style)Object.assign(image.style,style);}
 function bindFloppyArtImages(root=document){root.querySelectorAll('[data-floppy-art-image]').forEach(image=>{const crop={x:Number(image.dataset.cropX),y:Number(image.dataset.cropY),zoom:Number(image.dataset.cropZoom)};image.onload=()=>applyFloppyArtCrop(image,crop);if(image.complete)applyFloppyArtCrop(image,crop);});}
-function library(){const items=visibleProjects();$('library').querySelector('h1').textContent=projects.length?'Choose a project':'Start an idea';$('projectFilterStatus').textContent=libraryQuery?`${items.length} of ${projects.length} idea${projects.length===1?'':'s'} shown`:`${projects.length} idea${projects.length===1?'':'s'} · ${librarySort==='recent'?'recently updated':librarySort==='title'?'alphabetical':'progress'}`;$('clearProjectSearch').hidden=!libraryQuery;$('carousel').innerHTML=items.length?items.map(disk).join(''):projects.length?'<div class="empty-projects"><p>No ideas match that search.</p><button class="secondary" id="clearSearchEmpty">Clear search</button></div>':'<div class="empty-projects"><p>A place for the idea you keep returning to.</p><button class="primary" id="startFirstProject">Create a project →</button></div>';bindFloppyArtImages($('carousel'));$('startFirstProject')?.addEventListener('click',()=>$('newProject').click());$('clearSearchEmpty')?.addEventListener('click',()=>{$('projectSearch').value='';libraryQuery='';library();});$('carousel').querySelectorAll('.disk-select').forEach(b=>b.onclick=()=>select(b.dataset.id,true));$('carousel').querySelectorAll('.art-edit').forEach(b=>b.onclick=e=>{e.stopPropagation();openArtEditor(b.dataset.artId);});$('previous').hidden=!items.length;$('next').hidden=!items.length;$('library').querySelector('.resume').hidden=!projects.length;if(projects.length)resume();}
-function resume(){const p=current();if(!p)return;$('resumeTitle').textContent=p.name;$('resumeSubtitle').textContent=projectDescription(p);$('resumeMeta').textContent=`${projectProgress(p)}% complete · ${state(p)}`;$('diskCount').textContent=`${projects.indexOf(p)+1} of ${projects.length}`;}
+function openProjectById(id){if(!projects.some(p=>p.id===id))return;select(id,false);open();}
+function library(){
+ const items=visibleProjects();
+ if(items.length&&!items.some(p=>p.id===active))active=items[0].id;
+ $('library').querySelector('h1').textContent=projects.length?'Choose a project':'Start an idea';
+ const hasFilter=Boolean(libraryQuery||(atlasState.category&&atlasState.category.toLowerCase()!=='all')||atlasState.source!=='All Sources');
+ $('projectFilterStatus').textContent=hasFilter?`${items.length} of ${projects.length} venture${projects.length===1?'':'s'} shown`:`${projects.length} venture${projects.length===1?'':'s'} · ${librarySort==='recent'?'recently updated':librarySort==='title'?'alphabetical':'progress'}`;
+ $('clearProjectSearch').hidden=!hasFilter;
+ renderAtlasCommandBar($('atlasCommandBar'),atlasState,{totalCount:projects.length,filteredCount:items.length,onChange:()=>library()});
+ const isCarousel=atlasState.viewMode==='carousel';
+ const shelfEl=$('library').querySelector('.shelf'),controlsEl=$('library').querySelector('.shelf-controls'),resumeEl=$('library').querySelector('.resume'),altEl=$('atlasAlternateView');
+ if(shelfEl)shelfEl.hidden=!isCarousel;
+ if(controlsEl)controlsEl.hidden=!isCarousel;
+ if(altEl)altEl.hidden=isCarousel;
+ $('carousel').innerHTML=items.length?items.map(disk).join(''):projects.length?'<div class="empty-projects"><p>No ideas match that filter.</p><button class="secondary" id="clearSearchEmpty">Clear filters</button></div>':'<div class="empty-projects"><p>A place for the idea you keep returning to.</p><button class="primary" id="startFirstProject">Create a project →</button></div>';
+ bindFloppyArtImages($('carousel'));
+ $('startFirstProject')?.addEventListener('click',()=>$('newProject').click());
+ $('clearSearchEmpty')?.addEventListener('click',()=>{$('projectSearch').value='';libraryQuery='';atlasState.category='all';atlasState.source='All Sources';library();});
+ $('carousel').querySelectorAll('.disk-select').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
+ $('carousel').querySelectorAll('.art-edit').forEach(b=>b.onclick=e=>{e.stopPropagation();openArtEditor(b.dataset.artId);});
+ $('previous').hidden=!isCarousel||!items.length;
+ $('next').hidden=!isCarousel||!items.length;
+ if(resumeEl)resumeEl.hidden=!isCarousel||!projects.length;
+ if(isCarousel&&projects.length)resume();
+ if(!isCarousel&&altEl){
+  if(atlasState.viewMode==='grid'){
+   renderAtlasGridView(altEl,items,{activeId:active,colorOf,projectProgress,projectArtSource,onSelectProject:id=>{select(id,false);library();},onOpenProject:openProjectById});
+   altEl.querySelector('[data-reset-atlas-filters]')?.addEventListener('click',()=>{$('projectSearch').value='';libraryQuery='';atlasState.category='all';atlasState.source='All Sources';library();});
+  }else if(atlasState.viewMode==='matrix'){
+   renderAtlasMatrixView(altEl,items,{colorOf,projectProgress,onOpenProject:openProjectById});
+  }else if(atlasState.viewMode==='vault'){
+   renderCrossHistoryVaultView(altEl,projects,atlasState,{onOpenProject:openProjectById,onStateChange:()=>renderCrossHistoryVaultView(altEl,projects,atlasState,{onOpenProject:openProjectById,onStateChange:()=>library()})});
+  }
+ }
+}
+function resume(){const p=current();if(!p)return;$('resumeTitle').textContent=p.code?`${p.code} · ${p.name}`:p.name;$('resumeSubtitle').textContent=p.nextAction?`Next Action: ${p.nextAction} — ${projectDescription(p)}`:projectDescription(p);$('resumeMeta').textContent=`${projectProgress(p)}% complete · ${p.verificationBadge||state(p)}${p.category?` · ${p.category}`:''}`;$('diskCount').textContent=`${projects.indexOf(p)+1} of ${projects.length}`;}
 function select(id,scroll=false){if(!projects.some(project=>project.id===id))return;active=id;for(const item of $('carousel').children){item.classList.toggle('selected',item.dataset.id===id);const b=item.querySelector('.disk-select');b?.setAttribute('aria-pressed',String(item.dataset.id===id));}resume();if(scroll){const b=[...$('carousel').children].find(b=>b.dataset.id===id);if(b)$('carousel').scrollTo({left:b.offsetLeft-($('carousel').clientWidth-b.offsetWidth)/2,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}persist();}
 function move(n){if(!projects.length)return;select(projects[(projects.indexOf(current())+n+projects.length)%projects.length].id,true);}
 $('previous').onclick=()=>move(-1);$('next').onclick=()=>move(1);
@@ -178,7 +218,7 @@ async function downloadIdeaBrief(p,brief,synthesis){
 }
 function exportWorkspace(){const payload={format:'floppy-local-workspace',exportedAt:new Date().toISOString(),snapshot:{version:4,projects:structuredClone(projects),active}};downloadWorkspaceFile(`floppy-workspace-${new Date().toISOString().slice(0,10)}.json`,JSON.stringify(payload,null,2));$('backupStatus').textContent=`Exported ${projects.length} idea${projects.length===1?'':'s'} from this workspace.`;}
 async function importWorkspace(file){if(!file)return;try{const parsed=JSON.parse(await file.text()),saved=parsed?.snapshot||parsed;if(!validCollection(saved))throw Error('That file is not a valid Floppy workspace export.');if(projects.length&&!window.confirm('Importing will replace the ideas currently in this workspace. Continue?'))return;const raw=withSaveTime({version:4,projects:saved.projects,active:saved.active}),normalized=JSON.parse(raw);applyCollection(normalized,raw);localStorage.setItem(STORE,raw);queueLocalSnapshot(raw);saveError='';library();if(view==='project')renderProject();$('backupStatus').textContent=`Imported ${projects.length} idea${projects.length===1?'':'s'} successfully.`;toast('Workspace imported.');}catch(error){$('backupStatus').textContent=error.message||'Could not import that workspace file.';}finally{$('importWorkspace').value='';}}
-$('projectSearch').oninput=e=>{libraryQuery=e.target.value;library();};$('projectSort').onchange=e=>{librarySort=e.target.value;library();};$('clearProjectSearch').onclick=()=>{$('projectSearch').value='';libraryQuery='';library();$('projectSearch').focus();};$('exportWorkspace').onclick=exportWorkspace;$('importWorkspace').onchange=e=>void importWorkspace(e.target.files[0]);
+$('projectSearch').oninput=e=>{libraryQuery=e.target.value;library();};$('projectSort').onchange=e=>{librarySort=e.target.value;library();};$('clearProjectSearch').onclick=()=>{$('projectSearch').value='';libraryQuery='';atlasState.category='all';atlasState.source='All Sources';library();$('projectSearch').focus();};$('exportWorkspace').onclick=exportWorkspace;$('importWorkspace').onchange=e=>void importWorkspace(e.target.files[0]);
 function artReferenceFromData(image,title,id=crypto.randomUUID(),type='uploaded'){const match=typeof image==='string'&&image.match(/^data:(image\/(?:jpeg|png|webp|gif));base64,([A-Za-z0-9+/=]+)$/);if(!match)return null;return{id,title,mimeType:match[1],data:match[2],image,type};}
 function projectArtContext(p){const confirmed=chapters.map((chapter,index)=>{if(index===0)return p.idea?.status==='resolved'?`Idea: ${p.idea.confirmedVersion||p.idea.workingIdea||''}`:'';return p.resolved?.[index]?`${chapter.name}: ${p.answers?.[index]?.text||''}`:'';}).filter(Boolean).slice(0,4);return[`Project title: ${p.name}`,`Product name: ${productNameFor(p)}`,`Summary: ${projectDescription(p)}`,...confirmed].filter(Boolean).join('\n\n').slice(0,1800);}
 function artReferenceRecords(){return artReferences.map(({id,title,type,image})=>({id,title,type,sourceUrl:image}));}
@@ -359,7 +399,9 @@ function renderProject(){
  $('projectStage').textContent=discovery?'PHASE 01 · DISCOVERY STUDIO':stage===0?'PHASE 01 · IDEA / CHAPTER '+String(chapter+1).padStart(2,'0')+' — '+chapters[chapter].name:phases[stage].toUpperCase()+' / '+(task(p)?.name||'IN PROGRESS');
  $('projectTitle').textContent=productNameFor(p);$('projectSubtitle').textContent=projectDescription(p);$('project').style.setProperty('--disk-color',colorOf(p));$('saveState').textContent=saveError||'Saved';
  $('addContextTop').hidden=working;$('addContextInline').hidden=working;
- const unlockedStage=Math.max(stage,p.unlockedStage||0);
+ renderFounderDossierBanner($('founderDossierBanner'),p,{onCopyText:copyText});
+ const isAtlasProject=Boolean(p.code||p.verificationBadge||p.stageChecklist);
+ const unlockedStage=isAtlasProject?4:Math.max(stage,p.unlockedStage||0);
  $('phases').innerHTML=phases.map((name,i)=>`<button class="phase ${stage===i?'current':unlockedStage>=i?'past':''}" ${i>unlockedStage?'disabled':''} data-phase="${i}" aria-current="${i===stage?'step':'false'}">${name}</button>`).join('');
  $('phases').querySelectorAll('[data-phase]').forEach(b=>b.onclick=()=>{if(+b.dataset.phase<=unlockedStage){p.stage=+b.dataset.phase;event(p,'You returned to the '+phases[p.stage]+' phase.');persist();renderProject();}});
  if(isIdea&&p.discovery?.mode==='studio'){
@@ -597,7 +639,28 @@ function renderPrototypeStaging(p){
  $('downloadAgentPrd')?.addEventListener('click',()=>downloadWorkspaceFile(`floppy-${p.id}-agent-prd.md`,agentPrd,'text/markdown'));
  $('returnIdea').onclick=()=>{p.stage=0;event(p,'You returned to the Idea phase.');persist();renderProject();};
 }
-function renderLaterPhase(p,t){if(p.stage===1){renderPrototypeStaging(p);return;}$('actionPanel').innerHTML=`<p class="eyebrow">PHASE ${String(p.stage+1).padStart(2,'0')} / ${esc(phases[p.stage].toUpperCase())}</p><h2>${esc(t?.question||'The next meaningful question.')}</h2><p class="description">${esc(t?.finish||'Your next phase will grow from the decisions and context you bring forward.')}</p><p class="finish-line"><strong>Your Idea Brief comes with you</strong>Phase 1 decisions remain available in the chapter list and project history.</p><label for="phaseAnswer">What are you learning in this phase?</label><textarea id="phaseAnswer" rows="4" maxlength="8000" placeholder="Capture the working answer and what remains uncertain."></textarea><div class="action-buttons"><button class="primary" id="savePhase">Save this direction</button><button class="secondary" id="returnIdea">Return to Idea ↗</button></div>`;$('phaseAnswer').value=p.phaseNotes?.[p.stage]||'';$('savePhase').onclick=()=>{const v=$('phaseAnswer').value.trim();if(v){p.phaseNotes=p.phaseNotes||{};p.phaseNotes[p.stage]=v;event(p,`You updated your working direction for ${phases[p.stage]}.`);persist();toast('Saved with the project.');}};$('returnIdea').onclick=()=>{p.stage=0;event(p,'You returned to the Idea phase.');persist();renderProject();};}
+function renderLaterPhase(p,t){
+ const hasAtlasDossier=Boolean(p.code||p.verificationBadge||p.stageChecklist);
+ if(hasAtlasDossier&&!p._showPrototypeBuilder){
+  renderStageGateDossierPanel($('actionPanel'),p,p.stage,{
+   phases,
+   onSaveNotes:(stageIdx,val)=>{if(val){p.phaseNotes=p.phaseNotes||{};p.phaseNotes[stageIdx]=val;event(p,`You updated your working direction for ${phases[stageIdx]}.`);persist();toast('Saved with the project.');}},
+   onSwitchStage:nextStage=>{p.stage=nextStage;p._showPrototypeBuilder=false;event(p,`You returned to the ${phases[nextStage]} phase.`);persist();renderProject();},
+   onToggleChecklistItem:(stageIdx,idx,checked,currentList)=>{
+    p.stageChecklist=p.stageChecklist||{};
+    const list=(p.stageChecklist[stageIdx]||currentList).map(item=>typeof item==='string'?{label:item,done:true}:{...item});
+    if(list[idx])list[idx].done=checked;
+    p.stageChecklist[stageIdx]=list;
+    persist();renderProject();
+   },
+   onOpenPrototypeStaging:()=>{p._showPrototypeBuilder=true;renderProject();}
+  });
+  return;
+ }
+ p._showPrototypeBuilder=false;
+ if(p.stage===1){renderPrototypeStaging(p);return;}
+ $('actionPanel').innerHTML=`<p class="eyebrow">PHASE ${String(p.stage+1).padStart(2,'0')} / ${esc(phases[p.stage].toUpperCase())}</p><h2>${esc(t?.question||'The next meaningful question.')}</h2><p class="description">${esc(t?.finish||'Your next phase will grow from the decisions and context you bring forward.')}</p><p class="finish-line"><strong>Your Idea Brief comes with you</strong>Phase 1 decisions remain available in the chapter list and project history.</p><label for="phaseAnswer">What are you learning in this phase?</label><textarea id="phaseAnswer" rows="4" maxlength="8000" placeholder="Capture the working answer and what remains uncertain."></textarea><div class="action-buttons"><button class="primary" id="savePhase">Save this direction</button><button class="secondary" id="returnIdea">Return to Idea ↗</button></div>`;$('phaseAnswer').value=p.phaseNotes?.[p.stage]||'';$('savePhase').onclick=()=>{const v=$('phaseAnswer').value.trim();if(v){p.phaseNotes=p.phaseNotes||{};p.phaseNotes[p.stage]=v;event(p,`You updated your working direction for ${phases[p.stage]}.`);persist();toast('Saved with the project.');}};$('returnIdea').onclick=()=>{p.stage=0;event(p,'You returned to the Idea phase.');persist();renderProject();};
+}
 function showChapter(i){const p=current();if(p.stage===0&&i>=0&&i<chapters.length&&!(i>0&&!p.resolved?.[i-1])){p.chapter=i;renderProject();}else if(i>p.stage)toast('That phase unlocks after the readiness decision.');}
 function renderNewIdeaContext(){const list=$('newIdeaAttachments'),disclosure=$('newIdeaContextDisclosure');if(!list||!disclosure)return;list.innerHTML=renderContextChips({contexts:newIdeaContexts},0);disclosure.hidden=!newIdeaContexts.length;$('newIdeaContextCount').textContent=`Attached context · ${newIdeaContexts.length}`;list.querySelectorAll('[data-remove-context]').forEach(button=>button.onclick=()=>{newIdeaContexts=newIdeaContexts.filter(item=>item.id!==button.dataset.removeContext);renderNewIdeaContext();});}
 function addNewIdeaContext(fields){const now=new Date().toISOString();newIdeaContexts.unshift({id:crypto.randomUUID(),...fields,projectLevel:true,chapterKey:'0',chapter:0,date:now,createdAt:now});renderNewIdeaContext();}
