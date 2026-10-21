@@ -397,8 +397,8 @@ async function nextDiscoveryQuestion(p,initial=false){
  finally{state.interviewStatus='idle';persist();if(current()?.id===p.id&&view==='project')renderProject();}
 }
 function renderProject(){
- const p=current();
- renderCinematicPortfolio(p);
+ const _p=current();
+ renderCinematicPortfolio(_p);
  return;
  $('actionPanel').classList.remove('decision-confirmed','product-thinking');
  const p=current(),stage=p.stage,chapter=p.chapter||0,isIdea=stage===0,discovery=isIdea&&p.discovery?.mode==='studio',working=isIdea&&chapter===0&&!discovery;$('actionPanel').classList.toggle('idea-mode',working);$('actionPanel').classList.remove('investigation-mode');document.body.classList.toggle('project-view',view==='project');const previousChapter=document.body.dataset.activeChapter;document.body.dataset.activeChapter=String(chapter);if(previousChapter!==String(chapter))document.querySelector('.workspace-main').scrollTop=0;document.querySelector('.context-strip')?.toggleAttribute('hidden',working||(isIdea&&chapter>0&&!discovery));
