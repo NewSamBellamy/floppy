@@ -1,4 +1,4 @@
-// Floppy: Founder Product & Idea Atlas — Modular UI & Telemetry Controller
+// Floppy: Studio Archive — Quiet Skate-Shop / Studio Vault UI Controller
 import * as atlasDataModule from './founder-atlas-data.mjs';
 
 export const DEFAULT_CATEGORIES = [
@@ -10,6 +10,17 @@ export const DEFAULT_CATEGORIES = [
   { id: 'spatial', label: '🥽 Spatial & Hardware' },
   { id: 'keep', label: '💡 Keep & AI Studio Vault' },
   { id: 'ops', label: '🏛️ Personal & Client Ops' }
+];
+
+export const STUDIO_CATEGORY_OPTIONS = [
+  { id: 'all', label: 'All 32' },
+  { id: 'priority', label: 'Priority' },
+  { id: 'saas', label: 'Core SaaS' },
+  { id: 'infra', label: 'Agent Infra' },
+  { id: 'creative', label: 'Creative' },
+  { id: 'spatial', label: 'Spatial & Hardware' },
+  { id: 'keep', label: 'Vault Origins' },
+  { id: 'ops', label: 'Ops' }
 ];
 
 export const DEFAULT_SOURCES = [
@@ -38,6 +49,14 @@ export const STAGE_SHORT_NAMES = [
   'MVP',
   'Production',
   'Post-production'
+];
+
+export const DECK_STAGE_TAGS = [
+  'Idea',
+  'Prototype',
+  'MVP',
+  'Live',
+  'Live'
 ];
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
@@ -74,6 +93,8 @@ export function normalizeCategoryList(rawCategories) {
 
 export function getCategoryLabel(categoryId) {
   if (!categoryId) return '';
+  const cleanMatch = STUDIO_CATEGORY_OPTIONS.find(c => c.id === categoryId);
+  if (cleanMatch && cleanMatch.id !== 'all') return cleanMatch.label;
   const { categories } = getAtlasCatalog();
   const match = categories.find(c => c.id === categoryId || c.label === categoryId);
   return match ? match.label : String(categoryId);
@@ -108,6 +129,7 @@ export function mergeFounderAtlasProjects(currentProjects, hydrateProjectFn) {
       const enriched = isGenericSeed ? {
         ...existing,
         ...hydratedCatalog,
+        name: existing.name && existing.name !== 'Floppy' ? existing.name : hydratedCatalog.name,
         unlockedStage: 4
       } : {
         ...hydratedCatalog,
@@ -115,7 +137,8 @@ export function mergeFounderAtlasProjects(currentProjects, hydrateProjectFn) {
         code: existing.code || rawCatalogProject.code,
         category: existing.category || rawCatalogProject.category,
         verificationBadge: existing.verificationBadge || rawCatalogProject.verificationBadge,
-        nextAction: existing.nextAction || rawCatalogProject.nextAction,
+        subtitle: (existing.subtitle && existing.subtitle.length < 85) ? existing.subtitle : rawCatalogProject.subtitle,
+        nextAction: (existing.nextAction && existing.nextAction.length < 85) ? existing.nextAction : rawCatalogProject.nextAction,
         sources: Array.isArray(existing.sources) && existing.sources.length ? existing.sources : (rawCatalogProject.sources || []),
         localPath: existing.localPath || rawCatalogProject.localPath || '',
         repoUrl: existing.repoUrl || rawCatalogProject.repoUrl || '',
@@ -123,6 +146,16 @@ export function mergeFounderAtlasProjects(currentProjects, hydrateProjectFn) {
         stageChecklist: existing.stageChecklist || rawCatalogProject.stageChecklist || {},
         unlockedStage: 4
       };
+      if (existing.customArt !== true) {
+        const hasEditedBuiltinCrop = Boolean(
+          existing.projectArt?.updatedAt &&
+          typeof existing.projectArt?.sourceUrl === 'string' &&
+          !existing.projectArt.sourceUrl.startsWith('data:image/svg+xml')
+        );
+        enriched.projectArt = hasEditedBuiltinCrop
+          ? { ...hydratedCatalog.projectArt, crop: existing.projectArt.crop, updatedAt: existing.projectArt.updatedAt }
+          : hydratedCatalog.projectArt;
+      }
       if (!Array.isArray(enriched.contexts) || !enriched.contexts.length) {
         enriched.contexts = hydratedCatalog.contexts || [];
       }
@@ -198,31 +231,29 @@ export function projectMatchesAtlasFilters(project, { query = '', category = 'al
 
 export function renderAtlasCommandBar(container, state, { totalCount = 32, filteredCount = 32, onChange } = {}) {
   if (!container) return;
-  const { categories, sources } = getAtlasCatalog();
-  const normalizedSources = sources.includes('All Sources') ? sources : ['All Sources', ...sources];
   const activeCat = String(state.category || 'all').toLowerCase();
 
+  const pieceCountEl = typeof document !== 'undefined' ? document.getElementById('studioPieceCount') : null;
+  if (pieceCountEl) {
+    pieceCountEl.textContent = filteredCount === totalCount ? `${totalCount} pieces` : `${filteredCount} / ${totalCount} pieces`;
+  }
+
   container.innerHTML = `
-    <div class="atlas-command-top">
-      <div class="atlas-view-tabs" role="tablist" aria-label="Founder Atlas view modes">
-        <button type="button" role="tab" class="atlas-view-tab ${state.viewMode === 'carousel' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'carousel'}" data-atlas-view="carousel">💾 Disk Carousel</button>
-        <button type="button" role="tab" class="atlas-view-tab ${state.viewMode === 'grid' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'grid'}" data-atlas-view="grid">🗂️ Atlas Grid</button>
-        <button type="button" role="tab" class="atlas-view-tab ${state.viewMode === 'matrix' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'matrix'}" data-atlas-view="matrix">🧭 5-Stage Lifecycle Matrix</button>
-        <button type="button" role="tab" class="atlas-view-tab ${state.viewMode === 'vault' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'vault'}" data-atlas-view="vault">🔎 Cross-History Vault</button>
-      </div>
-      <div class="atlas-source-filter">
-        <label class="sr-only" for="atlasSourceSelect">Filter by history source</label>
-        <select id="atlasSourceSelect" aria-label="Filter by history source">
-          ${normalizedSources.map(src => `<option value="${esc(src)}" ${state.source === src ? 'selected' : ''}>${esc(src)}</option>`).join('')}
-        </select>
-        <span class="atlas-count-pill" role="status">${filteredCount} / ${totalCount} ventures</span>
-      </div>
+    <div class="studio-view-switcher" role="tablist" aria-label="Studio Archive view modes">
+      <button type="button" role="tab" class="studio-view-btn ${state.viewMode === 'carousel' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'carousel'}" data-atlas-view="carousel">Shelf</button>
+      <button type="button" role="tab" class="studio-view-btn ${state.viewMode === 'grid' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'grid'}" data-atlas-view="grid">Deck Wall</button>
+      <button type="button" role="tab" class="studio-view-btn ${state.viewMode === 'matrix' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'matrix'}" data-atlas-view="matrix">Stages</button>
+      <button type="button" role="tab" class="studio-view-btn ${state.viewMode === 'vault' ? 'is-active' : ''}" aria-selected="${state.viewMode === 'vault'}" data-atlas-view="vault">Notes</button>
     </div>
-    <div class="atlas-category-bar" role="group" aria-label="Filter by venture category">
-      ${categories.map(cat => {
-        const isCurrent = activeCat === cat.id.toLowerCase() || activeCat === cat.label.toLowerCase();
-        return `<button type="button" class="atlas-category-pill ${isCurrent ? 'is-active' : ''}" data-atlas-category="${esc(cat.id)}" aria-pressed="${isCurrent}">${esc(cat.label)}</button>`;
-      }).join('')}
+    <div class="studio-category-select-wrap">
+      <label class="sr-only" for="atlasCategorySelect">Filter by category</label>
+      <select id="atlasCategorySelect" aria-label="Filter by category">
+        ${STUDIO_CATEGORY_OPTIONS.map(cat => {
+          const isSelected = activeCat === cat.id.toLowerCase();
+          const label = cat.id === 'all' ? `All ${totalCount}` : cat.label;
+          return `<option value="${esc(cat.id)}" ${isSelected ? 'selected' : ''}>${esc(label)}</option>`;
+        }).join('')}
+      </select>
     </div>
   `;
 
@@ -233,17 +264,10 @@ export function renderAtlasCommandBar(container, state, { totalCount = 32, filte
     };
   });
 
-  container.querySelectorAll('[data-atlas-category]').forEach(btn => {
-    btn.onclick = () => {
-      state.category = btn.dataset.atlasCategory;
-      if (onChange) onChange();
-    };
-  });
-
-  const sourceSelect = container.querySelector('#atlasSourceSelect');
-  if (sourceSelect) {
-    sourceSelect.onchange = e => {
-      state.source = e.target.value;
+  const catSelect = container.querySelector('#atlasCategorySelect');
+  if (catSelect) {
+    catSelect.onchange = e => {
+      state.category = e.target.value;
       if (onChange) onChange();
     };
   }
@@ -252,90 +276,67 @@ export function renderAtlasCommandBar(container, state, { totalCount = 32, filte
 export function renderAtlasGridView(container, projects, {
   activeId,
   colorOf,
-  projectProgress,
   projectArtSource,
   onSelectProject,
   onOpenProject
 } = {}) {
   if (!container) return;
   if (!projects.length) {
-    container.innerHTML = `<div class="empty-projects"><p>No ventures match the current filters.</p><button class="secondary" type="button" data-reset-atlas-filters>Reset filters</button></div>`;
+    container.innerHTML = `<div class="empty-projects"><p>No pieces match that filter.</p><button class="secondary" type="button" data-reset-atlas-filters>Reset filters</button></div>`;
     return;
   }
 
   container.innerHTML = `
-    <div class="atlas-grid">
+    <div class="atlas-grid deck-wall-grid" aria-label="Skate-Shop Deck Wall of Floppy Disks">
       ${projects.map(p => {
         const color = colorOf ? colorOf(p) : (p.color || '#cf6c2c');
-        const progress = projectProgress ? projectProgress(p) : 0;
-        const stageName = STAGE_LABELS[p.stage || 0] || STAGE_LABELS[0];
-        const code = p.code || 'OV-00';
-        const badge = p.verificationBadge || 'Verified on Disk';
-        const catLabel = getCategoryLabel(p.category);
-        const sources = Array.isArray(p.sources) && p.sources.length ? p.sources : ['Desktop Hub'];
-        const nextAction = p.nextAction || 'Confirm next milestone in workspace.';
-        const artSrc = projectArtSource ? projectArtSource(p) : (p.projectArt?.sourceUrl || 'art/floppy.png');
+        const stageTag = DECK_STAGE_TAGS[Number(p.stage || 0)] || 'Idea';
+        const artSrc = projectArtSource ? projectArtSource(p) : (p.projectArt?.sourceUrl || `art/atlas-${p.id}.jpg`);
+        const crop = p.projectArt?.crop || { x: 0, y: 0, zoom: 1 };
 
         return `
-          <article class="atlas-card ${p.id === activeId ? 'is-selected' : ''}" data-project-id="${esc(p.id)}" style="--card-accent:${esc(color)}">
-            <div class="atlas-card-header">
-              <div class="atlas-mini-floppy" style="--disk-color:${esc(color)}">
-                <img src="${esc(artSrc)}" alt="" loading="lazy">
-              </div>
-              <div class="atlas-card-titles">
-                <div class="atlas-card-badges">
-                  <span class="atlas-code-badge">${esc(code)}</span>
-                  <span class="atlas-stage-badge stage-${Number(p.stage || 0)}">${esc(stageName)}</span>
-                  <span class="atlas-progress-badge">${progress}%</span>
+          <article class="deck-wall-item ${p.id === activeId ? 'is-selected' : ''}" data-project-id="${esc(p.id)}">
+            <button type="button" class="deck-wall-disk-btn" data-open-project="${esc(p.id)}" aria-label="Open ${esc(p.name)} · ${esc(stageTag)}">
+              <div class="disk" style="--disk-color:${esc(color)}">
+                <div class="shutter-track"></div>
+                <div class="shutter"></div>
+                <div class="disk-label">
+                  <div class="disk-art-window" data-floppy-art-frame>
+                    <img data-floppy-art-image data-crop-x="${crop.x ?? 0}" data-crop-y="${crop.y ?? 0}" data-crop-zoom="${crop.zoom ?? 1}" src="${esc(artSrc)}" alt="Artwork for ${esc(p.name)}" loading="lazy">
+                  </div>
+                  <div class="label-copy">
+                    <strong>${esc(p.name)}</strong>
+                    <span class="deck-stage-tag">${esc(stageTag)}</span>
+                  </div>
                 </div>
-                <h3>${esc(p.name)}</h3>
-                <p class="atlas-card-subtitle">${esc(p.subtitle || '')}</p>
+                <div class="disk-hole left"></div>
+                <div class="disk-hole right"></div>
               </div>
-            </div>
-            <div class="atlas-verification-row">
-              <span class="atlas-verified-pill">✓ ${esc(badge)}</span>
-              ${catLabel ? `<span class="atlas-category-tag">${esc(catLabel)}</span>` : ''}
-            </div>
-            <div class="atlas-next-action-box">
-              <span class="eyebrow">NEXT ACTION</span>
-              <p>${esc(nextAction)}</p>
-            </div>
-            <div class="atlas-card-footer">
-              <div class="atlas-source-pills">
-                ${sources.slice(0, 4).map(s => `<span class="atlas-source-pill">${esc(s)}</span>`).join('')}
-                ${sources.length > 4 ? `<span class="atlas-source-pill">+${sources.length - 4}</span>` : ''}
-              </div>
-              <button type="button" class="primary atlas-open-btn" data-open-project="${esc(p.id)}">Open Project →</button>
-            </div>
+            </button>
+            <p class="deck-wall-subtitle" title="${esc(p.subtitle || '')}">${esc(p.subtitle || '')}</p>
           </article>
         `;
       }).join('')}
     </div>
   `;
 
-  container.querySelectorAll('.atlas-card').forEach(card => {
-    card.onclick = e => {
-      if (e.target.closest('[data-open-project]')) return;
-      if (onSelectProject) onSelectProject(card.dataset.projectId);
-    };
-  });
-
   container.querySelectorAll('[data-open-project]').forEach(btn => {
     btn.onclick = e => {
       e.stopPropagation();
-      if (onOpenProject) onOpenProject(btn.dataset.openProject);
+      const id = btn.dataset.openProject;
+      if (onSelectProject) onSelectProject(id);
+      if (onOpenProject) onOpenProject(id);
     };
   });
 }
 
 export function renderAtlasMatrixView(container, projects, {
   colorOf,
-  projectProgress,
   onOpenProject
 } = {}) {
   if (!container) return;
 
-  const columns = STAGE_LABELS.map((label, stageIndex) => {
+  const columns = STAGE_SHORT_NAMES.map((label, stageIndex) => {
     const items = projects.filter(p => Number(p.stage || 0) === stageIndex);
     return { label, stageIndex, items };
   });
@@ -351,23 +352,16 @@ export function renderAtlasMatrixView(container, projects, {
           <div class="atlas-matrix-list">
             ${col.items.length ? col.items.map(p => {
               const color = colorOf ? colorOf(p) : (p.color || '#cf6c2c');
-              const progress = projectProgress ? projectProgress(p) : 0;
               return `
-                <article class="atlas-matrix-card" style="--card-accent:${esc(color)}">
+                <button type="button" class="atlas-matrix-card" data-open-project="${esc(p.id)}" style="--card-accent:${esc(color)}">
                   <div class="atlas-matrix-card-top">
-                    <span class="atlas-code-badge">${esc(p.code || 'OV')}</span>
-                    <span class="atlas-progress-badge">${progress}%</span>
+                    <strong>${esc(p.name)}</strong>
+                    <span class="atlas-code-tag">${esc(p.code || 'OV')}</span>
                   </div>
-                  <h4>${esc(p.name)}</h4>
                   <p class="atlas-matrix-sub">${esc(p.subtitle || '')}</p>
-                  ${p.verificationBadge ? `<p class="atlas-matrix-verified">✓ ${esc(p.verificationBadge)}</p>` : ''}
-                  <div class="atlas-matrix-next">
-                    <strong>Next:</strong> ${esc(p.nextAction || 'Open dossier')}
-                  </div>
-                  <button type="button" class="secondary atlas-matrix-open" data-open-project="${esc(p.id)}">Open Project →</button>
-                </article>
+                </button>
               `;
-            }).join('') : `<p class="atlas-matrix-empty">No ventures in this stage.</p>`}
+            }).join('') : `<p class="atlas-matrix-empty">No pieces</p>`}
           </div>
         </section>
       `).join('')}
@@ -389,7 +383,6 @@ export function renderCrossHistoryVaultView(container, allProjects, state, {
   const { sources } = getAtlasCatalog();
   const normalizedSources = sources.includes('All Sources') ? sources : ['All Sources', ...sources];
 
-  // Collect all context entries across all projects
   const entries = [];
   for (const p of allProjects) {
     for (const ctx of (p.contexts || [])) {
@@ -400,11 +393,9 @@ export function renderCrossHistoryVaultView(container, allProjects, state, {
         projectName: p.name,
         projectCode: p.code || 'OV',
         projectColor: p.color || '#cf6c2c',
-        projectStage: STAGE_LABELS[p.stage || 0] || '1. Idea',
-        title: ctx.title || ctx.fileName || 'Historical Context Note',
+        title: ctx.title || ctx.fileName || 'Archive Note',
         text: ctx.text || ctx.url || '',
         source: sourceLabel,
-        date: ctx.createdAt || ctx.date || p.updatedAt || '',
         url: ctx.sourceUrl || ctx.url || ''
       });
     }
@@ -429,36 +420,33 @@ export function renderCrossHistoryVaultView(container, allProjects, state, {
   container.innerHTML = `
     <div class="atlas-vault">
       <header class="atlas-vault-header">
-        <div>
-          <h2>Cross-History Intelligence Vault</h2>
-          <p class="small">Unified searchable feed across <code>thecommonquarters@gmail.com</code> Google Keep, Google AI Studio, NotebookLM, Codex, ZCode, Claude Code, GitHub, and Desktop workspaces.</p>
+        <div class="atlas-vault-title">
+          <h2>Studio Notes &amp; Provenance</h2>
+          <span class="studio-piece-count">${filteredEntries.length} notes</span>
         </div>
         <div class="atlas-vault-controls">
-          <input type="search" id="atlasVaultSearch" placeholder="Search Keep notes, AI Studio prompts, Codex logs…" value="${esc(state.vaultSearch || '')}">
-          <select id="atlasVaultSourceSelect" aria-label="Filter vault by source">
+          <input type="search" id="atlasVaultSearch" placeholder="Search Keep, AI Studio, NotebookLM, Codex…" value="${esc(state.vaultSearch || '')}">
+          <select id="atlasVaultSourceSelect" aria-label="Filter notes by source">
             ${normalizedSources.map(src => `<option value="${esc(src)}" ${vSource === src ? 'selected' : ''}>${esc(src)}</option>`).join('')}
           </select>
-          <span class="atlas-count-pill">${filteredEntries.length} records</span>
         </div>
       </header>
       <div class="atlas-vault-feed">
         ${filteredEntries.length ? filteredEntries.map(item => `
           <article class="atlas-vault-card" style="--card-accent:${esc(item.projectColor)}">
             <div class="atlas-vault-meta">
-              <span class="atlas-code-badge">${esc(item.projectCode)}</span>
+              <span class="atlas-code-tag">${esc(item.projectCode)}</span>
               <strong>${esc(item.projectName)}</strong>
-              <span class="atlas-source-pill is-highlight">${esc(item.source)}</span>
-              <span class="atlas-stage-badge">${esc(item.projectStage)}</span>
-              ${item.date ? `<span class="atlas-vault-date">${esc(String(item.date).slice(0, 10))}</span>` : ''}
+              <span class="atlas-source-pill">${esc(item.source)}</span>
             </div>
             <h3>${esc(item.title)}</h3>
             <p class="atlas-vault-excerpt">${esc(item.text)}</p>
             <div class="atlas-vault-actions">
-              ${safeLink(item.url) ? `<a href="${esc(safeLink(item.url))}" target="_blank" rel="noopener noreferrer" class="secondary">Source Link ↗</a>` : ''}
-              <button type="button" class="primary" data-open-project="${esc(item.projectId)}">Open ${esc(item.projectName)} →</button>
+              ${safeLink(item.url) ? `<a href="${esc(safeLink(item.url))}" target="_blank" rel="noopener noreferrer" class="quiet">Source ↗</a>` : ''}
+              <button type="button" class="text-button" data-open-project="${esc(item.projectId)}">Open disk →</button>
             </div>
           </article>
-        `).join('') : `<div class="empty-projects"><p>No vault records match that filter.</p></div>`}
+        `).join('') : `<div class="empty-projects"><p>No notes match that filter.</p></div>`}
       </div>
     </div>
   `;
@@ -486,7 +474,7 @@ export function renderCrossHistoryVaultView(container, allProjects, state, {
   });
 }
 
-export function renderFounderDossierBanner(bannerEl, project, { onCopyText } = {}) {
+export function renderFounderDossierBanner(bannerEl, project, { onCopyText, onToggleSources } = {}) {
   if (!bannerEl || !project) return;
 
   const hasDossier = Boolean(project.code || project.nextAction || project.verificationBadge || project.localPath || project.repoUrl || project.liveUrl);
@@ -498,31 +486,26 @@ export function renderFounderDossierBanner(bannerEl, project, { onCopyText } = {
 
   bannerEl.hidden = false;
   const code = project.code || 'OV-00';
-  const badge = project.verificationBadge || 'Verified Telemetry';
-  const catLabel = getCategoryLabel(project.category);
-  const sources = Array.isArray(project.sources) && project.sources.length ? project.sources : ['Desktop Hub'];
-  const nextAction = project.nextAction || 'Review and confirm next stage milestone.';
+  const stageTag = DECK_STAGE_TAGS[Number(project.stage || 0)] || 'Idea';
+  const nextAction = project.nextAction || 'Confirm next stage milestone.';
   const repoHref = safeLink(project.repoUrl);
   const liveHref = safeLink(project.liveUrl);
+  const sourcesCount = (project.contexts || []).length;
 
   bannerEl.innerHTML = `
-    <div class="dossier-banner-inner">
-      <div class="dossier-next-action">
-        <span class="dossier-next-eyebrow">⚡ DOMINANT NEXT ACTION</span>
-        <p class="dossier-next-text">${esc(nextAction)}</p>
+    <div class="archive-strip">
+      <div class="archive-strip-left">
+        <span class="archive-code">${esc(code)}</span>
+        <span class="archive-sep" aria-hidden="true">·</span>
+        <span class="archive-stage-pill">${esc(stageTag)}</span>
+        <span class="archive-sep" aria-hidden="true">·</span>
+        <span class="archive-next" title="${esc(nextAction)}"><strong>Next:</strong> ${esc(nextAction)}</span>
       </div>
-      <div class="dossier-meta-cluster">
-        <div class="dossier-pills">
-          <span class="atlas-code-badge">${esc(code)}</span>
-          ${catLabel ? `<span class="atlas-category-tag">${esc(catLabel)}</span>` : ''}
-          <span class="atlas-verified-pill">✓ ${esc(badge)}</span>
-          ${sources.map(s => `<span class="atlas-source-pill">${esc(s)}</span>`).join('')}
-        </div>
-        <div class="dossier-quick-actions">
-          ${project.localPath ? `<button type="button" class="secondary dossier-action-btn" id="copyProjectLocalPath" title="${esc(project.localPath)}">📋 Copy Local Path</button>` : ''}
-          ${repoHref ? `<a href="${esc(repoHref)}" target="_blank" rel="noopener noreferrer" class="secondary dossier-action-btn">GitHub Repo ↗</a>` : ''}
-          ${liveHref ? `<a href="${esc(liveHref)}" target="_blank" rel="noopener noreferrer" class="primary dossier-action-btn">Live App ↗</a>` : ''}
-        </div>
+      <div class="archive-strip-right">
+        ${repoHref ? `<a href="${esc(repoHref)}" target="_blank" rel="noopener noreferrer" class="archive-link">Repo ↗</a>` : ''}
+        ${liveHref ? `<a href="${esc(liveHref)}" target="_blank" rel="noopener noreferrer" class="archive-link">Live ↗</a>` : ''}
+        ${project.localPath ? `<button type="button" class="archive-link" id="copyProjectLocalPath" title="${esc(project.localPath)}">Copy Path</button>` : ''}
+        <button type="button" class="archive-link" id="toggleArchiveSources">Sources (${sourcesCount})</button>
       </div>
     </div>
   `;
@@ -531,6 +514,22 @@ export function renderFounderDossierBanner(bannerEl, project, { onCopyText } = {
   if (copyBtn && project.localPath) {
     copyBtn.onclick = () => {
       if (onCopyText) onCopyText(project.localPath, `Copied path: ${project.localPath}`);
+    };
+  }
+
+  const sourcesBtn = bannerEl.querySelector('#toggleArchiveSources');
+  if (sourcesBtn) {
+    sourcesBtn.onclick = () => {
+      if (onToggleSources) {
+        onToggleSources();
+      } else if (typeof document !== 'undefined') {
+        const details = document.getElementById('chapterContext');
+        if (details) {
+          details.hidden = false;
+          details.open = !details.open;
+          if (details.open) details.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
     };
   }
 }
@@ -559,30 +558,20 @@ export function renderStageGateDossierPanel(rootEl, project, stageIndex, {
     <div class="stage-gate-panel">
       <div class="stage-gate-header">
         <div>
-          <span class="eyebrow">PHASE 0${stageIndex + 1} // ${esc(stageName.toUpperCase())} ENGINEERING DOSSIER</span>
-          <h2>${esc(project.name)} — ${esc(stageName)} Gate & Telemetry</h2>
+          <span class="eyebrow">PHASE 0${stageIndex + 1} · ${esc(stageName.toUpperCase())}</span>
+          <h2>${esc(project.name)}</h2>
           <p class="description">${esc(project.subtitle || project.problem || '')}</p>
         </div>
-        <div class="stage-gate-badges">
-          <span class="atlas-code-badge">${esc(project.code || 'OV')}</span>
-          <span class="atlas-verified-pill">✓ ${esc(project.verificationBadge || 'Disk Verified')}</span>
-        </div>
       </div>
-
-      <section class="stage-gate-card stage-next-callout">
-        <span class="eyebrow">DOMINANT NEXT ACTION FOR THIS VENTURE</span>
-        <p><strong>${esc(project.nextAction || 'Complete current stage verification checklist.')}</strong></p>
-        ${project.localPath ? `<p class="small mono">Local Workspace: ${esc(project.localPath)}</p>` : ''}
-      </section>
 
       <div class="stage-gate-grid">
         <section class="stage-gate-card">
           <div class="staging-card-heading">
             <div>
-              <span class="eyebrow">STAGE GATE CHECKLIST</span>
-              <h3>${esc(stageName)} Verification Criteria</h3>
+              <span class="eyebrow">STAGE CHECKLIST</span>
+              <h3>${esc(stageName)} Criteria</h3>
             </div>
-            <span class="staging-badge is-ready">${checklist.filter(item => item.done ?? item.completed ?? true).length} / ${checklist.length} verified</span>
+            <span class="staging-badge is-ready">${checklist.filter(item => item.done ?? item.completed ?? true).length} / ${checklist.length}</span>
           </div>
           <ul class="stage-checklist">
             ${checklist.map((item, idx) => {
@@ -607,17 +596,16 @@ export function renderStageGateDossierPanel(rootEl, project, stageIndex, {
         <section class="stage-gate-card">
           <div class="staging-card-heading">
             <div>
-              <span class="eyebrow">VERIFIED ARTIFACTS & SOURCES</span>
-              <h3>Cross-History Evidence (${sources.length})</h3>
+              <span class="eyebrow">ARCHIVE SOURCES</span>
+              <h3>Provenance (${sources.length})</h3>
             </div>
-            <span class="staging-badge">${(project.sources || []).length || 1} platforms</span>
           </div>
           <div class="stage-sources-list">
             ${sources.length ? sources.map(c => `
               <article class="stage-source-item">
                 <div class="stage-source-meta">
                   <span class="atlas-source-pill">${esc(c.sourceBadge || c.source || c.kind || 'VAULT')}</span>
-                  <strong>${esc(c.title || c.fileName || 'Captured Artifact')}</strong>
+                  <strong>${esc(c.title || c.fileName || 'Artifact')}</strong>
                 </div>
                 <p>${esc(c.text || c.url || '')}</p>
               </article>
@@ -627,12 +615,12 @@ export function renderStageGateDossierPanel(rootEl, project, stageIndex, {
       </div>
 
       <section class="stage-gate-card">
-        <label for="phaseAnswer"><strong>Founder Notes & Decisions for ${esc(stageName)}</strong></label>
-        <textarea id="phaseAnswer" rows="4" maxlength="8000" placeholder="Capture engineering blockers, launch telemetry, or architecture notes for ${esc(stageName)}…">${esc(noteVal)}</textarea>
+        <label for="phaseAnswer"><strong>Notes for ${esc(stageName)}</strong></label>
+        <textarea id="phaseAnswer" rows="3" maxlength="8000" placeholder="Capture decisions or notes for ${esc(stageName)}…">${esc(noteVal)}</textarea>
         <div class="action-buttons">
           <button type="button" class="primary" id="savePhase">Save ${esc(stageName)} Notes</button>
-          ${stageIndex === 1 && onOpenPrototypeStaging ? `<button type="button" class="secondary" id="openSystemPromptBuilder">Open Agent PRD & Prompt Builder</button>` : ''}
-          <button type="button" class="secondary" id="returnIdea">Open 13-Chapter Idea Studio (Phase 1) ↗</button>
+          ${stageIndex === 1 && onOpenPrototypeStaging ? `<button type="button" class="secondary" id="openSystemPromptBuilder">Agent PRD &amp; Prompt Builder</button>` : ''}
+          <button type="button" class="quiet" id="returnIdea">← Return to Idea Studio</button>
         </div>
       </section>
     </div>
@@ -665,26 +653,26 @@ function getDefaultStageChecklist(project, stageIndex) {
     return [
       { label: `Core architecture & working prototype scaffolded for ${name}`, done: project.stage >= 1, detail: project.localPath || 'Local repository verified' },
       { label: 'Primary user workflow & interactive slice validated', done: project.stage >= 1, detail: project.verificationBadge || 'Prototype telemetry' },
-      { label: `Next milestone queued: ${project.nextAction || 'Advance to MVP'}`, done: project.stage > 1 }
+      { label: `Next: ${project.nextAction || 'Advance to MVP'}`, done: project.stage > 1 }
     ];
   }
   if (stageIndex === 2) {
     return [
       { label: 'End-to-end persistence & real service integration wired', done: project.stage >= 2, detail: project.verificationBadge || 'MVP verification' },
-      { label: 'Automated unit/integration test suite or verification harness active', done: project.stage >= 2 },
-      { label: `Next milestone queued: ${project.nextAction || 'Production readiness review'}`, done: project.stage > 2 }
+      { label: 'Automated unit/integration test suite active', done: project.stage >= 2 },
+      { label: `Next: ${project.nextAction || 'Production readiness review'}`, done: project.stage > 2 }
     ];
   }
   if (stageIndex === 3) {
     return [
-      { label: 'Production deployment configuration & environment hardened', done: project.stage >= 3, detail: project.liveUrl || project.repoUrl || project.localPath || '' },
+      { label: 'Production deployment configuration hardened', done: project.stage >= 3, detail: project.liveUrl || project.repoUrl || project.localPath || '' },
       { label: 'Security, auth, and edge reliability verified', done: project.stage >= 3, detail: project.verificationBadge || '' },
-      { label: `Next milestone queued: ${project.nextAction || 'Post-production telemetry'}`, done: project.stage > 3 }
+      { label: `Next: ${project.nextAction || 'Post-production telemetry'}`, done: project.stage > 3 }
     ];
   }
   return [
     { label: 'Live user feedback loop & operational telemetry active', done: project.stage >= 4 },
-    { label: 'Iterative roadmap & multi-agent maintenance workflow established', done: project.stage >= 4 },
+    { label: 'Iterative roadmap & maintenance workflow established', done: project.stage >= 4 },
     { label: `Current focus: ${project.nextAction || 'Continuous expansion'}`, done: false }
   ];
 }

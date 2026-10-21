@@ -208,20 +208,47 @@ def build_stage_checklist(spec):
     }
 
 
+ART_FILENAME_ALIASES = {
+    "omnispatial-framez": "atlas-omnispatial.jpg",
+    "open-connector": "atlas-openconnector.jpg",
+    "hermes-watchtower": "atlas-watchtower-talos.jpg",
+    "flowcreate-perrys-parlor": "atlas-flowcreate-parlor.jpg",
+    "novah-city-chronicles": "atlas-novah-chronicles.jpg",
+    "flip-marketplace-autopilot": "atlas-flip-autopilot.jpg",
+    "council-circle-ai": "atlas-council-ai.jpg",
+    "grand-exchange-show-tell": "atlas-grand-exchange.jpg",
+    "ai-guild-skill-deck": "atlas-ai-guild-arcana.jpg",
+    "meetscribe-omnisync": "atlas-meetscribe.jpg",
+    "posey-treasure-hunt": "atlas-posey-treasure.jpg",
+    "ps5-venture-incubator": "atlas-ps5-incubator.jpg",
+    "executive-cockpits-careflow": "atlas-executive-cockpits.jpg",
+    "miranda-realty-poetic-chivalry": "atlas-poetic-chivalry.jpg",
+}
+
+
+def resolve_studio_art_uri(project_id):
+    canonical_rel = f"art/atlas-{project_id}.jpg"
+    canonical_abs = os.path.join(BASE_DIR, "art", f"atlas-{project_id}.jpg")
+    dist_abs = os.path.join(BASE_DIR, "dist", "art", f"atlas-{project_id}.jpg")
+    os.makedirs(os.path.dirname(dist_abs), exist_ok=True)
+    if not os.path.exists(canonical_abs) and project_id in ART_FILENAME_ALIASES:
+        alias_abs = os.path.join(BASE_DIR, "art", ART_FILENAME_ALIASES[project_id])
+        if os.path.exists(alias_abs):
+            shutil.copyfile(alias_abs, canonical_abs)
+    if os.path.exists(canonical_abs) and not os.path.exists(dist_abs):
+        shutil.copyfile(canonical_abs, dist_abs)
+    assert os.path.exists(canonical_abs), f"Missing studio artwork file: {canonical_abs}"
+    return canonical_rel
+
+
 def build_project(spec, master_excerpt):
     stage = int(spec["stage"])
     chapter = int(spec["chapter"])
     max_resolved = 12 if stage > 0 else chapter
     resolved = {str(i): True for i in range(max_resolved + 1)}
-    art_uri = make_svg_data_uri(
-        title=spec["productName"],
-        subtitle=spec["subtitle"],
-        badge=spec["verificationBadge"],
-        primary_hex=spec["primary_hex"],
-        secondary_hex=spec["secondary_hex"],
-        icon_svg=ICONS[spec["icon"]],
-        code_tag=spec["code"],
-    )
+    assert len(spec["subtitle"]) < 85, f"Subtitle too long ({len(spec['subtitle'])} chars) for {spec['id']}"
+    assert len(spec["nextAction"]) < 85, f"nextAction too long ({len(spec['nextAction'])} chars) for {spec['id']}"
+    art_uri = resolve_studio_art_uri(spec["id"])
     return {
         "id": spec["id"],
         "code": spec["code"],

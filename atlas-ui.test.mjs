@@ -17,7 +17,8 @@ test('Founder Atlas catalog loads all 32 ventures, categories, and sources', () 
 
 test('mergeFounderAtlasProjects upgrades 3-project seed to 32 projects while preserving custom projects', () => {
   const seedProjects = [
-    { id: 'floppy', name: 'Floppy', subtitle: 'Seed', stage: 0 },
+    { id: 'floppy', name: 'Floppy', subtitle: 'Seed', stage: 0, projectArt: { sourceUrl: 'data:image/svg+xml;utf8,old' } },
+    { id: 'lumen', name: 'Lumen', subtitle: 'Custom art kept', stage: 1, customArt: true, projectArt: { sourceUrl: 'data:image/png;base64,custom' } },
     { id: 'custom-user-idea', name: 'Custom Idea', subtitle: 'User created', stage: 0 }
   ];
   const merged = mergeFounderAtlasProjects(seedProjects, p => ({ ...p }));
@@ -25,6 +26,9 @@ test('mergeFounderAtlasProjects upgrades 3-project seed to 32 projects while pre
   const floppy = merged.find(p => p.id === 'floppy');
   assert.equal(floppy.code, 'OV-06');
   assert.equal(floppy.unlockedStage, 4);
+  assert.equal(floppy.projectArt.sourceUrl, 'art/atlas-floppy.jpg');
+  const lumen = merged.find(p => p.id === 'lumen');
+  assert.equal(lumen.projectArt.sourceUrl, 'data:image/png;base64,custom');
 });
 
 test('projectMatchesAtlasFilters filters by category, source, and search query', () => {

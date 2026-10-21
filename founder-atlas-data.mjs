@@ -52,7 +52,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-06",
     "name": "Floppy — Founder Product Atlas",
     "productName": "Floppy",
-    "subtitle": "The repo is the source of truth. Tactile 3.5\" disk command center that kills venture studio sprawl.",
+    "subtitle": "Tactile 3.5\" disk command center that kills venture studio sprawl.",
     "projectDescription": "Tactile 3.5\" disk command center that kills venture studio sprawl, tracks the 5-stage lifecycle (Idea -> Prototype -> MVP -> Production -> Post), and surfaces one clear Next Action grounded in repo and disk truth.",
     "problem": "Founders and multi-agent teams building across 8+ tools (Google Keep, AI Studio, NotebookLM, Codex, ZCode, Claude, GitHub, Obsidian) lose track of what is actually built vs. imagined, creating cognitive sprawl and stalled handoffs.",
     "audience": "Non-technical and technical founders, venture studios, and autonomous coding agent fleets managing multi-product portfolios.",
@@ -64,7 +64,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Codex",
       "Desktop Hub"
     ],
-    "nextAction": "Review all 32 consolidated ventures in the new Floppy Founder Atlas spin-off and lock the 19-point pre-production gate.",
+    "nextAction": "Review all 32 ventures in Floppy Atlas and lock the 19-point production gate.",
     "localPath": "C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas",
     "repoUrl": "https://github.com/NewSamBellamy/floppy",
     "liveUrl": "https://floppy-atlas.pages.dev",
@@ -94,7 +94,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Interactive 3.5-inch floppy disk carousel and 13-chapter product-shaping studio with real disk & cloud archive provenance."
       },
       "7": {
-        "text": "Floppy (OV-06): The repo is the source of truth. Tactile 3.5\" disk command center that kills venture studio sprawl. Connects Non-technical and technical founders, venture studios, and autonomous coding agent fleets managing multi-product portfolios. to a verified workflow."
+        "text": "Floppy (OV-06): Tactile 3.5\" disk command center that kills venture studio sprawl. Connects Non-technical and technical founders, venture studios, and autonomous coding agent fleets managing multi-product portfolios. to a verified workflow."
       },
       "8": {
         "text": "3.5\" tactile disk carousel\n13-chapter Idea-to-Readiness workflow\nMulti-source evidence & file provenance drawer\n5-stage lifecycle gate checklist & Codex Agent PRD exporter"
@@ -106,10 +106,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Tactile retro-industrial 3.5\" floppy hardware warmth paired with calm editorial typography and zero-clutter single-decision focus."
       },
       "11": {
-        "text": "Idea Brief for Floppy — Founder Product Atlas (OV-06): Tactile 3.5\" disk command center that kills venture studio sprawl, tracks the 5-stage lifecycle (Idea -> Prototype -> MVP -> Production -> Post), and surfaces one clear Next Action grounded in repo and disk truth. Next Action: Review all 32 consolidated ventures in the new Floppy Founder Atlas spin-off and lock the 19-point pre-production gate."
+        "text": "Idea Brief for Floppy — Founder Product Atlas (OV-06): Tactile 3.5\" disk command center that kills venture studio sprawl, tracks the 5-stage lifecycle (Idea -> Prototype -> MVP -> Production -> Post), and surfaces one clear Next Action grounded in repo and disk truth. Next Action: Review all 32 ventures in Floppy Atlas and lock the 19-point production gate."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Review all 32 consolidated ventures in the new Floppy Founder Atlas spin-off and lock the 19-point pre-production gate."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Review all 32 ventures in Floppy Atlas and lock the 19-point production gate."
       }
     },
     "resolved": {
@@ -129,7 +129,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Tactile 3.5\" disk command center that kills venture studio sprawl, tracks the 5-stage lifecycle (Idea -> Prototype -> MVP -> Production -> Post), and surfaces one clear Next Action grounded in repo and disk truth.",
-      "workingIdea": "The repo is the source of truth. Tactile 3.5\" disk command center that kills venture studio sprawl.",
+      "workingIdea": "Tactile 3.5\" disk command center that kills venture studio sprawl.",
       "aiGeneratedVersion": "Tactile 3.5\" disk command center that kills venture studio sprawl, tracks the 5-stage lifecycle (Idea -> Prototype -> MVP -> Production -> Post), and surfaces one clear Next Action grounded in repo and disk truth.",
       "confirmedVersion": "Tactile 3.5\" disk command center that kills venture studio sprawl, tracks the 5-stage lifecycle (Idea -> Prototype -> MVP -> Production -> Post), and surfaces one clear Next Action grounded in repo and disk truth.",
       "status": "resolved",
@@ -173,7 +173,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-06)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-06] Floppy — Founder Product Atlas — Next Action: Review all 32 consolidated ventures in the new Floppy Founder Atlas spin-off and lock the 19-point pre-production gate. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-06] Floppy — Founder Product Atlas — Next Action: Review all 32 ventures in Floppy Atlas and lock the 19-point production gate. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://floppy-atlas.pages.dev",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -189,7 +189,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Review all 32 consolidated ventures in the new Floppy Founder Atlas spin-off and lock the 19-point pre-production gate.",
+          "text": "Execute Next Action: Review all 32 ventures in Floppy Atlas and lock the 19-point production gate.",
           "done": true
         }
       ],
@@ -225,7 +225,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23edbd70%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23edbd70%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23cf6c2c%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-06%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20-%26gt%3B%203%20%C2%B7%2032%20Ventures%20Indexed%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EFloppy%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EThe%20repo%20is%20the%20source%20of%20truth.%20Tactile%203.5%26quot%3B%20disk%20c%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2238%22%20y%3D%2234%22%20width%3D%2292%22%20height%3D%22100%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%3Crect%20x%3D%2254%22%20y%3D%2234%22%20width%3D%2246%22%20height%3D%2232%22%20fill%3D%22%23edbd70%22%20opacity%3D%220.85%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2282%22%20width%3D%2268%22%20height%3D%2240%22%20rx%3D%224%22%20fill%3D%22%23fff9ea%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-floppy.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -248,7 +248,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-05",
     "name": "Lumen (Sovereign Voice HUD)",
     "productName": "Lumen",
-    "subtitle": "Sovereign <200ms desktop voice HUD ([Ctrl+Win]) with 60fps waveform and screen intent capture.",
+    "subtitle": "Sovereign <200ms desktop voice HUD with 60fps waveform & screen intent.",
     "projectDescription": "Sovereign zero-latency (<200ms) desktop voice HUD ([Ctrl+Win]) with billet-aluminum 60fps waveform and multimodal screen intent capture ('What I said + What I did'), replacing Wispr Flow.",
     "problem": "Cloud dictation tools like Wispr Flow exhaust credits, introduce 1.5s+ network round-trip latency, and miss visual screen context when a founder points, circles, or clicks while speaking.",
     "audience": "Voice-first founders, engineers, and creative directors orchestrating coding agents and desktop workflows.",
@@ -260,7 +260,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Claude Code"
     ],
-    "nextAction": "Complete Tauri v2 vs Electron transparent overlay benchmark and wire screen-annotation intent capture.",
+    "nextAction": "Complete Tauri v2 overlay benchmark and wire screen-annotation intent.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\VoxFlow",
     "repoUrl": "https://github.com/NewSamBellamy/voxflow",
     "liveUrl": "",
@@ -290,7 +290,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Global [Ctrl+Win] floating pill HUD with local streaming transcription, clipboard injection, and radial annotation wheel."
       },
       "7": {
-        "text": "Lumen (OV-05): Sovereign <200ms desktop voice HUD ([Ctrl+Win]) with 60fps waveform and screen intent capture. Connects Voice-first founders, engineers, and creative directors orchestrating coding agents and desktop workflows. to a verified workflow."
+        "text": "Lumen (OV-05): Sovereign <200ms desktop voice HUD with 60fps waveform & screen intent. Connects Voice-first founders, engineers, and creative directors orchestrating coding agents and desktop workflows. to a verified workflow."
       },
       "8": {
         "text": "Sub-200ms local Sherpa-ONNX & VibeVoice streaming STT\nGlobal [Ctrl+Win] billet-aluminum 60fps waveform HUD\nWeapon Wheel (Ctrl+T) screen pen & arrow intent capture\nZero-cloud sovereign audio ring buffer"
@@ -302,10 +302,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Billet-aluminum dark glass pill overlay, 60fps reactive audio bars, non-intrusive HUD ergonomics."
       },
       "11": {
-        "text": "Idea Brief for Lumen (Sovereign Voice HUD) (OV-05): Sovereign zero-latency (<200ms) desktop voice HUD ([Ctrl+Win]) with billet-aluminum 60fps waveform and multimodal screen intent capture ('What I said + What I did'), replacing Wispr Flow. Next Action: Complete Tauri v2 vs Electron transparent overlay benchmark and wire screen-annotation intent capture."
+        "text": "Idea Brief for Lumen (Sovereign Voice HUD) (OV-05): Sovereign zero-latency (<200ms) desktop voice HUD ([Ctrl+Win]) with billet-aluminum 60fps waveform and multimodal screen intent capture ('What I said + What I did'), replacing Wispr Flow. Next Action: Complete Tauri v2 overlay benchmark and wire screen-annotation intent."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Complete Tauri v2 vs Electron transparent overlay benchmark and wire screen-annotation intent capture."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Complete Tauri v2 overlay benchmark and wire screen-annotation intent."
       }
     },
     "resolved": {
@@ -325,7 +325,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Sovereign zero-latency (<200ms) desktop voice HUD ([Ctrl+Win]) with billet-aluminum 60fps waveform and multimodal screen intent capture ('What I said + What I did'), replacing Wispr Flow.",
-      "workingIdea": "Sovereign <200ms desktop voice HUD ([Ctrl+Win]) with 60fps waveform and screen intent capture.",
+      "workingIdea": "Sovereign <200ms desktop voice HUD with 60fps waveform & screen intent.",
       "aiGeneratedVersion": "Sovereign zero-latency (<200ms) desktop voice HUD ([Ctrl+Win]) with billet-aluminum 60fps waveform and multimodal screen intent capture ('What I said + What I did'), replacing Wispr Flow.",
       "confirmedVersion": "Sovereign zero-latency (<200ms) desktop voice HUD ([Ctrl+Win]) with billet-aluminum 60fps waveform and multimodal screen intent capture ('What I said + What I did'), replacing Wispr Flow.",
       "status": "resolved",
@@ -378,7 +378,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-05)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-05] Lumen (Sovereign Voice HUD) — Next Action: Complete Tauri v2 vs Electron transparent overlay benchmark and wire screen-annotation intent capture. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-05] Lumen (Sovereign Voice HUD) — Next Action: Complete Tauri v2 overlay benchmark and wire screen-annotation intent. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/voxflow",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -394,7 +394,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Complete Tauri v2 vs Electron transparent overlay benchmark and wire screen-annotation intent capture.",
+          "text": "Execute Next Action: Complete Tauri v2 overlay benchmark and wire screen-annotation intent.",
           "done": false
         }
       ],
@@ -430,7 +430,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23c4b5fd%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23c4b5fd%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%238672c5%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23c4b5fd%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23c4b5fd%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-05%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3E86%2F86%20Tests%20Green%20%C2%B7%20%26lt%3B200ms%20Local%20STT%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3ELumen%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ESovereign%20%26lt%3B200ms%20desktop%20voice%20HUD%20%28%5BCtrl%2BWin%5D%29%20with%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23c4b5fd%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23c4b5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2268%22%20y%3D%2234%22%20width%3D%2232%22%20height%3D%2258%22%20rx%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20d%3D%22M48%2068%20a36%2036%200%200%200%2072%200%22%20fill%3D%22none%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2284%22%20y1%3D%22104%22%20x2%3D%2284%22%20y2%3D%22132%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2260%22%20y1%3D%22132%22%20x2%3D%22108%22%20y2%3D%22132%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-lumen.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -453,7 +453,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-01",
     "name": "Stratemark",
     "productName": "Stratemark",
-    "subtitle": "Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Card Lab.",
+    "subtitle": "Fast-boot (2-4s) multi-agent competitive Living Deck & Collectible Card Lab.",
     "projectDescription": "Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Company Card Lab with 100% free & open-source BYOK launch and grounded SEC/market citations.",
     "problem": "Founders and analysts spend days assembling static competitive decks that go stale immediately, or wait 15+ minutes for generic ungrounded AI deep-research walls of text.",
     "audience": "Startup founders, VC/PE analysts, product strategists, and GTM teams needing live competitive teardowns.",
@@ -467,7 +467,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Desktop Hub"
     ],
-    "nextAction": "Merge fix/zcode-identity-gate-recovery (14 commits, AUM + SEC Form ADV support) into production.",
+    "nextAction": "Merge fix/zcode-identity-gate-recovery (AUM + SEC Form ADV) into production.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\stratemark",
     "repoUrl": "https://github.com/NewSamBellamy/stratemark",
     "liveUrl": "https://getstratemark.com",
@@ -497,7 +497,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "2-4s streaming multi-agent Living Deck Builder and Collectible Company Trading Card generator with BYOK Gemini 3.7 Search Grounding."
       },
       "7": {
-        "text": "Stratemark (OV-01): Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Card Lab. Connects Startup founders, VC/PE analysts, product strategists, and GTM teams needing live competitive teardowns. to a verified workflow."
+        "text": "Stratemark (OV-01): Fast-boot (2-4s) multi-agent competitive Living Deck & Collectible Card Lab. Connects Startup founders, VC/PE analysts, product strategists, and GTM teams needing live competitive teardowns. to a verified workflow."
       },
       "8": {
         "text": "2-4s fast-boot multi-agent competitive reconnaissance\nMonopoly-inspired market board & Collectible Company Card Lab\nSEC Form ADV & AUM grounded verification badges\n100% free open-source BYOK execution mode"
@@ -509,10 +509,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Linear/Raycast dark executive precision with collectible holographic company trading cards."
       },
       "11": {
-        "text": "Idea Brief for Stratemark (OV-01): Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Company Card Lab with 100% free & open-source BYOK launch and grounded SEC/market citations. Next Action: Merge fix/zcode-identity-gate-recovery (14 commits, AUM + SEC Form ADV support) into production."
+        "text": "Idea Brief for Stratemark (OV-01): Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Company Card Lab with 100% free & open-source BYOK launch and grounded SEC/market citations. Next Action: Merge fix/zcode-identity-gate-recovery (AUM + SEC Form ADV) into production."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Merge fix/zcode-identity-gate-recovery (14 commits, AUM + SEC Form ADV support) into production."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Merge fix/zcode-identity-gate-recovery (AUM + SEC Form ADV) into production."
       }
     },
     "resolved": {
@@ -532,7 +532,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Company Card Lab with 100% free & open-source BYOK launch and grounded SEC/market citations.",
-      "workingIdea": "Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Card Lab.",
+      "workingIdea": "Fast-boot (2-4s) multi-agent competitive Living Deck & Collectible Card Lab.",
       "aiGeneratedVersion": "Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Company Card Lab with 100% free & open-source BYOK launch and grounded SEC/market citations.",
       "confirmedVersion": "Fast-boot (2-4s) multi-agent competitive intelligence Living Deck Builder & Collectible Company Card Lab with 100% free & open-source BYOK launch and grounded SEC/market citations.",
       "status": "resolved",
@@ -576,7 +576,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-01)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-01] Stratemark — Next Action: Merge fix/zcode-identity-gate-recovery (14 commits, AUM + SEC Form ADV support) into production. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-01] Stratemark — Next Action: Merge fix/zcode-identity-gate-recovery (AUM + SEC Form ADV) into production. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://getstratemark.com",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -592,7 +592,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Merge fix/zcode-identity-gate-recovery (14 commits, AUM + SEC Form ADV support) into production.",
+          "text": "Execute Next Action: Merge fix/zcode-identity-gate-recovery (AUM + SEC Form ADV) into production.",
           "done": true
         }
       ],
@@ -628,7 +628,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2338bdf8%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2338bdf8%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23358eaa%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-01%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3E1%2C215%2F1%2C215%20Tests%20Green%20%C2%B7%20Live%20at%20gets%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EStratemark%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EFast-boot%20%282-4s%29%20multi-agent%20competitive%20intelligenc%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%2252%22%20fill%3D%22none%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%223.5%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%2230%22%20fill%3D%22none%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%204%22%2F%3E%3Cline%20x1%3D%2284%22%20y1%3D%2284%22%20x2%3D%22122%22%20y2%3D%2252%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22114%22%20cy%3D%2258%22%20r%3D%226%22%20fill%3D%22%23edbd70%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-stratemark.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -651,7 +651,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-02",
     "name": "AI Slot Machine (StylePunch)",
     "productName": "AI Slot Machine",
-    "subtitle": "The Call of Duty Pack-a-Punch machine for web apps: 25¢ quarter credits & AST Safe-Zone styling.",
+    "subtitle": "Call of Duty Pack-a-Punch for web apps: 25¢ spins & AST Safe-Zone styling.",
     "projectDescription": "The Call of Duty 'Pack-a-Punch' machine for web apps (aislotmachine.com). Insert 25¢ quarter credits to refactor generic AI web apps into curated designer aesthetics with AST Safe-Zone (TokenLock) protection and human designer royalties.",
     "problem": "Vibe-coded web apps all look like identical generic Tailwind/shadcn slop, and asking an LLM to restyle a repo often breaks business logic, state hooks, or routing.",
     "audience": "Indie hackers, vibe-coders, frontend developers, and UI designers who want to monetize their design systems.",
@@ -663,7 +663,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Codex",
       "Google AI Studio"
     ],
-    "nextAction": "Build interactive mechanical coin-slot UI mockup and AST token validator in Safe-Zone Jail.",
+    "nextAction": "Build mechanical coin-slot UI mockup and AST token validator in Safe-Zone.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\StylePunch",
     "repoUrl": "https://github.com/NewSamBellamy/stylepunch",
     "liveUrl": "https://aislotmachine.com",
@@ -693,7 +693,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Web arcade cabinet where users drop a GitHub URL + 25¢ quarter to pull the lever and preview a safe, AST-verified UI restyle PR."
       },
       "7": {
-        "text": "AI Slot Machine (OV-02): The Call of Duty Pack-a-Punch machine for web apps: 25¢ quarter credits & AST Safe-Zone styling. Connects Indie hackers, vibe-coders, frontend developers, and UI designers who want to monetize their design systems. to a verified workflow."
+        "text": "AI Slot Machine (OV-02): Call of Duty Pack-a-Punch for web apps: 25¢ spins & AST Safe-Zone styling. Connects Indie hackers, vibe-coders, frontend developers, and UI designers who want to monetize their design systems. to a verified workflow."
       },
       "8": {
         "text": "Mechanical 25¢ coin-slot & 3-reel aesthetic lever UI\nAST Safe-Zone (TokenLock) parser protecting business logic\nHuman designer style cartridge marketplace & royalty split\nOne-click GitHub Pull Request export"
@@ -705,10 +705,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Tactile retro-futuristic arcade cabinet (Call of Duty Pack-a-Punch energy) with neon mechanical reels."
       },
       "11": {
-        "text": "Idea Brief for AI Slot Machine (StylePunch) (OV-02): The Call of Duty 'Pack-a-Punch' machine for web apps (aislotmachine.com). Insert 25¢ quarter credits to refactor generic AI web apps into curated designer aesthetics with AST Safe-Zone (TokenLock) protection and human designer royalties. Next Action: Build interactive mechanical coin-slot UI mockup and AST token validator in Safe-Zone Jail."
+        "text": "Idea Brief for AI Slot Machine (StylePunch) (OV-02): The Call of Duty 'Pack-a-Punch' machine for web apps (aislotmachine.com). Insert 25¢ quarter credits to refactor generic AI web apps into curated designer aesthetics with AST Safe-Zone (TokenLock) protection and human designer royalties. Next Action: Build mechanical coin-slot UI mockup and AST token validator in Safe-Zone."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Build interactive mechanical coin-slot UI mockup and AST token validator in Safe-Zone Jail."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Build mechanical coin-slot UI mockup and AST token validator in Safe-Zone."
       }
     },
     "resolved": {
@@ -728,7 +728,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "The Call of Duty 'Pack-a-Punch' machine for web apps (aislotmachine.com). Insert 25¢ quarter credits to refactor generic AI web apps into curated designer aesthetics with AST Safe-Zone (TokenLock) protection and human designer royalties.",
-      "workingIdea": "The Call of Duty Pack-a-Punch machine for web apps: 25¢ quarter credits & AST Safe-Zone styling.",
+      "workingIdea": "Call of Duty Pack-a-Punch for web apps: 25¢ spins & AST Safe-Zone styling.",
       "aiGeneratedVersion": "The Call of Duty 'Pack-a-Punch' machine for web apps (aislotmachine.com). Insert 25¢ quarter credits to refactor generic AI web apps into curated designer aesthetics with AST Safe-Zone (TokenLock) protection and human designer royalties.",
       "confirmedVersion": "The Call of Duty 'Pack-a-Punch' machine for web apps (aislotmachine.com). Insert 25¢ quarter credits to refactor generic AI web apps into curated designer aesthetics with AST Safe-Zone (TokenLock) protection and human designer royalties.",
       "status": "resolved",
@@ -763,7 +763,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-02)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-02] AI Slot Machine (StylePunch) — Next Action: Build interactive mechanical coin-slot UI mockup and AST token validator in Safe-Zone Jail. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-02] AI Slot Machine (StylePunch) — Next Action: Build mechanical coin-slot UI mockup and AST token validator in Safe-Zone. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://aislotmachine.com",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -779,7 +779,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Build interactive mechanical coin-slot UI mockup and AST token validator in Safe-Zone Jail.",
+          "text": "Execute Next Action: Build mechanical coin-slot UI mockup and AST token validator in Safe-Zone.",
           "done": false
         }
       ],
@@ -815,7 +815,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d76883%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23d76883%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23f472b6%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23f472b6%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23d76883%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23f472b6%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-02%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20AST%20TokenLock%20Engi%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EAI%20Slot%20Machine%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EThe%20Call%20of%20Duty%20Pack-a-Punch%20machine%20for%20web%20apps%3A%20%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23f472b6%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2234%22%20y%3D%2244%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2267%22%20y1%3D%2244%22%20x2%3D%2267%22%20y2%3D%22124%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%22101%22%20y1%3D%2244%22%20x2%3D%22101%22%20y2%3D%22124%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%222.5%22%2F%3E%3Ccircle%20cx%3D%22146%22%20cy%3D%2252%22%20r%3D%228%22%20fill%3D%22%23edbd70%22%2F%3E%3Cline%20x1%3D%22134%22%20y1%3D%2284%22%20x2%3D%22146%22%20y2%3D%2258%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-ai-slot-machine.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -838,7 +838,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-22",
     "name": "Project Thanos",
     "productName": "Project Thanos",
-    "subtitle": "Universal agent display controller, spatial companion & $15-$30 Desktop Buddy beating SlashVibe.",
+    "subtitle": "Universal agent display controller, spatial companion & $20 Desktop Buddy.",
     "projectDescription": "Universal software layer & context nervous system for orchestrating parallel AI coding agents across Mobile, VR/Spatial, Desktop HUD, and ultra-cheap $15-$30 'Desktop Buddy' micro-hardware (beating SlashVibe's $249 hardware + $14/mo subscription).",
     "problem": "Developers running 4-8 parallel coding agents (Claude Code, Codex, Hermes, ZCode) drown in terminal windows and permission prompts, while competitors like SlashVibe charge $249 + $14/mo for closed hardware.",
     "audience": "Agentic software engineers, multi-agent founders, and hardware tinkerers running parallel AI coding sessions.",
@@ -850,7 +850,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Desktop Hub"
     ],
-    "nextAction": "Prototype WebSocket agent session bus + mobile/desktop companion HUD with 1-tap approval gates and <100ms local voice input.",
+    "nextAction": "Prototype WebSocket session bus + companion HUD with 1-tap approval gates.",
     "localPath": "C:\\Users\\shann\\Documents\\Codex\\2026-10-11",
     "repoUrl": "https://github.com/NewSamBellamy/omniveo-thanos",
     "liveUrl": "",
@@ -880,7 +880,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Local WebSocket Agent Session Aggregator + PWA Mobile/Desktop Companion Deck with 1-tap Y/N permission approval and push-to-talk voice."
       },
       "7": {
-        "text": "Project Thanos (OV-22): Universal agent display controller, spatial companion & $15-$30 Desktop Buddy beating SlashVibe. Connects Agentic software engineers, multi-agent founders, and hardware tinkerers running parallel AI coding sessions. to a verified workflow."
+        "text": "Project Thanos (OV-22): Universal agent display controller, spatial companion & $20 Desktop Buddy. Connects Agentic software engineers, multi-agent founders, and hardware tinkerers running parallel AI coding sessions. to a verified workflow."
       },
       "8": {
         "text": "Multi-agent session aggregator (Claude Code, Hermes, Codex, ZCode)\n1-tap hardware/touch permission approval gateway (/approve, /reject)\nSub-100ms local voice push-to-talk dictation pipeline\nPWA Mobile, WebXR Spatial, and $20 ESP32-S3 firmware targets"
@@ -892,10 +892,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "High-contrast tactical mission control deck with physical arcade button ergonomics and instant glanceability."
       },
       "11": {
-        "text": "Idea Brief for Project Thanos (OV-22): Universal software layer & context nervous system for orchestrating parallel AI coding agents across Mobile, VR/Spatial, Desktop HUD, and ultra-cheap $15-$30 'Desktop Buddy' micro-hardware (beating SlashVibe's $249 hardware + $14/mo subscription). Next Action: Prototype WebSocket agent session bus + mobile/desktop companion HUD with 1-tap approval gates and <100ms local voice input."
+        "text": "Idea Brief for Project Thanos (OV-22): Universal software layer & context nervous system for orchestrating parallel AI coding agents across Mobile, VR/Spatial, Desktop HUD, and ultra-cheap $15-$30 'Desktop Buddy' micro-hardware (beating SlashVibe's $249 hardware + $14/mo subscription). Next Action: Prototype WebSocket session bus + companion HUD with 1-tap approval gates."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Prototype WebSocket agent session bus + mobile/desktop companion HUD with 1-tap approval gates and <100ms local voice input."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Prototype WebSocket session bus + companion HUD with 1-tap approval gates."
       }
     },
     "resolved": {
@@ -915,7 +915,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Universal software layer & context nervous system for orchestrating parallel AI coding agents across Mobile, VR/Spatial, Desktop HUD, and ultra-cheap $15-$30 'Desktop Buddy' micro-hardware (beating SlashVibe's $249 hardware + $14/mo subscription).",
-      "workingIdea": "Universal agent display controller, spatial companion & $15-$30 Desktop Buddy beating SlashVibe.",
+      "workingIdea": "Universal agent display controller, spatial companion & $20 Desktop Buddy.",
       "aiGeneratedVersion": "Universal software layer & context nervous system for orchestrating parallel AI coding agents across Mobile, VR/Spatial, Desktop HUD, and ultra-cheap $15-$30 'Desktop Buddy' micro-hardware (beating SlashVibe's $249 hardware + $14/mo subscription).",
       "confirmedVersion": "Universal software layer & context nervous system for orchestrating parallel AI coding agents across Mobile, VR/Spatial, Desktop HUD, and ultra-cheap $15-$30 'Desktop Buddy' micro-hardware (beating SlashVibe's $249 hardware + $14/mo subscription).",
       "status": "resolved",
@@ -941,7 +941,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-22)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-22] Project Thanos — Next Action: Prototype WebSocket agent session bus + mobile/desktop companion HUD with 1-tap approval gates and <100ms local voice input. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-22] Project Thanos — Next Action: Prototype WebSocket session bus + companion HUD with 1-tap approval gates. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/omniveo-thanos",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -957,7 +957,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Prototype WebSocket agent session bus + mobile/desktop companion HUD with 1-tap approval gates and <100ms local voice input.",
+          "text": "Execute Next Action: Prototype WebSocket session bus + companion HUD with 1-tap approval gates.",
           "done": false
         }
       ],
@@ -993,7 +993,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2334d399%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2334d399%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23539c76%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2334d399%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-22%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20SlashVibe%20Teardown%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EProject%20Thanos%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EUniversal%20agent%20display%20controller%2C%20spatial%20companio%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2334d399%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2232%22%20y%3D%2254%22%20width%3D%22104%22%20height%3D%2262%22%20rx%3D%2220%22%20fill%3D%22none%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2273%22%20x2%3D%2258%22%20y2%3D%2297%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2246%22%20y1%3D%2285%22%20x2%3D%2270%22%20y2%3D%2285%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22106%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23edbd70%22%2F%3E%3Ccircle%20cx%3D%22118%22%20cy%3D%2291%22%20r%3D%226%22%20fill%3D%22%2334d399%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-project-thanos.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -1016,7 +1016,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-23",
     "name": "Open Creative MCP Engine (OC-MCP)",
     "productName": "Open Creative MCP",
-    "subtitle": "Native Model Context Protocol bridges baked into Blender, Krita, GIMP, Inkscape, Penpot & Audacity.",
+    "subtitle": "Native MCP bridges for Blender, Krita, GIMP, Inkscape, Penpot & Audacity.",
     "projectDescription": "Bake Model Context Protocol (MCP) bridges directly into open-source equivalents of Adobe Creative Cloud (Blender, Krita, GIMP, Inkscape, Penpot, Natron, Audacity) so AI agents can manipulate layers, vector nodes, 3D cameras, and timelines with zero Adobe SaaS tax.",
     "problem": "Adobe charges $60-$90/month per seat and locks AI behind proprietary cloud credits, while open-source creative tools lack a unified protocol for AI agents to inspect canvases and execute layer/node operations.",
     "audience": "Digital artists, indie game studios, motion designers, and autonomous creative agent pipelines.",
@@ -1057,7 +1057,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Local Open Creative MCP Daemon with Blender 3D staging addon and Krita/Inkscape layer & vector manipulation bridges."
       },
       "7": {
-        "text": "Open Creative MCP (OV-23): Native Model Context Protocol bridges baked into Blender, Krita, GIMP, Inkscape, Penpot & Audacity. Connects Digital artists, indie game studios, motion designers, and autonomous creative agent pipelines. to a verified workflow."
+        "text": "Open Creative MCP (OV-23): Native MCP bridges for Blender, Krita, GIMP, Inkscape, Penpot & Audacity. Connects Digital artists, indie game studios, motion designers, and autonomous creative agent pipelines. to a verified workflow."
       },
       "8": {
         "text": "Unified localhost MCP daemon for open-source creative apps\nBlender (bpy) 3D scene, camera & shader MCP tools\nKrita & GIMP layer hierarchy and inpaint mask bridges\nInkscape & Penpot live SVG vector node sculpting"
@@ -1090,7 +1090,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Bake Model Context Protocol (MCP) bridges directly into open-source equivalents of Adobe Creative Cloud (Blender, Krita, GIMP, Inkscape, Penpot, Natron, Audacity) so AI agents can manipulate layers, vector nodes, 3D cameras, and timelines with zero Adobe SaaS tax.",
-      "workingIdea": "Native Model Context Protocol bridges baked into Blender, Krita, GIMP, Inkscape, Penpot & Audacity.",
+      "workingIdea": "Native MCP bridges for Blender, Krita, GIMP, Inkscape, Penpot & Audacity.",
       "aiGeneratedVersion": "Bake Model Context Protocol (MCP) bridges directly into open-source equivalents of Adobe Creative Cloud (Blender, Krita, GIMP, Inkscape, Penpot, Natron, Audacity) so AI agents can manipulate layers, vector nodes, 3D cameras, and timelines with zero Adobe SaaS tax.",
       "confirmedVersion": "Bake Model Context Protocol (MCP) bridges directly into open-source equivalents of Adobe Creative Cloud (Blender, Krita, GIMP, Inkscape, Penpot, Natron, Audacity) so AI agents can manipulate layers, vector nodes, 3D cameras, and timelines with zero Adobe SaaS tax.",
       "status": "resolved",
@@ -1168,7 +1168,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23fb923c%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23fb923c%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23d7a43e%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23fb923c%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23fb923c%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-23%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%201%20Idea%20%C2%B7%20Deep%20Research%20Complete%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EOpen%20Creative%20MCP%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ENative%20Model%20Context%20Protocol%20bridges%20baked%20into%20Ble%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23fb923c%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23fb923c%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpolygon%20points%3D%2284%2C32%20132%2C124%2036%2C124%22%20fill%3D%22none%22%20stroke%3D%22%23fb923c%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2292%22%20r%3D%2218%22%20fill%3D%22%23fb923c%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-open-creative-mcp.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -1191,7 +1191,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-04",
     "name": "OmniSpatial & FRAMEz OS",
     "productName": "OmniSpatial",
-    "subtitle": "Infinite 4-window Meta Quest 3 spatial WebXR workstation & Cozy Industrial OS (<15ms Tailscale).",
+    "subtitle": "4-window Meta Quest 3 spatial WebXR workstation & Cozy Industrial OS.",
     "projectDescription": "Infinite 4-window Meta Quest 3 spatial WebXR workstation with Newtonian UI physics, <15ms Tailscale stream into local agents, and the FRAMEz Cozy Industrial workflow builder (MODz, MINIz, NOODLEz, PORTALz).",
     "problem": "Physical multi-monitor setups are expensive and static, while existing VR remote desktop apps feel sterile, laggy, and disconnected from live AI agent workflows.",
     "audience": "Spatial computing builders, Meta Quest 3 developers, and founders orchestrating multi-agent workflows in 3D space.",
@@ -1203,7 +1203,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "GitHub"
     ],
-    "nextAction": "Validate <15ms WebXR hot-reload stream in Quest 3 color passthrough over Tailscale.",
+    "nextAction": "Validate <15ms WebXR hot-reload stream in Quest 3 over Tailscale.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\OmniSpatial",
     "repoUrl": "https://github.com/NewSamBellamy/omnispatial",
     "liveUrl": "",
@@ -1233,7 +1233,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "4-window curved WebXR spatial cockpit for Meta Quest 3 with color passthrough and live local agent terminal portals."
       },
       "7": {
-        "text": "OmniSpatial (OV-04): Infinite 4-window Meta Quest 3 spatial WebXR workstation & Cozy Industrial OS (<15ms Tailscale). Connects Spatial computing builders, Meta Quest 3 developers, and founders orchestrating multi-agent workflows in 3D space. to a verified workflow."
+        "text": "OmniSpatial (OV-04): 4-window Meta Quest 3 spatial WebXR workstation & Cozy Industrial OS. Connects Spatial computing builders, Meta Quest 3 developers, and founders orchestrating multi-agent workflows in 3D space. to a verified workflow."
       },
       "8": {
         "text": "4-window curved WebXR spatial workstation for Quest 3\nSub-15ms Tailscale local agent streaming bridge\nFRAMEz modular node system (MODz, MINIz, NOODLEz, PORTALz)\nNewtonian UI physics & hand-tracked pinch snapping"
@@ -1245,10 +1245,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Ghibli warmth meets Teenage Engineering cozy industrial tactile panels floating in color passthrough."
       },
       "11": {
-        "text": "Idea Brief for OmniSpatial & FRAMEz OS (OV-04): Infinite 4-window Meta Quest 3 spatial WebXR workstation with Newtonian UI physics, <15ms Tailscale stream into local agents, and the FRAMEz Cozy Industrial workflow builder (MODz, MINIz, NOODLEz, PORTALz). Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 color passthrough over Tailscale."
+        "text": "Idea Brief for OmniSpatial & FRAMEz OS (OV-04): Infinite 4-window Meta Quest 3 spatial WebXR workstation with Newtonian UI physics, <15ms Tailscale stream into local agents, and the FRAMEz Cozy Industrial workflow builder (MODz, MINIz, NOODLEz, PORTALz). Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 over Tailscale."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 color passthrough over Tailscale."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 over Tailscale."
       }
     },
     "resolved": {
@@ -1268,7 +1268,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Infinite 4-window Meta Quest 3 spatial WebXR workstation with Newtonian UI physics, <15ms Tailscale stream into local agents, and the FRAMEz Cozy Industrial workflow builder (MODz, MINIz, NOODLEz, PORTALz).",
-      "workingIdea": "Infinite 4-window Meta Quest 3 spatial WebXR workstation & Cozy Industrial OS (<15ms Tailscale).",
+      "workingIdea": "4-window Meta Quest 3 spatial WebXR workstation & Cozy Industrial OS.",
       "aiGeneratedVersion": "Infinite 4-window Meta Quest 3 spatial WebXR workstation with Newtonian UI physics, <15ms Tailscale stream into local agents, and the FRAMEz Cozy Industrial workflow builder (MODz, MINIz, NOODLEz, PORTALz).",
       "confirmedVersion": "Infinite 4-window Meta Quest 3 spatial WebXR workstation with Newtonian UI physics, <15ms Tailscale stream into local agents, and the FRAMEz Cozy Industrial workflow builder (MODz, MINIz, NOODLEz, PORTALz).",
       "status": "resolved",
@@ -1312,7 +1312,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-04)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-04] OmniSpatial & FRAMEz OS — Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 color passthrough over Tailscale. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-04] OmniSpatial & FRAMEz OS — Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 over Tailscale. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/omnispatial",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -1328,7 +1328,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 color passthrough over Tailscale.",
+          "text": "Execute Next Action: Validate <15ms WebXR hot-reload stream in Quest 3 over Tailscale.",
           "done": false
         }
       ],
@@ -1364,7 +1364,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232dd4bf%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%232dd4bf%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23358eaa%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%232dd4bf%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%232dd4bf%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-04%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20318%20NotebookLM%20Spe%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EOmniSpatial%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EInfinite%204-window%20Meta%20Quest%203%20spatial%20WebXR%20worksta%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%232dd4bf%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%232dd4bf%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2230%22%20y%3D%2258%22%20width%3D%22108%22%20height%3D%2252%22%20rx%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%232dd4bf%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20d%3D%22M72%20110%20L84%2096%20L96%20110%22%20fill%3D%22none%22%20stroke%3D%22%232dd4bf%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2284%22%20r%3D%2211%22%20fill%3D%22%232dd4bf%22%20opacity%3D%220.5%22%2F%3E%3Ccircle%20cx%3D%22108%22%20cy%3D%2284%22%20r%3D%2211%22%20fill%3D%22%232dd4bf%22%20opacity%3D%220.5%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-omnispatial-framez.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -1387,7 +1387,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-10",
     "name": "Arcade Physical Companion",
     "productName": "Arcade Companion",
-    "subtitle": "Miniature retro arcade cabinet desktop hardware companion (<$20 ESP32-S3 BOM) with IPS face.",
+    "subtitle": "Miniature retro arcade desktop hardware companion (<$20 ESP32-S3 BOM).",
     "projectDescription": "Miniature retro arcade cabinet desktop companion (<$20 ESP32-S3 BOM) with animated IPS face, I2S audio, and physical buttons that react to live AI agent build/test telemetry.",
     "problem": "AI agents feel like invisible background processes; founders lack an ambient, joyful physical desk totem that signals when builds finish, tests fail, or approvals are needed.",
     "audience": "Indie makers, hardware enthusiasts, and developers who love tactile retro desk companions.",
@@ -1398,7 +1398,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "GitHub"
     ],
-    "nextAction": "Finalize ESP32-S3 BOM component order list and prototype animated display firmware.",
+    "nextAction": "Finalize ESP32-S3 BOM order list and prototype animated IPS firmware.",
     "localPath": "C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\product ideas\\10_Arcade_Physical_Companion",
     "repoUrl": "https://github.com/NewSamBellamy/arcade-companion",
     "liveUrl": "",
@@ -1428,7 +1428,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "3D-printable mini arcade cabinet housing an ESP32-S3, 2.4\" IPS screen, and arcade buttons subscribed to local agent WebSocket events."
       },
       "7": {
-        "text": "Arcade Companion (OV-10): Miniature retro arcade cabinet desktop hardware companion (<$20 ESP32-S3 BOM) with IPS face. Connects Indie makers, hardware enthusiasts, and developers who love tactile retro desk companions. to a verified workflow."
+        "text": "Arcade Companion (OV-10): Miniature retro arcade desktop hardware companion (<$20 ESP32-S3 BOM). Connects Indie makers, hardware enthusiasts, and developers who love tactile retro desk companions. to a verified workflow."
       },
       "8": {
         "text": "<$20 ESP32-S3 + 2.4\" IPS display hardware BOM\nReactive 8-bit/vector companion face & status animations\nI2S speaker for build-complete chimes & voice alerts\nPhysical arcade buttons wired to Project Thanos approval gates"
@@ -1440,10 +1440,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Nostalgic 1980s tabletop mini-arcade cabinet with warm amber/teal CRT sprite expressions."
       },
       "11": {
-        "text": "Idea Brief for Arcade Physical Companion (OV-10): Miniature retro arcade cabinet desktop companion (<$20 ESP32-S3 BOM) with animated IPS face, I2S audio, and physical buttons that react to live AI agent build/test telemetry. Next Action: Finalize ESP32-S3 BOM component order list and prototype animated display firmware."
+        "text": "Idea Brief for Arcade Physical Companion (OV-10): Miniature retro arcade cabinet desktop companion (<$20 ESP32-S3 BOM) with animated IPS face, I2S audio, and physical buttons that react to live AI agent build/test telemetry. Next Action: Finalize ESP32-S3 BOM order list and prototype animated IPS firmware."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Finalize ESP32-S3 BOM component order list and prototype animated display firmware."
+        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Finalize ESP32-S3 BOM order list and prototype animated IPS firmware."
       }
     },
     "resolved": {
@@ -1460,7 +1460,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Miniature retro arcade cabinet desktop companion (<$20 ESP32-S3 BOM) with animated IPS face, I2S audio, and physical buttons that react to live AI agent build/test telemetry.",
-      "workingIdea": "Miniature retro arcade cabinet desktop hardware companion (<$20 ESP32-S3 BOM) with IPS face.",
+      "workingIdea": "Miniature retro arcade desktop hardware companion (<$20 ESP32-S3 BOM).",
       "aiGeneratedVersion": "Miniature retro arcade cabinet desktop companion (<$20 ESP32-S3 BOM) with animated IPS face, I2S audio, and physical buttons that react to live AI agent build/test telemetry.",
       "confirmedVersion": "Miniature retro arcade cabinet desktop companion (<$20 ESP32-S3 BOM) with animated IPS face, I2S audio, and physical buttons that react to live AI agent build/test telemetry.",
       "status": "resolved",
@@ -1495,7 +1495,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-10)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-10] Arcade Physical Companion — Next Action: Finalize ESP32-S3 BOM component order list and prototype animated display firmware. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-10] Arcade Physical Companion — Next Action: Finalize ESP32-S3 BOM order list and prototype animated IPS firmware. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/arcade-companion",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -1511,7 +1511,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": false
         },
         {
-          "text": "Execute Next Action: Finalize ESP32-S3 BOM component order list and prototype animated display firmware.",
+          "text": "Execute Next Action: Finalize ESP32-S3 BOM order list and prototype animated IPS firmware.",
           "done": false
         }
       ],
@@ -1547,7 +1547,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23ba7253%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ba7253%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23edbd70%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23edbd70%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23ba7253%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-10%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%201%20Idea%20%C2%B7%20%26lt%3B%2420%20ESP32-S3%20BOM%20Verif%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EArcade%20Companion%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EMiniature%20retro%20arcade%20cabinet%20desktop%20hardware%20comp%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2232%22%20y%3D%2254%22%20width%3D%22104%22%20height%3D%2262%22%20rx%3D%2220%22%20fill%3D%22none%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2273%22%20x2%3D%2258%22%20y2%3D%2297%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2246%22%20y1%3D%2285%22%20x2%3D%2270%22%20y2%3D%2285%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22106%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23edbd70%22%2F%3E%3Ccircle%20cx%3D%22118%22%20cy%3D%2291%22%20r%3D%226%22%20fill%3D%22%2334d399%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-arcade-companion.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -1570,7 +1570,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-07",
     "name": "The Bridge & Passkey API Wallet",
     "productName": "The Bridge",
-    "subtitle": "Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (<15ms SQLite WAL) + API Wallet.",
+    "subtitle": "Sovereign multi-account Google OAuth, Windows DPAPI TokenVault & API Wallet.",
     "projectDescription": "Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (127.0.0.1:8777, <15ms SQLite WAL cache) + zero-scroll connection deck and cross-device one-click API key wallet.",
     "problem": "Managing OAuth tokens and API keys across 12+ Google accounts and multiple coding agents causes constant token expiration, plaintext .env leaks, and repetitive login friction.",
     "audience": "Multi-account founders, autonomous agent operators, and security-conscious developers on Windows and mobile.",
@@ -1582,7 +1582,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "Claude Code"
     ],
-    "nextAction": "Toggle Google Cloud OAuth is_agentic MCP flag before Nov 11, 2026 and complete 12-account zero-scroll deck.",
+    "nextAction": "Toggle Google OAuth is_agentic MCP flag and finish 12-account zero-scroll deck.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\hermes_google_bridge",
     "repoUrl": "https://github.com/NewSamBellamy/hermes_google_bridge",
     "liveUrl": "",
@@ -1612,7 +1612,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Localhost 8777 DPAPI TokenVault daemon + zero-scroll 12-account connection deck with one-click masked API key copy."
       },
       "7": {
-        "text": "The Bridge (OV-07): Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (<15ms SQLite WAL) + API Wallet. Connects Multi-account founders, autonomous agent operators, and security-conscious developers on Windows and mobile. to a verified workflow."
+        "text": "The Bridge (OV-07): Sovereign multi-account Google OAuth, Windows DPAPI TokenVault & API Wallet. Connects Multi-account founders, autonomous agent operators, and security-conscious developers on Windows and mobile. to a verified workflow."
       },
       "8": {
         "text": "Windows DPAPI hardware-bound TokenVault encryption\nSub-15ms SQLite WAL token cache & auto-refresh loop\n12-account Google Workspace/Keep/Drive OAuth bridge\nOne-click API key wallet for desktop and phone handoff"
@@ -1624,10 +1624,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Zero-scroll dark security enclave deck with green pulse health telemetry."
       },
       "11": {
-        "text": "Idea Brief for The Bridge & Passkey API Wallet (OV-07): Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (127.0.0.1:8777, <15ms SQLite WAL cache) + zero-scroll connection deck and cross-device one-click API key wallet. Next Action: Toggle Google Cloud OAuth is_agentic MCP flag before Nov 11, 2026 and complete 12-account zero-scroll deck."
+        "text": "Idea Brief for The Bridge & Passkey API Wallet (OV-07): Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (127.0.0.1:8777, <15ms SQLite WAL cache) + zero-scroll connection deck and cross-device one-click API key wallet. Next Action: Toggle Google OAuth is_agentic MCP flag and finish 12-account zero-scroll deck."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Toggle Google Cloud OAuth is_agentic MCP flag before Nov 11, 2026 and complete 12-account zero-scroll deck."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Toggle Google OAuth is_agentic MCP flag and finish 12-account zero-scroll deck."
       }
     },
     "resolved": {
@@ -1647,7 +1647,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (127.0.0.1:8777, <15ms SQLite WAL cache) + zero-scroll connection deck and cross-device one-click API key wallet.",
-      "workingIdea": "Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (<15ms SQLite WAL) + API Wallet.",
+      "workingIdea": "Sovereign multi-account Google OAuth, Windows DPAPI TokenVault & API Wallet.",
       "aiGeneratedVersion": "Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (127.0.0.1:8777, <15ms SQLite WAL cache) + zero-scroll connection deck and cross-device one-click API key wallet.",
       "confirmedVersion": "Sovereign multi-account Google OAuth & Windows DPAPI TokenVault (127.0.0.1:8777, <15ms SQLite WAL cache) + zero-scroll connection deck and cross-device one-click API key wallet.",
       "status": "resolved",
@@ -1691,7 +1691,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-07)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-07] The Bridge & Passkey API Wallet — Next Action: Toggle Google Cloud OAuth is_agentic MCP flag before Nov 11, 2026 and complete 12-account zero-scroll deck. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-07] The Bridge & Passkey API Wallet — Next Action: Toggle Google OAuth is_agentic MCP flag and finish 12-account zero-scroll deck. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/hermes_google_bridge",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -1707,7 +1707,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Toggle Google Cloud OAuth is_agentic MCP flag before Nov 11, 2026 and complete 12-account zero-scroll deck.",
+          "text": "Execute Next Action: Toggle Google OAuth is_agentic MCP flag and finish 12-account zero-scroll deck.",
           "done": false
         }
       ],
@@ -1743,7 +1743,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%234ade80%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23539c76%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%234ade80%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-07%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3E18%2F18%20Tests%20Green%20%C2%B7%20DPAPI%20Enclave%20Acti%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EThe%20Bridge%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ESovereign%20multi-account%20Google%20OAuth%20%26amp%3B%20Windows%20DPAPI%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%234ade80%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M84%2032%20L128%2050%20V86%20C128%20114%20106%20132%2084%20140%20C62%20132%2040%20114%2040%2086%20V50%20Z%22%20fill%3D%22none%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%224%22%2F%3E%3Cpolyline%20points%3D%2266%2C86%2079%2C100%20104%2C70%22%20fill%3D%22none%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-the-bridge.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -1766,7 +1766,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-14",
     "name": "OpenConnector",
     "productName": "OpenConnector",
-    "subtitle": "Self-hosted auth gateway exposing 1,500+ third-party apps to the agent fleet via MCP.",
+    "subtitle": "Self-hosted auth gateway exposing 1,500+ apps to the agent fleet via MCP.",
     "projectDescription": "Self-hosted authentication and tool-routing gateway (port 3050 / Cloudflare Workers) exposing 1,500+ third-party SaaS apps to the autonomous agent fleet via standardized MCP endpoints.",
     "problem": "Connecting autonomous agents to dozens of SaaS APIs (Slack, Notion, GitHub, Stripe, Linear, Gmail) requires custom OAuth plumbing and per-seat Composio/Zapier fees.",
     "audience": "Autonomous agent engineers and enterprise workflow builders needing sovereign multi-app MCP connectivity.",
@@ -1777,7 +1777,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "Claude Code"
     ],
-    "nextAction": "Deploy to Cloudflare Workers under OmniVeo enterprise domain.",
+    "nextAction": "Deploy OpenConnector to Cloudflare Workers under OmniVeo enterprise domain.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\open-connector",
     "repoUrl": "https://github.com/NewSamBellamy/open-connector",
     "liveUrl": "",
@@ -1807,7 +1807,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Unified MCP gateway server on port 3050 with pre-built OAuth templates for 1,500+ SaaS APIs."
       },
       "7": {
-        "text": "OpenConnector (OV-14): Self-hosted auth gateway exposing 1,500+ third-party apps to the agent fleet via MCP. Connects Autonomous agent engineers and enterprise workflow builders needing sovereign multi-app MCP connectivity. to a verified workflow."
+        "text": "OpenConnector (OV-14): Self-hosted auth gateway exposing 1,500+ apps to the agent fleet via MCP. Connects Autonomous agent engineers and enterprise workflow builders needing sovereign multi-app MCP connectivity. to a verified workflow."
       },
       "8": {
         "text": "1,500+ pre-configured SaaS OAuth & API definitions\nStandardized Model Context Protocol (MCP) tool generation\nSelf-hosted port 3050 & Cloudflare Workers edge deployment\nScoped per-agent permission boundaries"
@@ -1819,10 +1819,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Clean API router matrix with instant search and connection status pills."
       },
       "11": {
-        "text": "Idea Brief for OpenConnector (OV-14): Self-hosted authentication and tool-routing gateway (port 3050 / Cloudflare Workers) exposing 1,500+ third-party SaaS apps to the autonomous agent fleet via standardized MCP endpoints. Next Action: Deploy to Cloudflare Workers under OmniVeo enterprise domain."
+        "text": "Idea Brief for OpenConnector (OV-14): Self-hosted authentication and tool-routing gateway (port 3050 / Cloudflare Workers) exposing 1,500+ third-party SaaS apps to the autonomous agent fleet via standardized MCP endpoints. Next Action: Deploy OpenConnector to Cloudflare Workers under OmniVeo enterprise domain."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Deploy to Cloudflare Workers under OmniVeo enterprise domain."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Deploy OpenConnector to Cloudflare Workers under OmniVeo enterprise domain."
       }
     },
     "resolved": {
@@ -1842,7 +1842,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Self-hosted authentication and tool-routing gateway (port 3050 / Cloudflare Workers) exposing 1,500+ third-party SaaS apps to the autonomous agent fleet via standardized MCP endpoints.",
-      "workingIdea": "Self-hosted auth gateway exposing 1,500+ third-party apps to the agent fleet via MCP.",
+      "workingIdea": "Self-hosted auth gateway exposing 1,500+ apps to the agent fleet via MCP.",
       "aiGeneratedVersion": "Self-hosted authentication and tool-routing gateway (port 3050 / Cloudflare Workers) exposing 1,500+ third-party SaaS apps to the autonomous agent fleet via standardized MCP endpoints.",
       "confirmedVersion": "Self-hosted authentication and tool-routing gateway (port 3050 / Cloudflare Workers) exposing 1,500+ third-party SaaS apps to the autonomous agent fleet via standardized MCP endpoints.",
       "status": "resolved",
@@ -1877,7 +1877,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-14)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-14] OpenConnector — Next Action: Deploy to Cloudflare Workers under OmniVeo enterprise domain. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-14] OpenConnector — Next Action: Deploy OpenConnector to Cloudflare Workers under OmniVeo enterprise domain. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/open-connector",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -1893,7 +1893,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Deploy to Cloudflare Workers under OmniVeo enterprise domain.",
+          "text": "Execute Next Action: Deploy OpenConnector to Cloudflare Workers under OmniVeo enterprise domain.",
           "done": true
         }
       ],
@@ -1929,7 +1929,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236d83bd%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%236d83bd%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2360a5fa%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2360a5fa%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%236d83bd%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2360a5fa%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2360a5fa%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-14%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%203%20MVP%20%C2%B7%201%2C500%2B%20App%20Connectors%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EOpenConnector%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ESelf-hosted%20auth%20gateway%20exposing%201%2C500%2B%20third-party%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2360a5fa%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2360a5fa%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2252%22%20cy%3D%2254%22%20r%3D%2212%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22118%22%20cy%3D%2262%22%20r%3D%2214%22%20fill%3D%22%23edbd70%22%2F%3E%3Ccircle%20cx%3D%2278%22%20cy%3D%22116%22%20r%3D%2216%22%20fill%3D%22%234ade80%22%2F%3E%3Cline%20x1%3D%2262%22%20y1%3D%2258%22%20x2%3D%22104%22%20y2%3D%2262%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2265%22%20x2%3D%2272%22%20y2%3D%22102%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%22110%22%20y1%3D%2274%22%20x2%3D%2288%22%20y2%3D%22104%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222.5%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-open-connector.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -1952,7 +1952,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-16",
     "name": "Hermes Watchtower & Talos Sentinel",
     "productName": "Hermes Watchtower",
-    "subtitle": "Fleet security sentinel, daemon health monitor (:5188), and credential quarantine boundary.",
+    "subtitle": "Fleet security sentinel, daemon monitor (:5188) & secret quarantine gate.",
     "projectDescription": "Fleet security sentinel, daemon health monitor (:5188), and credential quarantine boundary auditing autonomous coding diffs, port health, and secret boundaries in real time.",
     "problem": "Unmonitored background daemons and autonomous coding agents can silently crash, drift off-spec, or accidentally stage sensitive tokens in git commits.",
     "audience": "Multi-agent fleet operators and security engineers running 24/7 local and cloud daemons.",
@@ -1993,7 +1993,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Port :5188 Watchtower dashboard + Talos pre-commit secret auditor and daemon auto-restart sentinel."
       },
       "7": {
-        "text": "Hermes Watchtower (OV-16): Fleet security sentinel, daemon health monitor (:5188), and credential quarantine boundary. Connects Multi-agent fleet operators and security engineers running 24/7 local and cloud daemons. to a verified workflow."
+        "text": "Hermes Watchtower (OV-16): Fleet security sentinel, daemon monitor (:5188) & secret quarantine gate. Connects Multi-agent fleet operators and security engineers running 24/7 local and cloud daemons. to a verified workflow."
       },
       "8": {
         "text": "Real-time port & daemon health telemetry (:5188)\nTalos Sentinel pre-commit secret & token leak quarantine\nAutomated daemon recovery & zombie process cleanup\nTelegram executive alert webhook integration"
@@ -2028,7 +2028,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Fleet security sentinel, daemon health monitor (:5188), and credential quarantine boundary auditing autonomous coding diffs, port health, and secret boundaries in real time.",
-      "workingIdea": "Fleet security sentinel, daemon health monitor (:5188), and credential quarantine boundary.",
+      "workingIdea": "Fleet security sentinel, daemon monitor (:5188) & secret quarantine gate.",
       "aiGeneratedVersion": "Fleet security sentinel, daemon health monitor (:5188), and credential quarantine boundary auditing autonomous coding diffs, port health, and secret boundaries in real time.",
       "confirmedVersion": "Fleet security sentinel, daemon health monitor (:5188), and credential quarantine boundary auditing autonomous coding diffs, port health, and secret boundaries in real time.",
       "status": "resolved",
@@ -2124,7 +2124,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%234ade80%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23539c76%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%234ade80%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-16%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%203%20MVP%20%C2%B7%20Port%20%3A5188%20Sentinel%20Acti%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EHermes%20Watchtower%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EFleet%20security%20sentinel%2C%20daemon%20health%20monitor%20%28%3A518%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%234ade80%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M84%2032%20L128%2050%20V86%20C128%20114%20106%20132%2084%20140%20C62%20132%2040%20114%2040%2086%20V50%20Z%22%20fill%3D%22none%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%224%22%2F%3E%3Cpolyline%20points%3D%2266%2C86%2079%2C100%20104%2C70%22%20fill%3D%22none%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-hermes-watchtower.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -2147,7 +2147,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-24",
     "name": "Project Argo 3.0 & Jarvis Protocol",
     "productName": "Project Argo",
-    "subtitle": "Deterministic multi-agent software factory with 5-part Meta-Prompt contracts & 274 specialists.",
+    "subtitle": "Deterministic multi-agent software factory with 274 specialist personas.",
     "projectDescription": "Deterministic multi-agent software factory replacing conversational LLM drift with strict 5-part Meta-Prompt contracts ([ROLE], [OBJECTIVE], [CONSTRAINTS], [TARGET FILES], [VERIFICATION]), The Agency's 274 specialist personas, and Zero Cash Burn Sovereignty.",
     "problem": "Long conversational coding sessions suffer from context rot, hallucinated file paths, and untested code merges.",
     "audience": "Principal engineers, AI architects, and solo founders operating autonomous software factories.",
@@ -2159,7 +2159,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Desktop Hub"
     ],
-    "nextAction": "Complete Temporal Cloud durable execution spike for fault-tolerant cross-agent handoffs.",
+    "nextAction": "Complete Temporal Cloud durable execution spike for cross-agent handoffs.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\AGENTS.md",
     "repoUrl": "https://github.com/NewSamBellamy/project-argo",
     "liveUrl": "",
@@ -2189,7 +2189,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Morgan Meta-Organizer + 274 Agency Specialist Registry + strict RED-GREEN-REFACTOR verification gate."
       },
       "7": {
-        "text": "Project Argo (OV-24): Deterministic multi-agent software factory with 5-part Meta-Prompt contracts & 274 specialists. Connects Principal engineers, AI architects, and solo founders operating autonomous software factories. to a verified workflow."
+        "text": "Project Argo (OV-24): Deterministic multi-agent software factory with 274 specialist personas. Connects Principal engineers, AI architects, and solo founders operating autonomous software factories. to a verified workflow."
       },
       "8": {
         "text": "5-part deterministic Meta-Prompt delegation contract\nRegistry of 274 specialized engineering, design & FinOps agents\nJarvis Protocol zero-cash-burn model routing\nMandatory terminal test & git diff verification gates"
@@ -2201,10 +2201,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Structured architectural blueprint and deterministic state-machine pipeline."
       },
       "11": {
-        "text": "Idea Brief for Project Argo 3.0 & Jarvis Protocol (OV-24): Deterministic multi-agent software factory replacing conversational LLM drift with strict 5-part Meta-Prompt contracts ([ROLE], [OBJECTIVE], [CONSTRAINTS], [TARGET FILES], [VERIFICATION]), The Agency's 274 specialist personas, and Zero Cash Burn Sovereignty. Next Action: Complete Temporal Cloud durable execution spike for fault-tolerant cross-agent handoffs."
+        "text": "Idea Brief for Project Argo 3.0 & Jarvis Protocol (OV-24): Deterministic multi-agent software factory replacing conversational LLM drift with strict 5-part Meta-Prompt contracts ([ROLE], [OBJECTIVE], [CONSTRAINTS], [TARGET FILES], [VERIFICATION]), The Agency's 274 specialist personas, and Zero Cash Burn Sovereignty. Next Action: Complete Temporal Cloud durable execution spike for cross-agent handoffs."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Complete Temporal Cloud durable execution spike for fault-tolerant cross-agent handoffs."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Complete Temporal Cloud durable execution spike for cross-agent handoffs."
       }
     },
     "resolved": {
@@ -2224,7 +2224,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Deterministic multi-agent software factory replacing conversational LLM drift with strict 5-part Meta-Prompt contracts ([ROLE], [OBJECTIVE], [CONSTRAINTS], [TARGET FILES], [VERIFICATION]), The Agency's 274 specialist personas, and Zero Cash Burn Sovereignty.",
-      "workingIdea": "Deterministic multi-agent software factory with 5-part Meta-Prompt contracts & 274 specialists.",
+      "workingIdea": "Deterministic multi-agent software factory with 274 specialist personas.",
       "aiGeneratedVersion": "Deterministic multi-agent software factory replacing conversational LLM drift with strict 5-part Meta-Prompt contracts ([ROLE], [OBJECTIVE], [CONSTRAINTS], [TARGET FILES], [VERIFICATION]), The Agency's 274 specialist personas, and Zero Cash Burn Sovereignty.",
       "confirmedVersion": "Deterministic multi-agent software factory replacing conversational LLM drift with strict 5-part Meta-Prompt contracts ([ROLE], [OBJECTIVE], [CONSTRAINTS], [TARGET FILES], [VERIFICATION]), The Agency's 274 specialist personas, and Zero Cash Burn Sovereignty.",
       "status": "resolved",
@@ -2259,7 +2259,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-24)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-24] Project Argo 3.0 & Jarvis Protocol — Next Action: Complete Temporal Cloud durable execution spike for fault-tolerant cross-agent handoffs. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-24] Project Argo 3.0 & Jarvis Protocol — Next Action: Complete Temporal Cloud durable execution spike for cross-agent handoffs. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/project-argo",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -2275,7 +2275,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Complete Temporal Cloud durable execution spike for fault-tolerant cross-agent handoffs.",
+          "text": "Execute Next Action: Complete Temporal Cloud durable execution spike for cross-agent handoffs.",
           "done": true
         }
       ],
@@ -2311,7 +2311,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23fbbf24%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23fbbf24%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23cf6c2c%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-24%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%203%20MVP%20%C2%B7%20274%20Specialist%20Personas%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EProject%20Argo%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EDeterministic%20multi-agent%20software%20factory%20with%205-pa%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%2250%22%20fill%3D%22none%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2284%2C46%2098%2C84%2084%2C122%2070%2C84%22%20fill%3D%22none%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%226%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-project-argo.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -2334,7 +2334,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-25",
     "name": "AuraLux (The Ghost Layer)",
     "productName": "AuraLux",
-    "subtitle": "Ambient screen-orchestrating Ghost Layer mentor across the 5 Pillars of Presence.",
+    "subtitle": "Ambient screen-orchestrating Ghost Layer mentor across 5 Pillars of Presence.",
     "projectDescription": "Ambient screen-orchestrating 'Ghost Layer' mentor that sees your active viewport and guides complex creative and engineering workflows in real time (Action-Vision Desktop Agents, Ring Attention Total Recall, Spatial Overlays, 8K Asset Fabric).",
     "problem": "Users learning complex creative or engineering tools must constantly leave their workspace to watch tutorials or paste screenshots into chat windows.",
     "audience": "Creators, designers, and engineers working inside complex desktop applications.",
@@ -2345,7 +2345,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Google AI Studio",
       "Google Keep"
     ],
-    "nextAction": "Merge AuraLux Ghost Layer visual overlay specs into Lumen + Project Thanos desktop HUD.",
+    "nextAction": "Merge AuraLux Ghost Layer overlay specs into Lumen + Project Thanos HUD.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\Gemini-Intelligence-Vault",
     "repoUrl": "",
     "liveUrl": "",
@@ -2375,7 +2375,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Click-through desktop Ghost Layer overlay that renders contextual visual pointers over the active application window."
       },
       "7": {
-        "text": "AuraLux (OV-25): Ambient screen-orchestrating Ghost Layer mentor across the 5 Pillars of Presence. Connects Creators, designers, and engineers working inside complex desktop applications. to a verified workflow."
+        "text": "AuraLux (OV-25): Ambient screen-orchestrating Ghost Layer mentor across 5 Pillars of Presence. Connects Creators, designers, and engineers working inside complex desktop applications. to a verified workflow."
       },
       "8": {
         "text": "Action-Vision viewport understanding & UI element targeting\nClick-through transparent Ghost Layer visual pointers\nRing Attention long-horizon workflow memory\nSeamless integration with Lumen voice HUD"
@@ -2387,10 +2387,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Ethereal luminous HUD overlays that appear only when summoned and never block clicks."
       },
       "11": {
-        "text": "Idea Brief for AuraLux (The Ghost Layer) (OV-25): Ambient screen-orchestrating 'Ghost Layer' mentor that sees your active viewport and guides complex creative and engineering workflows in real time (Action-Vision Desktop Agents, Ring Attention Total Recall, Spatial Overlays, 8K Asset Fabric). Next Action: Merge AuraLux Ghost Layer visual overlay specs into Lumen + Project Thanos desktop HUD."
+        "text": "Idea Brief for AuraLux (The Ghost Layer) (OV-25): Ambient screen-orchestrating 'Ghost Layer' mentor that sees your active viewport and guides complex creative and engineering workflows in real time (Action-Vision Desktop Agents, Ring Attention Total Recall, Spatial Overlays, 8K Asset Fabric). Next Action: Merge AuraLux Ghost Layer overlay specs into Lumen + Project Thanos HUD."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Merge AuraLux Ghost Layer visual overlay specs into Lumen + Project Thanos desktop HUD."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Merge AuraLux Ghost Layer overlay specs into Lumen + Project Thanos HUD."
       }
     },
     "resolved": {
@@ -2410,7 +2410,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Ambient screen-orchestrating 'Ghost Layer' mentor that sees your active viewport and guides complex creative and engineering workflows in real time (Action-Vision Desktop Agents, Ring Attention Total Recall, Spatial Overlays, 8K Asset Fabric).",
-      "workingIdea": "Ambient screen-orchestrating Ghost Layer mentor across the 5 Pillars of Presence.",
+      "workingIdea": "Ambient screen-orchestrating Ghost Layer mentor across 5 Pillars of Presence.",
       "aiGeneratedVersion": "Ambient screen-orchestrating 'Ghost Layer' mentor that sees your active viewport and guides complex creative and engineering workflows in real time (Action-Vision Desktop Agents, Ring Attention Total Recall, Spatial Overlays, 8K Asset Fabric).",
       "confirmedVersion": "Ambient screen-orchestrating 'Ghost Layer' mentor that sees your active viewport and guides complex creative and engineering workflows in real time (Action-Vision Desktop Agents, Ring Attention Total Recall, Spatial Overlays, 8K Asset Fabric).",
       "status": "resolved",
@@ -2445,7 +2445,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-25)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-25] AuraLux (The Ghost Layer) — Next Action: Merge AuraLux Ghost Layer visual overlay specs into Lumen + Project Thanos desktop HUD. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-25] AuraLux (The Ghost Layer) — Next Action: Merge AuraLux Ghost Layer overlay specs into Lumen + Project Thanos HUD. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -2461,7 +2461,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Merge AuraLux Ghost Layer visual overlay specs into Lumen + Project Thanos desktop HUD.",
+          "text": "Execute Next Action: Merge AuraLux Ghost Layer overlay specs into Lumen + Project Thanos HUD.",
           "done": false
         }
       ],
@@ -2497,7 +2497,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23c084fc%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23c084fc%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%238672c5%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23c084fc%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-25%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20186%20NotebookLM%20Fil%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EAuraLux%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EAmbient%20screen-orchestrating%20Ghost%20Layer%20mentor%20acro%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23c084fc%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2230%22%20y%3D%2258%22%20width%3D%22108%22%20height%3D%2252%22%20rx%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%232dd4bf%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20d%3D%22M72%20110%20L84%2096%20L96%20110%22%20fill%3D%22none%22%20stroke%3D%22%232dd4bf%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2284%22%20r%3D%2211%22%20fill%3D%22%232dd4bf%22%20opacity%3D%220.5%22%2F%3E%3Ccircle%20cx%3D%22108%22%20cy%3D%2284%22%20r%3D%2211%22%20fill%3D%22%232dd4bf%22%20opacity%3D%220.5%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-auralux.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -2520,7 +2520,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-18",
     "name": "Lidenbrock",
     "productName": "Lidenbrock",
-    "subtitle": "Deep codebase exploration and interactive AST knowledge graph visualization engine.",
+    "subtitle": "Deep codebase exploration and interactive AST knowledge graph engine.",
     "projectDescription": "Deep codebase exploration and interactive AST knowledge graph visualization engine powered by graphify, mapping god nodes, community clusters, and cross-file dependencies.",
     "problem": "Jumping into large or unfamiliar repositories requires hours of raw grep searches and file hopping to understand architecture and blast radius.",
     "audience": "Software architects, onboarding engineers, and autonomous coding agents navigating complex repos.",
@@ -2531,7 +2531,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Claude Code"
     ],
-    "nextAction": "Wire Lidenbrock graph queries into live repository indexing runs.",
+    "nextAction": "Wire Lidenbrock AST graph queries into live repository indexing runs.",
     "localPath": "C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\product ideas\\18_Lidenbrock",
     "repoUrl": "https://github.com/NewSamBellamy/lidenbrock",
     "liveUrl": "",
@@ -2561,7 +2561,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Interactive AST dependency graph explorer and CLI query bridge (`graphify query / path / explain`)."
       },
       "7": {
-        "text": "Lidenbrock (OV-18): Deep codebase exploration and interactive AST knowledge graph visualization engine. Connects Software architects, onboarding engineers, and autonomous coding agents navigating complex repos. to a verified workflow."
+        "text": "Lidenbrock (OV-18): Deep codebase exploration and interactive AST knowledge graph engine. Connects Software architects, onboarding engineers, and autonomous coding agents navigating complex repos. to a verified workflow."
       },
       "8": {
         "text": "AST-based god node & community cluster detection\nInteractive force-directed repository knowledge graph\nShortest-path cross-file relationship tracer\nZero-API-cost incremental AST graph updates"
@@ -2573,10 +2573,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Subterranean cartography aesthetic with glowing node constellations and clean code inspector panes."
       },
       "11": {
-        "text": "Idea Brief for Lidenbrock (OV-18): Deep codebase exploration and interactive AST knowledge graph visualization engine powered by graphify, mapping god nodes, community clusters, and cross-file dependencies. Next Action: Wire Lidenbrock graph queries into live repository indexing runs."
+        "text": "Idea Brief for Lidenbrock (OV-18): Deep codebase exploration and interactive AST knowledge graph visualization engine powered by graphify, mapping god nodes, community clusters, and cross-file dependencies. Next Action: Wire Lidenbrock AST graph queries into live repository indexing runs."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Wire Lidenbrock graph queries into live repository indexing runs."
+        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Wire Lidenbrock AST graph queries into live repository indexing runs."
       }
     },
     "resolved": {
@@ -2592,7 +2592,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Deep codebase exploration and interactive AST knowledge graph visualization engine powered by graphify, mapping god nodes, community clusters, and cross-file dependencies.",
-      "workingIdea": "Deep codebase exploration and interactive AST knowledge graph visualization engine.",
+      "workingIdea": "Deep codebase exploration and interactive AST knowledge graph engine.",
       "aiGeneratedVersion": "Deep codebase exploration and interactive AST knowledge graph visualization engine powered by graphify, mapping god nodes, community clusters, and cross-file dependencies.",
       "confirmedVersion": "Deep codebase exploration and interactive AST knowledge graph visualization engine powered by graphify, mapping god nodes, community clusters, and cross-file dependencies.",
       "status": "resolved",
@@ -2627,7 +2627,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-18)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-18] Lidenbrock — Next Action: Wire Lidenbrock graph queries into live repository indexing runs. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-18] Lidenbrock — Next Action: Wire Lidenbrock AST graph queries into live repository indexing runs. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/lidenbrock",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -2643,7 +2643,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": false
         },
         {
-          "text": "Execute Next Action: Wire Lidenbrock graph queries into live repository indexing runs.",
+          "text": "Execute Next Action: Wire Lidenbrock AST graph queries into live repository indexing runs.",
           "done": false
         }
       ],
@@ -2679,7 +2679,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2338bdf8%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2338bdf8%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23358eaa%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-18%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%201%20Idea%20%C2%B7%20AST%20Graphify%20Engine%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3ELidenbrock%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EDeep%20codebase%20exploration%20and%20interactive%20AST%20knowle%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2252%22%20cy%3D%2254%22%20r%3D%2212%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22118%22%20cy%3D%2262%22%20r%3D%2214%22%20fill%3D%22%23edbd70%22%2F%3E%3Ccircle%20cx%3D%2278%22%20cy%3D%22116%22%20r%3D%2216%22%20fill%3D%22%234ade80%22%2F%3E%3Cline%20x1%3D%2262%22%20y1%3D%2258%22%20x2%3D%22104%22%20y2%3D%2262%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2265%22%20x2%3D%2272%22%20y2%3D%22102%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%22110%22%20y1%3D%2274%22%20x2%3D%2288%22%20y2%3D%22104%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222.5%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-lidenbrock.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -2702,7 +2702,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-03",
     "name": "OmniDirector & Popcorn Video Stack",
     "productName": "OmniDirector",
-    "subtitle": "13-step headless media factory & 1.0x real-time anime cel dubbing engine (48kHz Stereo AAC).",
+    "subtitle": "13-step headless media factory & 1.0x real-time anime cel dubbing engine.",
     "projectDescription": "13-step headless media factory & 1.0x real-time anime cel dubbing engine (48kHz Stereo AAC, zero AI slop) built on the open-source Popcorn Video Stack and Melies BYOK unit economics.",
     "problem": "AI video tools produce uneditable 5-second clips with robotic audio, drifting character consistency, and exorbitant per-minute SaaS credit markups.",
     "audience": "Indie animation studios, YouTube creators, dubbing directors, and transmedia storytellers.",
@@ -2744,7 +2744,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Local Founder Cockpit (ports 3000/8000) driving the 13-step headless video & 1.0x anime dubbing pipeline."
       },
       "7": {
-        "text": "OmniDirector (OV-03): 13-step headless media factory & 1.0x real-time anime cel dubbing engine (48kHz Stereo AAC). Connects Indie animation studios, YouTube creators, dubbing directors, and transmedia storytellers. to a verified workflow."
+        "text": "OmniDirector (OV-03): 13-step headless media factory & 1.0x real-time anime cel dubbing engine. Connects Indie animation studios, YouTube creators, dubbing directors, and transmedia storytellers. to a verified workflow."
       },
       "8": {
         "text": "13-step deterministic script-to-final-cut media pipeline\n1.0x real-time anime cel lip-sync & dubbing engine\n48kHz Stereo AAC broadcast audio mastering\nBYOK Melies unit economics tracker"
@@ -2779,7 +2779,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "13-step headless media factory & 1.0x real-time anime cel dubbing engine (48kHz Stereo AAC, zero AI slop) built on the open-source Popcorn Video Stack and Melies BYOK unit economics.",
-      "workingIdea": "13-step headless media factory & 1.0x real-time anime cel dubbing engine (48kHz Stereo AAC).",
+      "workingIdea": "13-step headless media factory & 1.0x real-time anime cel dubbing engine.",
       "aiGeneratedVersion": "13-step headless media factory & 1.0x real-time anime cel dubbing engine (48kHz Stereo AAC, zero AI slop) built on the open-source Popcorn Video Stack and Melies BYOK unit economics.",
       "confirmedVersion": "13-step headless media factory & 1.0x real-time anime cel dubbing engine (48kHz Stereo AAC, zero AI slop) built on the open-source Popcorn Video Stack and Melies BYOK unit economics.",
       "status": "resolved",
@@ -2875,7 +2875,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d76883%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23d76883%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23f87171%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23f87171%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23d76883%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23f87171%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-03%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20-%26gt%3B%203%20MVP%20%C2%B7%2013-Step%20Media%20Facto%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EOmniDirector%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3E13-step%20headless%20media%20factory%20%26amp%3B%201.0x%20real-time%20anim%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23f87171%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2234%22%20y%3D%2246%22%20width%3D%2280%22%20height%3D%2276%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%22116%2C70%20140%2C54%20140%2C114%20116%2C98%22%20fill%3D%22none%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2266%2C70%2066%2C98%2092%2C84%22%20fill%3D%22%23edbd70%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-omnidirector.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -2898,7 +2898,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-13",
     "name": "OpenChatCut",
     "productName": "OpenChatCut",
-    "subtitle": "Conversational chat-to-video editor with automated silence trimming, captions & 9:16 reframing.",
+    "subtitle": "Conversational chat-to-video editor with silence trimming & 9:16 reframing.",
     "projectDescription": "Conversational chat-to-video editor (Remotion + FFmpeg) with automated silence trimming, animated kinetic captions, and 9:16 social clip reframing via natural language prompts.",
     "problem": "Editing raw talking-head and screen-recorded footage in timeline NLEs takes hours of tedious silence cutting, caption keyframing, and aspect-ratio cropping.",
     "audience": "Founders, educators, and social media creators publishing daily vertical shorts and product demos.",
@@ -2909,7 +2909,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Claude Code"
     ],
-    "nextAction": "Connect OpenChatCut trimming engine with OmniDirector vertical short exporter.",
+    "nextAction": "Connect OpenChatCut trimming engine with OmniDirector vertical exporter.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\OpenChatCut",
     "repoUrl": "https://github.com/NewSamBellamy/openchatcut",
     "liveUrl": "",
@@ -2939,7 +2939,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Local chat-driven video editor that ingests MP4s, strips dead air via FFmpeg, and renders 9:16 Remotion shorts."
       },
       "7": {
-        "text": "OpenChatCut (OV-13): Conversational chat-to-video editor with automated silence trimming, captions & 9:16 reframing. Connects Founders, educators, and social media creators publishing daily vertical shorts and product demos. to a verified workflow."
+        "text": "OpenChatCut (OV-13): Conversational chat-to-video editor with silence trimming & 9:16 reframing. Connects Founders, educators, and social media creators publishing daily vertical shorts and product demos. to a verified workflow."
       },
       "8": {
         "text": "Natural language chat-to-FFmpeg timeline editing\nAutomated dead-air and filler-word silence stripping\nProgrammatic Remotion kinetic caption overlays\nSmart 16:9 to 9:16 active-speaker reframing"
@@ -2951,10 +2951,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Split-screen conversational prompt rail alongside a live 9:16 vertical video preview player."
       },
       "11": {
-        "text": "Idea Brief for OpenChatCut (OV-13): Conversational chat-to-video editor (Remotion + FFmpeg) with automated silence trimming, animated kinetic captions, and 9:16 social clip reframing via natural language prompts. Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical short exporter."
+        "text": "Idea Brief for OpenChatCut (OV-13): Conversational chat-to-video editor (Remotion + FFmpeg) with automated silence trimming, animated kinetic captions, and 9:16 social clip reframing via natural language prompts. Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical exporter."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical short exporter."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical exporter."
       }
     },
     "resolved": {
@@ -2974,7 +2974,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Conversational chat-to-video editor (Remotion + FFmpeg) with automated silence trimming, animated kinetic captions, and 9:16 social clip reframing via natural language prompts.",
-      "workingIdea": "Conversational chat-to-video editor with automated silence trimming, captions & 9:16 reframing.",
+      "workingIdea": "Conversational chat-to-video editor with silence trimming & 9:16 reframing.",
       "aiGeneratedVersion": "Conversational chat-to-video editor (Remotion + FFmpeg) with automated silence trimming, animated kinetic captions, and 9:16 social clip reframing via natural language prompts.",
       "confirmedVersion": "Conversational chat-to-video editor (Remotion + FFmpeg) with automated silence trimming, animated kinetic captions, and 9:16 social clip reframing via natural language prompts.",
       "status": "resolved",
@@ -3009,7 +3009,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-13)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-13] OpenChatCut — Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical short exporter. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-13] OpenChatCut — Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical exporter. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/openchatcut",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -3025,7 +3025,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical short exporter.",
+          "text": "Execute Next Action: Connect OpenChatCut trimming engine with OmniDirector vertical exporter.",
           "done": false
         }
       ],
@@ -3061,7 +3061,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23fbbf24%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23fbbf24%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23d7a43e%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-13%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20Remotion%20%2B%20FFmpeg%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EOpenChatCut%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EConversational%20chat-to-video%20editor%20with%20automated%20s%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2234%22%20y%3D%2246%22%20width%3D%2280%22%20height%3D%2276%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%22116%2C70%20140%2C54%20140%2C114%20116%2C98%22%20fill%3D%22none%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2266%2C70%2066%2C98%2092%2C84%22%20fill%3D%22%23edbd70%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-openchatcut.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -3084,7 +3084,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-15",
     "name": "ComfyUI Local Studio & MCP Server",
     "productName": "ComfyUI Local Studio",
-    "subtitle": "Sovereign local generative AI image, video & audio synthesis engine exposed via MCP.",
+    "subtitle": "Sovereign local generative image, video & audio synthesis via MCP.",
     "projectDescription": "Sovereign local generative AI image, video, and audio synthesis engine (Flux, SDXL, Wan2.1, AudioCraft) wrapped in a clean MCP server so any fleet agent can generate studio assets at zero cloud API cost.",
     "problem": "Cloud image and video generation APIs charge per-render fees, enforce arbitrary rate limits, and lack deterministic seed/workflow reproducibility.",
     "audience": "AI artists, creative agents, and game/media pipelines requiring high-volume deterministic asset generation.",
@@ -3125,7 +3125,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Headless ComfyUI MCP server with pre-wired Flux, SDXL, and background-removal workflow endpoints."
       },
       "7": {
-        "text": "ComfyUI Local Studio (OV-15): Sovereign local generative AI image, video & audio synthesis engine exposed via MCP. Connects AI artists, creative agents, and game/media pipelines requiring high-volume deterministic asset generation. to a verified workflow."
+        "text": "ComfyUI Local Studio (OV-15): Sovereign local generative image, video & audio synthesis via MCP. Connects AI artists, creative agents, and game/media pipelines requiring high-volume deterministic asset generation. to a verified workflow."
       },
       "8": {
         "text": "Parameterized ComfyUI workflow-to-MCP tool bridge\nZero-cost local GPU Flux & SDXL image synthesis\nAutomated model downloader & VRAM cache manager\nDeterministic seed & LoRA style lock controls"
@@ -3160,7 +3160,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Sovereign local generative AI image, video, and audio synthesis engine (Flux, SDXL, Wan2.1, AudioCraft) wrapped in a clean MCP server so any fleet agent can generate studio assets at zero cloud API cost.",
-      "workingIdea": "Sovereign local generative AI image, video & audio synthesis engine exposed via MCP.",
+      "workingIdea": "Sovereign local generative image, video & audio synthesis via MCP.",
       "aiGeneratedVersion": "Sovereign local generative AI image, video, and audio synthesis engine (Flux, SDXL, Wan2.1, AudioCraft) wrapped in a clean MCP server so any fleet agent can generate studio assets at zero cloud API cost.",
       "confirmedVersion": "Sovereign local generative AI image, video, and audio synthesis engine (Flux, SDXL, Wan2.1, AudioCraft) wrapped in a clean MCP server so any fleet agent can generate studio assets at zero cloud API cost.",
       "status": "resolved",
@@ -3247,7 +3247,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23c084fc%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23c084fc%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%238672c5%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23c084fc%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-15%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20Local%20GPU%20MCP%20Read%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EComfyUI%20Local%20Studio%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ESovereign%20local%20generative%20AI%20image%2C%20video%20%26amp%3B%20audio%20s%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23c084fc%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpolygon%20points%3D%2284%2C32%20132%2C124%2036%2C124%22%20fill%3D%22none%22%20stroke%3D%22%23fb923c%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2292%22%20r%3D%2218%22%20fill%3D%22%23fb923c%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-comfyui-studio.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -3270,7 +3270,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-17",
     "name": "Daily AI Shorts & Mr. Rogers News",
     "productName": "Daily AI Shorts",
-    "subtitle": "Autonomous 9:16 generative I2V video pipeline (Gemini 3 Pro -> Veo 3.1 -> FFmpeg) & wholesome news.",
+    "subtitle": "Autonomous 9:16 generative video pipeline & wholesome Mr. Rogers news.",
     "projectDescription": "Autonomous 9:16 generative I2V video production pipeline (Gemini 3 Pro curation -> Veo 3.1 I2V -> FFmpeg + Edge-TTS) paired with the 'Mr. Rogers News Repurposer' that delivers calm, wholesome daily news briefings.",
     "problem": "Daily short-form video production requires constant manual scripting, rendering, and stitching, while modern news feeds induce doomscrolling anxiety.",
     "audience": "Short-form video channels, AI newsletter audiences, and viewers seeking calm, constructive daily news.",
@@ -3281,7 +3281,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "GitHub"
     ],
-    "nextAction": "Automate daily publishing loop with n8n scheduled trigger.",
+    "nextAction": "Automate daily 9:16 publishing loop with n8n scheduled trigger.",
     "localPath": "C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\product ideas\\17_Daily_AI_Shorts_Video_Pipeline",
     "repoUrl": "https://github.com/NewSamBellamy/daily-ai-shorts",
     "liveUrl": "",
@@ -3311,7 +3311,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Automated Python + FFmpeg 9:16 video generator producing daily 60-second wholesome AI & world news shorts."
       },
       "7": {
-        "text": "Daily AI Shorts (OV-17): Autonomous 9:16 generative I2V video pipeline (Gemini 3 Pro -> Veo 3.1 -> FFmpeg) & wholesome news. Connects Short-form video channels, AI newsletter audiences, and viewers seeking calm, constructive daily news. to a verified workflow."
+        "text": "Daily AI Shorts (OV-17): Autonomous 9:16 generative video pipeline & wholesome Mr. Rogers news. Connects Short-form video channels, AI newsletter audiences, and viewers seeking calm, constructive daily news. to a verified workflow."
       },
       "8": {
         "text": "Gemini 3 Pro daily news curation & Mr. Rogers script synthesis\nVeo 3.1 image-to-video B-roll generation\nEdge-TTS warm voiceover & word-level subtitle burn-in\nAutomated 9:16 FFmpeg mastering & social scheduling"
@@ -3323,10 +3323,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Warm cardigan-inspired editorial aesthetic with calm, legible kinetic typography."
       },
       "11": {
-        "text": "Idea Brief for Daily AI Shorts & Mr. Rogers News (OV-17): Autonomous 9:16 generative I2V video production pipeline (Gemini 3 Pro curation -> Veo 3.1 I2V -> FFmpeg + Edge-TTS) paired with the 'Mr. Rogers News Repurposer' that delivers calm, wholesome daily news briefings. Next Action: Automate daily publishing loop with n8n scheduled trigger."
+        "text": "Idea Brief for Daily AI Shorts & Mr. Rogers News (OV-17): Autonomous 9:16 generative I2V video production pipeline (Gemini 3 Pro curation -> Veo 3.1 I2V -> FFmpeg + Edge-TTS) paired with the 'Mr. Rogers News Repurposer' that delivers calm, wholesome daily news briefings. Next Action: Automate daily 9:16 publishing loop with n8n scheduled trigger."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Automate daily publishing loop with n8n scheduled trigger."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Automate daily 9:16 publishing loop with n8n scheduled trigger."
       }
     },
     "resolved": {
@@ -3346,7 +3346,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Autonomous 9:16 generative I2V video production pipeline (Gemini 3 Pro curation -> Veo 3.1 I2V -> FFmpeg + Edge-TTS) paired with the 'Mr. Rogers News Repurposer' that delivers calm, wholesome daily news briefings.",
-      "workingIdea": "Autonomous 9:16 generative I2V video pipeline (Gemini 3 Pro -> Veo 3.1 -> FFmpeg) & wholesome news.",
+      "workingIdea": "Autonomous 9:16 generative video pipeline & wholesome Mr. Rogers news.",
       "aiGeneratedVersion": "Autonomous 9:16 generative I2V video production pipeline (Gemini 3 Pro curation -> Veo 3.1 I2V -> FFmpeg + Edge-TTS) paired with the 'Mr. Rogers News Repurposer' that delivers calm, wholesome daily news briefings.",
       "confirmedVersion": "Autonomous 9:16 generative I2V video production pipeline (Gemini 3 Pro curation -> Veo 3.1 I2V -> FFmpeg + Edge-TTS) paired with the 'Mr. Rogers News Repurposer' that delivers calm, wholesome daily news briefings.",
       "status": "resolved",
@@ -3381,7 +3381,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-17)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-17] Daily AI Shorts & Mr. Rogers News — Next Action: Automate daily publishing loop with n8n scheduled trigger. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-17] Daily AI Shorts & Mr. Rogers News — Next Action: Automate daily 9:16 publishing loop with n8n scheduled trigger. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/daily-ai-shorts",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -3397,7 +3397,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Automate daily publishing loop with n8n scheduled trigger.",
+          "text": "Execute Next Action: Automate daily 9:16 publishing loop with n8n scheduled trigger.",
           "done": true
         }
       ],
@@ -3433,7 +3433,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23fb923c%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23fb923c%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23cf6c2c%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23fb923c%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23fb923c%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-17%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%203%20MVP%20%C2%B7%20End-to-End%209%3A16%20Pipeline%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EDaily%20AI%20Shorts%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EAutonomous%209%3A16%20generative%20I2V%20video%20pipeline%20%28Gemin%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23fb923c%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23fb923c%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2234%22%20y%3D%2246%22%20width%3D%2280%22%20height%3D%2276%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%22116%2C70%20140%2C54%20140%2C114%20116%2C98%22%20fill%3D%22none%22%20stroke%3D%22%23f87171%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2266%2C70%2066%2C98%2092%2C84%22%20fill%3D%22%23edbd70%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-daily-ai-shorts.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -3456,7 +3456,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-27",
     "name": "FlowCreate v0.5 (Perry's Parlor)",
     "productName": "FlowCreate",
-    "subtitle": "Tabletop RPG 1->3->9 card mechanic for context engineering + Blank-Canvas Voice Forge.",
+    "subtitle": "Tabletop RPG 1->3->9 card context mechanic + Blank-Canvas Voice Forge.",
     "projectDescription": "Tabletop RPG 1->3->9 card deal mechanic for visual context engineering (Perry's Parlor) paired with a minimalist Blank-Canvas Voice Forge (pen tool + voice only) for single-asset fine-tuning.",
     "problem": "Blank chat boxes cause prompt paralysis, while complex creative suites overwhelm users with hundreds of toolbars when they just want to sketch and speak a change.",
     "audience": "Concept artists, writers, game designers, and non-technical creators ideating new worlds or assets.",
@@ -3467,7 +3467,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Google AI Studio",
       "Desktop Hub"
     ],
-    "nextAction": "Prototype the 1->3->9 card deal canvas as a creative ideation mode inside Floppy.",
+    "nextAction": "Prototype the 1->3->9 card deal canvas as an ideation mode inside Floppy.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\Gemini-Intelligence-Vault\\Synthesized-Product-Ideas\\Pillar 4 Creation Suite  Phase 1 tools like FlowCreate and S.md",
     "repoUrl": "",
     "liveUrl": "",
@@ -3497,7 +3497,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Interactive 1->3->9 card table canvas with a single pen-and-voice asset refinement loupe."
       },
       "7": {
-        "text": "FlowCreate (OV-27): Tabletop RPG 1->3->9 card mechanic for context engineering + Blank-Canvas Voice Forge. Connects Concept artists, writers, game designers, and non-technical creators ideating new worlds or assets. to a verified workflow."
+        "text": "FlowCreate (OV-27): Tabletop RPG 1->3->9 card context mechanic + Blank-Canvas Voice Forge. Connects Concept artists, writers, game designers, and non-technical creators ideating new worlds or assets. to a verified workflow."
       },
       "8": {
         "text": "1->3->9 RPG tarot card branching mechanic (Perry's Parlor)\nMinimalist blank canvas with only Pen + Voice tools\nSingle-asset iterative visual/text fine-tuning\nDirect export into Pangea Notebook & Floppy briefs"
@@ -3509,10 +3509,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Cozy velvet tabletop parlor meets distraction-free ivory sketchpad."
       },
       "11": {
-        "text": "Idea Brief for FlowCreate v0.5 (Perry's Parlor) (OV-27): Tabletop RPG 1->3->9 card deal mechanic for visual context engineering (Perry's Parlor) paired with a minimalist Blank-Canvas Voice Forge (pen tool + voice only) for single-asset fine-tuning. Next Action: Prototype the 1->3->9 card deal canvas as a creative ideation mode inside Floppy."
+        "text": "Idea Brief for FlowCreate v0.5 (Perry's Parlor) (OV-27): Tabletop RPG 1->3->9 card deal mechanic for visual context engineering (Perry's Parlor) paired with a minimalist Blank-Canvas Voice Forge (pen tool + voice only) for single-asset fine-tuning. Next Action: Prototype the 1->3->9 card deal canvas as an ideation mode inside Floppy."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Prototype the 1->3->9 card deal canvas as a creative ideation mode inside Floppy."
+        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Prototype the 1->3->9 card deal canvas as an ideation mode inside Floppy."
       }
     },
     "resolved": {
@@ -3531,7 +3531,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Tabletop RPG 1->3->9 card deal mechanic for visual context engineering (Perry's Parlor) paired with a minimalist Blank-Canvas Voice Forge (pen tool + voice only) for single-asset fine-tuning.",
-      "workingIdea": "Tabletop RPG 1->3->9 card mechanic for context engineering + Blank-Canvas Voice Forge.",
+      "workingIdea": "Tabletop RPG 1->3->9 card context mechanic + Blank-Canvas Voice Forge.",
       "aiGeneratedVersion": "Tabletop RPG 1->3->9 card deal mechanic for visual context engineering (Perry's Parlor) paired with a minimalist Blank-Canvas Voice Forge (pen tool + voice only) for single-asset fine-tuning.",
       "confirmedVersion": "Tabletop RPG 1->3->9 card deal mechanic for visual context engineering (Perry's Parlor) paired with a minimalist Blank-Canvas Voice Forge (pen tool + voice only) for single-asset fine-tuning.",
       "status": "resolved",
@@ -3566,7 +3566,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-27)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-27] FlowCreate v0.5 (Perry's Parlor) — Next Action: Prototype the 1->3->9 card deal canvas as a creative ideation mode inside Floppy. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-27] FlowCreate v0.5 (Perry's Parlor) — Next Action: Prototype the 1->3->9 card deal canvas as an ideation mode inside Floppy. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -3582,7 +3582,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": false
         },
         {
-          "text": "Execute Next Action: Prototype the 1->3->9 card deal canvas as a creative ideation mode inside Floppy.",
+          "text": "Execute Next Action: Prototype the 1->3->9 card deal canvas as an ideation mode inside Floppy.",
           "done": false
         }
       ],
@@ -3618,7 +3618,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23fbbf24%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23fbbf24%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23d7a43e%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-27%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%201%20Idea%20%C2%B7%20Keep%20%2B%20AI%20Studio%20PRD%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EFlowCreate%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ETabletop%20RPG%201-%26gt%3B3-%26gt%3B9%20card%20mechanic%20for%20context%20engin%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpolygon%20points%3D%2284%2C32%20132%2C124%2036%2C124%22%20fill%3D%22none%22%20stroke%3D%22%23fb923c%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2292%22%20r%3D%2218%22%20fill%3D%22%23fb923c%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-flowcreate-perrys-parlor.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -3641,7 +3641,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-29",
     "name": "Novah City Chronicles & Spirit Guides",
     "productName": "Novah City Chronicles",
-    "subtitle": "Cinematic transmedia lore universe & voice-native AI Spirit Guides with evolving skill trees.",
+    "subtitle": "Cinematic transmedia lore universe & voice-native AI Spirit Guides.",
     "projectDescription": "Cinematic transmedia story world (Novah City, Klaus, Veo, Avarus, Uncle Sol's Tea Shop) paired with the Spirit Guides Companion System (Ventriloquist protocol, Ready Player Me dual locker, and evolving skill trees).",
     "problem": "AI assistants feel soulless and disposable, lacking persistent narrative lore, visual identity, and shared progression alongside the creator.",
     "audience": "Transmedia storytellers, indie gamers, and creators who want persistent lore-rich AI companions.",
@@ -3652,7 +3652,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "NotebookLM",
       "Google AI Studio"
     ],
-    "nextAction": "Consolidate Novah City world bible and character sheets into Pangea Notebook.",
+    "nextAction": "Consolidate Novah City world bible and character sheets in Pangea Notebook.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\Gemini-Intelligence-Vault\\Synthesized-Product-Ideas\\Pillar 2 The Chronicles  Our cinematic transmedia story of N.md",
     "repoUrl": "",
     "liveUrl": "",
@@ -3682,7 +3682,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Interactive Novah City Lore Bible & Spirit Guide Character Locker with voice-driven Ventriloquist mode."
       },
       "7": {
-        "text": "Novah City Chronicles (OV-29): Cinematic transmedia lore universe & voice-native AI Spirit Guides with evolving skill trees. Connects Transmedia storytellers, indie gamers, and creators who want persistent lore-rich AI companions. to a verified workflow."
+        "text": "Novah City Chronicles (OV-29): Cinematic transmedia lore universe & voice-native AI Spirit Guides. Connects Transmedia storytellers, indie gamers, and creators who want persistent lore-rich AI companions. to a verified workflow."
       },
       "8": {
         "text": "Novah City transmedia lore bible (Klaus, Veo, Avarus, Uncle Sol)\nSpirit Guides AI companions with RPG skill tree progression\nVentriloquist real-time voice-puppetry protocol\nDual avatar locker for 2D HUD and 3D Spatial scenes"
@@ -3694,10 +3694,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Studio Ghibli warmth blended with Arcane-style painterly cyberpunk lighting."
       },
       "11": {
-        "text": "Idea Brief for Novah City Chronicles & Spirit Guides (OV-29): Cinematic transmedia story world (Novah City, Klaus, Veo, Avarus, Uncle Sol's Tea Shop) paired with the Spirit Guides Companion System (Ventriloquist protocol, Ready Player Me dual locker, and evolving skill trees). Next Action: Consolidate Novah City world bible and character sheets into Pangea Notebook."
+        "text": "Idea Brief for Novah City Chronicles & Spirit Guides (OV-29): Cinematic transmedia story world (Novah City, Klaus, Veo, Avarus, Uncle Sol's Tea Shop) paired with the Spirit Guides Companion System (Ventriloquist protocol, Ready Player Me dual locker, and evolving skill trees). Next Action: Consolidate Novah City world bible and character sheets in Pangea Notebook."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Consolidate Novah City world bible and character sheets into Pangea Notebook."
+        "text": "Readiness confirmed at Stage 0. Immediate Next Action: Consolidate Novah City world bible and character sheets in Pangea Notebook."
       }
     },
     "resolved": {
@@ -3714,7 +3714,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Cinematic transmedia story world (Novah City, Klaus, Veo, Avarus, Uncle Sol's Tea Shop) paired with the Spirit Guides Companion System (Ventriloquist protocol, Ready Player Me dual locker, and evolving skill trees).",
-      "workingIdea": "Cinematic transmedia lore universe & voice-native AI Spirit Guides with evolving skill trees.",
+      "workingIdea": "Cinematic transmedia lore universe & voice-native AI Spirit Guides.",
       "aiGeneratedVersion": "Cinematic transmedia story world (Novah City, Klaus, Veo, Avarus, Uncle Sol's Tea Shop) paired with the Spirit Guides Companion System (Ventriloquist protocol, Ready Player Me dual locker, and evolving skill trees).",
       "confirmedVersion": "Cinematic transmedia story world (Novah City, Klaus, Veo, Avarus, Uncle Sol's Tea Shop) paired with the Spirit Guides Companion System (Ventriloquist protocol, Ready Player Me dual locker, and evolving skill trees).",
       "status": "resolved",
@@ -3749,7 +3749,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-29)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-29] Novah City Chronicles & Spirit Guides — Next Action: Consolidate Novah City world bible and character sheets into Pangea Notebook. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-29] Novah City Chronicles & Spirit Guides — Next Action: Consolidate Novah City world bible and character sheets in Pangea Notebook. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -3765,7 +3765,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": false
         },
         {
-          "text": "Execute Next Action: Consolidate Novah City world bible and character sheets into Pangea Notebook.",
+          "text": "Execute Next Action: Consolidate Novah City world bible and character sheets in Pangea Notebook.",
           "done": false
         }
       ],
@@ -3801,7 +3801,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23a78bfa%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23a78bfa%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%238672c5%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23a78bfa%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-29%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%201%20Idea%20%C2%B7%20Pillars%202%20%26amp%3B%203%20Lore%20Bibl%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3ENovah%20City%20Chronicles%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ECinematic%20transmedia%20lore%20universe%20%26amp%3B%20voice-native%20AI%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23a78bfa%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M38%2044%20Q61%2036%2084%2046%20Q107%2036%20130%2044%20V122%20Q107%20114%2084%20124%20Q61%20114%2038%20122%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2284%22%20y1%3D%2246%22%20x2%3D%2284%22%20y2%3D%22124%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-novah-city-chronicles.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -3824,7 +3824,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-31",
     "name": "Pangea Notebook & AetherForge Slides",
     "productName": "Pangea Notebook",
-    "subtitle": "'Where every world begins' — project-as-a-living-book co-authored with AI + instant slide studio.",
+    "subtitle": "Living illustrated book co-authored with AI + instant AetherForge slides.",
     "projectDescription": "'Where every world begins' — turn any project, world bible, or research dossier into a living illustrated book co-authored with AI, paired with AetherForge Slide Studio and FormFlow AI.",
     "problem": "Long-form research and worldbuilding get buried in ugly markdown files or rigid slide tools that separate writing from visual storytelling.",
     "audience": "Worldbuilders, authors, founders, and educators turning raw notes into living books and pitch decks.",
@@ -3865,7 +3865,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Dual-page living book editor with AI chapter co-authoring and 1-click AetherForge slide deck transformation."
       },
       "7": {
-        "text": "Pangea Notebook (OV-31): 'Where every world begins' — project-as-a-living-book co-authored with AI + instant slide studio. Connects Worldbuilders, authors, founders, and educators turning raw notes into living books and pitch decks. to a verified workflow."
+        "text": "Pangea Notebook (OV-31): Living illustrated book co-authored with AI + instant AetherForge slides. Connects Worldbuilders, authors, founders, and educators turning raw notes into living books and pitch decks. to a verified workflow."
       },
       "8": {
         "text": "Tactile two-page living book layout & chapter binder\nAetherForge instant text-to-slide-deck synthesizer\nFormFlow AI guided intake to structured chapters\nIllustrated PDF & interactive web book export"
@@ -3900,7 +3900,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "'Where every world begins' — turn any project, world bible, or research dossier into a living illustrated book co-authored with AI, paired with AetherForge Slide Studio and FormFlow AI.",
-      "workingIdea": "'Where every world begins' — project-as-a-living-book co-authored with AI + instant slide studio.",
+      "workingIdea": "Living illustrated book co-authored with AI + instant AetherForge slides.",
       "aiGeneratedVersion": "'Where every world begins' — turn any project, world bible, or research dossier into a living illustrated book co-authored with AI, paired with AetherForge Slide Studio and FormFlow AI.",
       "confirmedVersion": "'Where every world begins' — turn any project, world bible, or research dossier into a living illustrated book co-authored with AI, paired with AetherForge Slide Studio and FormFlow AI.",
       "status": "resolved",
@@ -3987,7 +3987,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23ba7253%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ba7253%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23fbbf24%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23fbbf24%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23ba7253%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-31%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20Living%20Book%20Engine%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EPangea%20Notebook%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3E%26%23x27%3BWhere%20every%20world%20begins%26%23x27%3B%20%E2%80%94%20project-as-a-living-boo%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M38%2044%20Q61%2036%2084%2046%20Q107%2036%20130%2044%20V122%20Q107%20114%2084%20124%20Q61%20114%2038%20122%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2284%22%20y1%3D%2246%22%20x2%3D%2284%22%20y2%3D%22124%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-pangea-notebook.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -4010,7 +4010,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-09",
     "name": "AI Founder Stack ($850K+ Credits)",
     "productName": "AI Founder Stack",
-    "subtitle": "The Google Cloud for Founders — curated radar of $850K+ in verified cloud credits, GPUs & grants.",
+    "subtitle": "Curated radar of $850K+ in verified cloud credits, GPUs & startup grants.",
     "projectDescription": "Curated directory and eligibility engine tracking $850K+ in verified cloud compute credits, GPU clusters, free LLM inference APIs, and non-dilutive startup grants (live at omniveo-stack.pages.dev).",
     "problem": "Bootstrapped founders burn cash on AWS/OpenAI/Anthropic bills because startup credit programs and free inference tiers are scattered across hundreds of hidden application pages.",
     "audience": "Bootstrapped AI founders, indie hackers, and hackathon teams seeking zero-cash-burn runway.",
@@ -4021,7 +4021,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Google Keep",
       "Desktop Hub"
     ],
-    "nextAction": "Add 9:16 vertical video explainer player and live grant-eligibility checker.",
+    "nextAction": "Add 9:16 vertical explainer player and live grant-eligibility checker.",
     "localPath": "C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\product ideas\\09_AI_Founder_Stack",
     "repoUrl": "https://github.com/NewSamBellamy/ai-startup-stack",
     "liveUrl": "https://omniveo-stack.pages.dev",
@@ -4051,7 +4051,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Searchable web directory at omniveo-stack.pages.dev with credit calculators, eligibility filters, and direct application links."
       },
       "7": {
-        "text": "AI Founder Stack (OV-09): The Google Cloud for Founders — curated radar of $850K+ in verified cloud credits, GPUs & grants. Connects Bootstrapped AI founders, indie hackers, and hackathon teams seeking zero-cash-burn runway. to a verified workflow."
+        "text": "AI Founder Stack (OV-09): Curated radar of $850K+ in verified cloud credits, GPUs & startup grants. Connects Bootstrapped AI founders, indie hackers, and hackathon teams seeking zero-cash-burn runway. to a verified workflow."
       },
       "8": {
         "text": "$850K+ verified cloud, GPU & LLM credit database\nStartup stage & incorporación eligibility filter\nZero-Cash-Burn stack builder & runway calculator\nDirect one-click grant application links"
@@ -4063,10 +4063,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Crisp fintech telemetry dashboard with high-visibility grant value badges."
       },
       "11": {
-        "text": "Idea Brief for AI Founder Stack ($850K+ Credits) (OV-09): Curated directory and eligibility engine tracking $850K+ in verified cloud compute credits, GPU clusters, free LLM inference APIs, and non-dilutive startup grants (live at omniveo-stack.pages.dev). Next Action: Add 9:16 vertical video explainer player and live grant-eligibility checker."
+        "text": "Idea Brief for AI Founder Stack ($850K+ Credits) (OV-09): Curated directory and eligibility engine tracking $850K+ in verified cloud compute credits, GPU clusters, free LLM inference APIs, and non-dilutive startup grants (live at omniveo-stack.pages.dev). Next Action: Add 9:16 vertical explainer player and live grant-eligibility checker."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Add 9:16 vertical video explainer player and live grant-eligibility checker."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Add 9:16 vertical explainer player and live grant-eligibility checker."
       }
     },
     "resolved": {
@@ -4086,7 +4086,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Curated directory and eligibility engine tracking $850K+ in verified cloud compute credits, GPU clusters, free LLM inference APIs, and non-dilutive startup grants (live at omniveo-stack.pages.dev).",
-      "workingIdea": "The Google Cloud for Founders — curated radar of $850K+ in verified cloud credits, GPUs & grants.",
+      "workingIdea": "Curated radar of $850K+ in verified cloud credits, GPUs & startup grants.",
       "aiGeneratedVersion": "Curated directory and eligibility engine tracking $850K+ in verified cloud compute credits, GPU clusters, free LLM inference APIs, and non-dilutive startup grants (live at omniveo-stack.pages.dev).",
       "confirmedVersion": "Curated directory and eligibility engine tracking $850K+ in verified cloud compute credits, GPU clusters, free LLM inference APIs, and non-dilutive startup grants (live at omniveo-stack.pages.dev).",
       "status": "resolved",
@@ -4130,7 +4130,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-09)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-09] AI Founder Stack ($850K+ Credits) — Next Action: Add 9:16 vertical video explainer player and live grant-eligibility checker. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-09] AI Founder Stack ($850K+ Credits) — Next Action: Add 9:16 vertical explainer player and live grant-eligibility checker. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://omniveo-stack.pages.dev",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -4146,7 +4146,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Add 9:16 vertical video explainer player and live grant-eligibility checker.",
+          "text": "Execute Next Action: Add 9:16 vertical explainer player and live grant-eligibility checker.",
           "done": true
         }
       ],
@@ -4182,7 +4182,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23358eaa%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2360a5fa%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2360a5fa%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23358eaa%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2360a5fa%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2360a5fa%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-09%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%203%20MVP%20%C2%B7%20Live%20at%20omniveo-stack.pa%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EAI%20Founder%20Stack%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EThe%20Google%20Cloud%20for%20Founders%20%E2%80%94%20curated%20radar%20of%20%2485%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2360a5fa%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2360a5fa%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M52%20108%20H118%20A22%2022%200%200%200%20120%2066%20A32%2032%200%200%200%2058%2058%20A24%2024%200%200%200%2052%20108%20Z%22%20fill%3D%22none%22%20stroke%3D%22%2360a5fa%22%20stroke-width%3D%224%22%2F%3E%3Ctext%20x%3D%2284%22%20y%3D%2292%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%3E%24850K%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-ai-founder-stack.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -4205,7 +4205,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-08",
     "name": "Flip / MarketplaceAutopilot",
     "productName": "Flip",
-    "subtitle": "Local garage & vinyl inventory cataloger + Playwright stealth Facebook Marketplace auto-lister.",
+    "subtitle": "Local garage & vinyl cataloger + Playwright stealth Marketplace auto-lister.",
     "projectDescription": "Local physical garage & vintage vinyl inventory cataloger paired with a client-side Playwright stealth engine that auto-generates pricing comps, descriptions, and Facebook Marketplace / eBay listings.",
     "problem": "Selling dozens of physical items (classic vinyl records, hardware, garage inventory) requires tedious photo sorting, comp lookups, and repetitive marketplace form filling.",
     "audience": "Resellers, collectors, estate liquidators, and founders clearing physical inventory.",
@@ -4216,7 +4216,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Claude Code"
     ],
-    "nextAction": "Connect cli.py to VINYL_INVENTORY.csv and stage first batch of draft listings.",
+    "nextAction": "Connect cli.py to VINYL_INVENTORY.csv and stage first batch of listings.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\MarketplaceAutopilot",
     "repoUrl": "https://github.com/NewSamBellamy/marketplace-autopilot",
     "liveUrl": "",
@@ -4246,7 +4246,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Photo-to-CSV inventory intake script + Playwright stealth Facebook Marketplace draft stager."
       },
       "7": {
-        "text": "Flip (OV-08): Local garage & vinyl inventory cataloger + Playwright stealth Facebook Marketplace auto-lister. Connects Resellers, collectors, estate liquidators, and founders clearing physical inventory. to a verified workflow."
+        "text": "Flip (OV-08): Local garage & vinyl cataloger + Playwright stealth Marketplace auto-lister. Connects Resellers, collectors, estate liquidators, and founders clearing physical inventory. to a verified workflow."
       },
       "8": {
         "text": "Multimodal photo intake & Discogs/eBay price comp lookup\nAutomated title, condition & SEO description generator\nClient-side Playwright stealth browser auto-filler\nCSV inventory ledger & sold-item tracker"
@@ -4258,10 +4258,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Fast mobile-first camera intake paired with a clean batch-listing queue."
       },
       "11": {
-        "text": "Idea Brief for Flip / MarketplaceAutopilot (OV-08): Local physical garage & vintage vinyl inventory cataloger paired with a client-side Playwright stealth engine that auto-generates pricing comps, descriptions, and Facebook Marketplace / eBay listings. Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of draft listings."
+        "text": "Idea Brief for Flip / MarketplaceAutopilot (OV-08): Local physical garage & vintage vinyl inventory cataloger paired with a client-side Playwright stealth engine that auto-generates pricing comps, descriptions, and Facebook Marketplace / eBay listings. Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of listings."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of draft listings."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of listings."
       }
     },
     "resolved": {
@@ -4281,7 +4281,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Local physical garage & vintage vinyl inventory cataloger paired with a client-side Playwright stealth engine that auto-generates pricing comps, descriptions, and Facebook Marketplace / eBay listings.",
-      "workingIdea": "Local garage & vinyl inventory cataloger + Playwright stealth Facebook Marketplace auto-lister.",
+      "workingIdea": "Local garage & vinyl cataloger + Playwright stealth Marketplace auto-lister.",
       "aiGeneratedVersion": "Local physical garage & vintage vinyl inventory cataloger paired with a client-side Playwright stealth engine that auto-generates pricing comps, descriptions, and Facebook Marketplace / eBay listings.",
       "confirmedVersion": "Local physical garage & vintage vinyl inventory cataloger paired with a client-side Playwright stealth engine that auto-generates pricing comps, descriptions, and Facebook Marketplace / eBay listings.",
       "status": "resolved",
@@ -4316,7 +4316,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-08)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-08] Flip / MarketplaceAutopilot — Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of draft listings. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-08] Flip / MarketplaceAutopilot — Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of listings. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/marketplace-autopilot",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -4332,7 +4332,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of draft listings.",
+          "text": "Execute Next Action: Connect cli.py to VINYL_INVENTORY.csv and stage first batch of listings.",
           "done": false
         }
       ],
@@ -4368,7 +4368,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2334d399%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2334d399%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23539c76%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2334d399%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-08%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20Playwright%20Stealth%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EFlip%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ELocal%20garage%20%26amp%3B%20vinyl%20inventory%20cataloger%20%2B%20Playwrigh%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2334d399%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%2252%22%20fill%3D%22none%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%223.5%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%2230%22%20fill%3D%22none%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%226%204%22%2F%3E%3Cline%20x1%3D%2284%22%20y1%3D%2284%22%20x2%3D%22122%22%20y2%3D%2252%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22114%22%20cy%3D%2258%22%20r%3D%226%22%20fill%3D%22%23edbd70%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-flip-marketplace-autopilot.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -4391,7 +4391,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-26",
     "name": "Council AI & Circle AI",
     "productName": "Council AI",
-    "subtitle": "Personal advisory board of your top 5-10 YouTube/Podcast mentors trained via RAG + peer deliberation.",
+    "subtitle": "Personal advisory board of your top YouTube/Podcast mentors via RAG.",
     "projectDescription": "Personal advisory council of the 5-10 creators and thinkers you actively follow on YouTube, podcasts, and newsletters, trained via grounded RAG for morning/evening briefings and multi-perspective debate.",
     "problem": "Founders subscribe to dozens of podcasts, YouTube channels, and AI newsletters but lack time to consume them or query what those trusted mentors would advise on a live decision.",
     "audience": "Founders, executives, and lifelong learners curating a personal board of advisors.",
@@ -4402,7 +4402,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "GitHub"
     ],
-    "nextAction": "Connect Email_Intelligence_Vault newsletter curriculum to the 3-mentor Council RAG prototype.",
+    "nextAction": "Connect Email_Intelligence_Vault curriculum to 3-mentor Council RAG.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\Council-AI",
     "repoUrl": "https://github.com/NewSamBellamy/council-ai",
     "liveUrl": "",
@@ -4432,7 +4432,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "3-seat Mentor Council roundtable + morning/evening audio & text synthesis from subscribed YouTube/newsletter feeds."
       },
       "7": {
-        "text": "Council AI (OV-26): Personal advisory board of your top 5-10 YouTube/Podcast mentors trained via RAG + peer deliberation. Connects Founders, executives, and lifelong learners curating a personal board of advisors. to a verified workflow."
+        "text": "Council AI (OV-26): Personal advisory board of your top YouTube/Podcast mentors via RAG. Connects Founders, executives, and lifelong learners curating a personal board of advisors. to a verified workflow."
       },
       "8": {
         "text": "Automated YouTube transcript & newsletter RAG ingestion\nMulti-mentor roundtable deliberation on founder dilemmas\nDaily morning & evening personalized curriculum brief\nSource-cited quotes linking back to exact video timestamps"
@@ -4444,10 +4444,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Intimate roundtable chamber UI with distinct advisor portraits and cited transcript cards."
       },
       "11": {
-        "text": "Idea Brief for Council AI & Circle AI (OV-26): Personal advisory council of the 5-10 creators and thinkers you actively follow on YouTube, podcasts, and newsletters, trained via grounded RAG for morning/evening briefings and multi-perspective debate. Next Action: Connect Email_Intelligence_Vault newsletter curriculum to the 3-mentor Council RAG prototype."
+        "text": "Idea Brief for Council AI & Circle AI (OV-26): Personal advisory council of the 5-10 creators and thinkers you actively follow on YouTube, podcasts, and newsletters, trained via grounded RAG for morning/evening briefings and multi-perspective debate. Next Action: Connect Email_Intelligence_Vault curriculum to 3-mentor Council RAG."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Connect Email_Intelligence_Vault newsletter curriculum to the 3-mentor Council RAG prototype."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Connect Email_Intelligence_Vault curriculum to 3-mentor Council RAG."
       }
     },
     "resolved": {
@@ -4467,7 +4467,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Personal advisory council of the 5-10 creators and thinkers you actively follow on YouTube, podcasts, and newsletters, trained via grounded RAG for morning/evening briefings and multi-perspective debate.",
-      "workingIdea": "Personal advisory board of your top 5-10 YouTube/Podcast mentors trained via RAG + peer deliberation.",
+      "workingIdea": "Personal advisory board of your top YouTube/Podcast mentors via RAG.",
       "aiGeneratedVersion": "Personal advisory council of the 5-10 creators and thinkers you actively follow on YouTube, podcasts, and newsletters, trained via grounded RAG for morning/evening briefings and multi-perspective debate.",
       "confirmedVersion": "Personal advisory council of the 5-10 creators and thinkers you actively follow on YouTube, podcasts, and newsletters, trained via grounded RAG for morning/evening briefings and multi-perspective debate.",
       "status": "resolved",
@@ -4502,7 +4502,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-26)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-26] Council AI & Circle AI — Next Action: Connect Email_Intelligence_Vault newsletter curriculum to the 3-mentor Council RAG prototype. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-26] Council AI & Circle AI — Next Action: Connect Email_Intelligence_Vault curriculum to 3-mentor Council RAG. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/council-ai",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -4518,7 +4518,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Connect Email_Intelligence_Vault newsletter curriculum to the 3-mentor Council RAG prototype.",
+          "text": "Execute Next Action: Connect Email_Intelligence_Vault curriculum to 3-mentor Council RAG.",
           "done": false
         }
       ],
@@ -4554,7 +4554,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%238672c5%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23c084fc%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23c084fc%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%238672c5%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23c084fc%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-26%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20Mentor%20RAG%20%2B%20Newsl%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3ECouncil%20AI%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EPersonal%20advisory%20board%20of%20your%20top%205-10%20YouTube%2FPod%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23c084fc%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2284%22%20cy%3D%2254%22%20r%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%223.5%22%2F%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%22108%22%20r%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%223.5%22%2F%3E%3Ccircle%20cx%3D%22118%22%20cy%3D%22108%22%20r%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%223.5%22%2F%3E%3Cline%20x1%3D%2272%22%20y1%3D%2268%22%20x2%3D%2258%22%20y2%3D%2294%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%2296%22%20y1%3D%2268%22%20x2%3D%22110%22%20y2%3D%2294%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%2266%22%20y1%3D%22108%22%20x2%3D%22102%22%20y2%3D%22108%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%222.5%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-council-circle-ai.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -4577,7 +4577,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-28",
     "name": "The Grand Exchange & Show & Tell",
     "productName": "The Grand Exchange",
-    "subtitle": "RuneScape-inspired bid/ask creator asset marketplace + anti-doomscrolling 3D Show & Tell grid.",
+    "subtitle": "RuneScape-style creator asset exchange + 3D Show & Tell discovery grid.",
     "projectDescription": "Anti-doomscrolling 3D masonry discovery grid (Show & Tell) paired with a RuneScape-inspired bid/ask liquid marketplace (The Grand Exchange) and automated IP Contract Office for creator assets, prompts, and workflows.",
     "problem": "Creator marketplaces charge 30% platform cuts and bury work in static pages, while social feeds reward engagement-bait over genuine craft and remixable IP.",
     "audience": "Indie creators, 3D/shader artists, workflow builders, and studio buyers licensing digital assets.",
@@ -4618,7 +4618,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Show & Tell 3D masonry showcase with 1-click 'Remix / License on Grand Exchange' smart royalty splits."
       },
       "7": {
-        "text": "The Grand Exchange (OV-28): RuneScape-inspired bid/ask creator asset marketplace + anti-doomscrolling 3D Show & Tell grid. Connects Indie creators, 3D/shader artists, workflow builders, and studio buyers licensing digital assets. to a verified workflow."
+        "text": "The Grand Exchange (OV-28): RuneScape-style creator asset exchange + 3D Show & Tell discovery grid. Connects Indie creators, 3D/shader artists, workflow builders, and studio buyers licensing digital assets. to a verified workflow."
       },
       "8": {
         "text": "Show & Tell anti-doomscrolling 3D masonry portfolio grid\nRuneScape-style Grand Exchange bid/ask order book for digital assets\nAutomated IP Contract Office & remix royalty lineage tracker\nDirect integration with AI Slot Machine & AI Guild Skill Cards"
@@ -4649,7 +4649,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Anti-doomscrolling 3D masonry discovery grid (Show & Tell) paired with a RuneScape-inspired bid/ask liquid marketplace (The Grand Exchange) and automated IP Contract Office for creator assets, prompts, and workflows.",
-      "workingIdea": "RuneScape-inspired bid/ask creator asset marketplace + anti-doomscrolling 3D Show & Tell grid.",
+      "workingIdea": "RuneScape-style creator asset exchange + 3D Show & Tell discovery grid.",
       "aiGeneratedVersion": "Anti-doomscrolling 3D masonry discovery grid (Show & Tell) paired with a RuneScape-inspired bid/ask liquid marketplace (The Grand Exchange) and automated IP Contract Office for creator assets, prompts, and workflows.",
       "confirmedVersion": "Anti-doomscrolling 3D masonry discovery grid (Show & Tell) paired with a RuneScape-inspired bid/ask liquid marketplace (The Grand Exchange) and automated IP Contract Office for creator assets, prompts, and workflows.",
       "status": "resolved",
@@ -4736,7 +4736,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23d7a43e%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23edbd70%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23edbd70%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23d7a43e%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-28%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%201%20Idea%20%C2%B7%20Pillars%206%20%26amp%3B%207%20Blueprint%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EThe%20Grand%20Exchange%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ERuneScape-inspired%20bid%2Fask%20creator%20asset%20marketplace%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2234%22%20y%3D%2244%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2267%22%20y1%3D%2244%22%20x2%3D%2267%22%20y2%3D%22124%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%222.5%22%2F%3E%3Cline%20x1%3D%22101%22%20y1%3D%2244%22%20x2%3D%22101%22%20y2%3D%22124%22%20stroke%3D%22%23f472b6%22%20stroke-width%3D%222.5%22%2F%3E%3Ccircle%20cx%3D%22146%22%20cy%3D%2252%22%20r%3D%228%22%20fill%3D%22%23edbd70%22%2F%3E%3Cline%20x1%3D%22134%22%20y1%3D%2284%22%20x2%3D%22146%22%20y2%3D%2258%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-grand-exchange-show-tell.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -4759,7 +4759,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-30",
     "name": "AI Guild Classroom & Skill Deck Arcana",
     "productName": "Skill Deck Arcana",
-    "subtitle": "Gamified creator academy ('Stone Age simple, Space Age smart') & Tarot Arcana Git skill cards.",
+    "subtitle": "Gamified creator academy & collectible Tarot Arcana Git skill cards.",
     "projectDescription": "Gamified creator academy ('Stone Age simple, Space Age smart' with Caveman mascot) where agent and human skills are collected, leveled up, and shared as Tarot Arcana cards backed by real Git repositories.",
     "problem": "AI education is fragmented into dry documentation or hype courses, and reusable agent skills (`SKILL.md`) look like boring config files instead of collectible, composable capabilities.",
     "audience": "AI builders, students, and agent fleet operators collecting and trading verified agent skills.",
@@ -4770,7 +4770,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "GitHub"
     ],
-    "nextAction": "Render interactive Tarot skill card deck viewer for the 28 installed Hermes skills.",
+    "nextAction": "Render interactive Tarot skill card deck viewer for 28 Hermes skills.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\AI-Guild-Classroom",
     "repoUrl": "https://github.com/NewSamBellamy/skill-deck-arcana",
     "liveUrl": "",
@@ -4800,7 +4800,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Interactive Tarot Arcana Skill Deck viewer rendering all 28 installed Hermes skills with 1-click equip and Git export."
       },
       "7": {
-        "text": "Skill Deck Arcana (OV-30): Gamified creator academy ('Stone Age simple, Space Age smart') & Tarot Arcana Git skill cards. Connects AI builders, students, and agent fleet operators collecting and trading verified agent skills. to a verified workflow."
+        "text": "Skill Deck Arcana (OV-30): Gamified creator academy & collectible Tarot Arcana Git skill cards. Connects AI builders, students, and agent fleet operators collecting and trading verified agent skills. to a verified workflow."
       },
       "8": {
         "text": "Collectible Tarot Arcana cards backed by real SKILL.md Git repos\n'Stone Age simple, Space Age smart' Caveman guided quests\nLearn, Share, Earn peer bounty & certification loop\nTeam Registry for assembling multi-agent specialist squads"
@@ -4812,10 +4812,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Illustrated gold-foil Tarot Arcana deck paired with playful Stone-Age-to-Space-Age progression."
       },
       "11": {
-        "text": "Idea Brief for AI Guild Classroom & Skill Deck Arcana (OV-30): Gamified creator academy ('Stone Age simple, Space Age smart' with Caveman mascot) where agent and human skills are collected, leveled up, and shared as Tarot Arcana cards backed by real Git repositories. Next Action: Render interactive Tarot skill card deck viewer for the 28 installed Hermes skills."
+        "text": "Idea Brief for AI Guild Classroom & Skill Deck Arcana (OV-30): Gamified creator academy ('Stone Age simple, Space Age smart' with Caveman mascot) where agent and human skills are collected, leveled up, and shared as Tarot Arcana cards backed by real Git repositories. Next Action: Render interactive Tarot skill card deck viewer for 28 Hermes skills."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Render interactive Tarot skill card deck viewer for the 28 installed Hermes skills."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Render interactive Tarot skill card deck viewer for 28 Hermes skills."
       }
     },
     "resolved": {
@@ -4835,7 +4835,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Gamified creator academy ('Stone Age simple, Space Age smart' with Caveman mascot) where agent and human skills are collected, leveled up, and shared as Tarot Arcana cards backed by real Git repositories.",
-      "workingIdea": "Gamified creator academy ('Stone Age simple, Space Age smart') & Tarot Arcana Git skill cards.",
+      "workingIdea": "Gamified creator academy & collectible Tarot Arcana Git skill cards.",
       "aiGeneratedVersion": "Gamified creator academy ('Stone Age simple, Space Age smart' with Caveman mascot) where agent and human skills are collected, leveled up, and shared as Tarot Arcana cards backed by real Git repositories.",
       "confirmedVersion": "Gamified creator academy ('Stone Age simple, Space Age smart' with Caveman mascot) where agent and human skills are collected, leveled up, and shared as Tarot Arcana cards backed by real Git repositories.",
       "status": "resolved",
@@ -4870,7 +4870,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-30)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-30] AI Guild Classroom & Skill Deck Arcana — Next Action: Render interactive Tarot skill card deck viewer for the 28 installed Hermes skills. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-30] AI Guild Classroom & Skill Deck Arcana — Next Action: Render interactive Tarot skill card deck viewer for 28 Hermes skills. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/skill-deck-arcana",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -4886,7 +4886,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Render interactive Tarot skill card deck viewer for the 28 installed Hermes skills.",
+          "text": "Execute Next Action: Render interactive Tarot skill card deck viewer for 28 Hermes skills.",
           "done": false
         }
       ],
@@ -4922,7 +4922,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23edbd70%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23edbd70%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23cf6c2c%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-30%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%2028%20Hermes%20Skills%20M%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3ESkill%20Deck%20Arcana%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EGamified%20creator%20academy%20%28%26%23x27%3BStone%20Age%20simple%2C%20Space%20A%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M38%2044%20Q61%2036%2084%2046%20Q107%2036%20130%2044%20V122%20Q107%20114%2084%20124%20Q61%20114%2038%20122%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2284%22%20y1%3D%2246%22%20x2%3D%2284%22%20y2%3D%22124%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-ai-guild-skill-deck.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -4945,7 +4945,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-12",
     "name": "MeetScribe & OmniSync",
     "productName": "MeetScribe",
-    "subtitle": "Autonomous Google Meet bot, speaker diarization & async US/Lagos/Dhaka executive handoff engine.",
+    "subtitle": "Autonomous Google Meet bot, diarization & US/Lagos/Dhaka handoff engine.",
     "projectDescription": "Autonomous Google Meet attendance bot (`meet_scribe.py`), real-time speaker diarization, and OmniSync async cross-timezone executive handoff engine bridging US, Lagos, and Dhaka engineering sprints.",
     "problem": "Distributed global teams across US, Nigeria (Lagos), and Bangladesh (Dhaka) lose hours to timezone overlap friction and missed meeting action items.",
     "audience": "Distributed engineering teams and founders collaborating across US, Lagos, and Dhaka timezones.",
@@ -4956,7 +4956,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "GitHub"
     ],
-    "nextAction": "Package meet_scribe.py as a background Windows tray utility with hotkey trigger.",
+    "nextAction": "Package meet_scribe.py as a Windows tray utility with hotkey trigger.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\MeetScribe",
     "repoUrl": "https://github.com/NewSamBellamy/meetscribe",
     "liveUrl": "",
@@ -4986,7 +4986,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Local MeetScribe audio capture + speaker-diarized action item extractor and timezone handoff digest."
       },
       "7": {
-        "text": "MeetScribe (OV-12): Autonomous Google Meet bot, speaker diarization & async US/Lagos/Dhaka executive handoff engine. Connects Distributed engineering teams and founders collaborating across US, Lagos, and Dhaka timezones. to a verified workflow."
+        "text": "MeetScribe (OV-12): Autonomous Google Meet bot, diarization & US/Lagos/Dhaka handoff engine. Connects Distributed engineering teams and founders collaborating across US, Lagos, and Dhaka timezones. to a verified workflow."
       },
       "8": {
         "text": "Zero-cloud-bot local & headless Google Meet audio capture\nMulti-speaker diarization & decision extraction\nFollow-the-sun async handoff packets (US -> Lagos -> Dhaka)\nDirect task injection into Floppy & Obsidian vault"
@@ -4998,10 +4998,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Calm timezone relay baton interface showing active shift owners and blocker flags."
       },
       "11": {
-        "text": "Idea Brief for MeetScribe & OmniSync (OV-12): Autonomous Google Meet attendance bot (`meet_scribe.py`), real-time speaker diarization, and OmniSync async cross-timezone executive handoff engine bridging US, Lagos, and Dhaka engineering sprints. Next Action: Package meet_scribe.py as a background Windows tray utility with hotkey trigger."
+        "text": "Idea Brief for MeetScribe & OmniSync (OV-12): Autonomous Google Meet attendance bot (`meet_scribe.py`), real-time speaker diarization, and OmniSync async cross-timezone executive handoff engine bridging US, Lagos, and Dhaka engineering sprints. Next Action: Package meet_scribe.py as a Windows tray utility with hotkey trigger."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Package meet_scribe.py as a background Windows tray utility with hotkey trigger."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Package meet_scribe.py as a Windows tray utility with hotkey trigger."
       }
     },
     "resolved": {
@@ -5021,7 +5021,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Autonomous Google Meet attendance bot (`meet_scribe.py`), real-time speaker diarization, and OmniSync async cross-timezone executive handoff engine bridging US, Lagos, and Dhaka engineering sprints.",
-      "workingIdea": "Autonomous Google Meet bot, speaker diarization & async US/Lagos/Dhaka executive handoff engine.",
+      "workingIdea": "Autonomous Google Meet bot, diarization & US/Lagos/Dhaka handoff engine.",
       "aiGeneratedVersion": "Autonomous Google Meet attendance bot (`meet_scribe.py`), real-time speaker diarization, and OmniSync async cross-timezone executive handoff engine bridging US, Lagos, and Dhaka engineering sprints.",
       "confirmedVersion": "Autonomous Google Meet attendance bot (`meet_scribe.py`), real-time speaker diarization, and OmniSync async cross-timezone executive handoff engine bridging US, Lagos, and Dhaka engineering sprints.",
       "status": "resolved",
@@ -5056,7 +5056,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-12)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-12] MeetScribe & OmniSync — Next Action: Package meet_scribe.py as a background Windows tray utility with hotkey trigger. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-12] MeetScribe & OmniSync — Next Action: Package meet_scribe.py as a Windows tray utility with hotkey trigger. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/meetscribe",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -5072,7 +5072,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Package meet_scribe.py as a background Windows tray utility with hotkey trigger.",
+          "text": "Execute Next Action: Package meet_scribe.py as a Windows tray utility with hotkey trigger.",
           "done": false
         }
       ],
@@ -5108,7 +5108,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236d83bd%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%236d83bd%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2338bdf8%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2338bdf8%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%236d83bd%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-12%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20meet_scribe.py%20Ver%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EMeetScribe%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EAutonomous%20Google%20Meet%20bot%2C%20speaker%20diarization%20%26amp%3B%20as%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2268%22%20y%3D%2234%22%20width%3D%2232%22%20height%3D%2258%22%20rx%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20d%3D%22M48%2068%20a36%2036%200%200%200%2072%200%22%20fill%3D%22none%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2284%22%20y1%3D%22104%22%20x2%3D%2284%22%20y2%3D%22132%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2260%22%20y1%3D%22132%22%20x2%3D%22108%22%20y2%3D%22132%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-meetscribe-omnisync.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -5131,7 +5131,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-19",
     "name": "Posey Treasure Hunt (Beyond the Map's Edge)",
     "productName": "Beyond the Map's Edge",
-    "subtitle": "Multi-agent geospatial riddle solver, 24-rule disproof matrix & offline GPX mobile field kit.",
+    "subtitle": "Multi-agent geospatial riddle solver, 24-rule matrix & GPX field kit.",
     "projectDescription": "Multi-agent geospatial intelligence engine for Justin Posey's 'Beyond the Map's Edge' treasure hunt: 24-rule deterministic disproof matrix, USGS/EPA coordinate auditor, and offline GPX Mobile Field Kit.",
     "problem": "Real-world armchair treasure hunts involve thousands of poem clues, historical maps, and terrain constraints where human confirmation bias leads searchers into dangerous or disproven locations.",
     "audience": "Geospatial intelligence researchers, treasure hunters, and field expedition teams.",
@@ -5173,7 +5173,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "24-Rule Disproof Matrix engine + offline-first Mobile Field Kit with GPX waypoints and safety checklists."
       },
       "7": {
-        "text": "Beyond the Map's Edge (OV-19): Multi-agent geospatial riddle solver, 24-rule disproof matrix & offline GPX mobile field kit. Connects Geospatial intelligence researchers, treasure hunters, and field expedition teams. to a verified workflow."
+        "text": "Beyond the Map's Edge (OV-19): Multi-agent geospatial riddle solver, 24-rule matrix & GPX field kit. Connects Geospatial intelligence researchers, treasure hunters, and field expedition teams. to a verified workflow."
       },
       "8": {
         "text": "24-rule deterministic geospatial disproof matrix\nUSGS elevation, hydrography & public land boundary verifier\nPoem cipher & historical source cross-examination agents\nOffline tablet/mobile GPX Field Kit for zero-cell-service terrain"
@@ -5208,7 +5208,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Multi-agent geospatial intelligence engine for Justin Posey's 'Beyond the Map's Edge' treasure hunt: 24-rule deterministic disproof matrix, USGS/EPA coordinate auditor, and offline GPX Mobile Field Kit.",
-      "workingIdea": "Multi-agent geospatial riddle solver, 24-rule disproof matrix & offline GPX mobile field kit.",
+      "workingIdea": "Multi-agent geospatial riddle solver, 24-rule matrix & GPX field kit.",
       "aiGeneratedVersion": "Multi-agent geospatial intelligence engine for Justin Posey's 'Beyond the Map's Edge' treasure hunt: 24-rule deterministic disproof matrix, USGS/EPA coordinate auditor, and offline GPX Mobile Field Kit.",
       "confirmedVersion": "Multi-agent geospatial intelligence engine for Justin Posey's 'Beyond the Map's Edge' treasure hunt: 24-rule deterministic disproof matrix, USGS/EPA coordinate auditor, and offline GPX Mobile Field Kit.",
       "status": "resolved",
@@ -5304,7 +5304,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23539c76%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23fbbf24%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23fbbf24%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23539c76%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-19%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Packaged%20%C2%B7%2078%20NotebookLM%20Dossi%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EBeyond%20the%20Map%26%23x27%3Bs%20Edge%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EMulti-agent%20geospatial%20riddle%20solver%2C%2024-rule%20dispro%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23fbbf24%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%2250%22%20fill%3D%22none%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2284%2C46%2098%2C84%2084%2C122%2070%2C84%22%20fill%3D%22none%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%226%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-posey-treasure-hunt.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -5327,7 +5327,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-20",
     "name": "OmniVeo PS5 Venture Studio Incubator",
     "productName": "OmniVeo Incubator",
-    "subtitle": "12-slide master investor deck & PS5 horizontal game-library venture launcher.",
+    "subtitle": "12-slide master investor deck & PS5 horizontal venture studio launcher.",
     "projectDescription": "12-slide master investor pitch deck paired with a PlayStation 5 inspired horizontal game-carousel venture launcher where every OmniVeo product can be browsed, launched, and inspected with cinematic key art.",
     "problem": "Multi-product holding companies struggle to explain how their ventures connect to investors and partners without overwhelming them in static folders.",
     "audience": "Strategic investors, hackathon judges, enterprise partners, and the OmniVeo executive team.",
@@ -5338,7 +5338,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "GitHub",
       "Google AI Studio"
     ],
-    "nextAction": "Link PS5 Incubator cards directly to the Floppy Founder Atlas JSON store.",
+    "nextAction": "Link PS5 Incubator cards directly to the Floppy Founder Atlas store.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\OmniVeo-Product-Incubator",
     "repoUrl": "https://github.com/NewSamBellamy/omniveo-incubator",
     "liveUrl": "",
@@ -5368,7 +5368,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "PS5-style horizontal media bar launcher + 12-slide interactive master thesis deck."
       },
       "7": {
-        "text": "OmniVeo Incubator (OV-20): 12-slide master investor deck & PS5 horizontal game-library venture launcher. Connects Strategic investors, hackathon judges, enterprise partners, and the OmniVeo executive team. to a verified workflow."
+        "text": "OmniVeo Incubator (OV-20): 12-slide master investor deck & PS5 horizontal venture studio launcher. Connects Strategic investors, hackathon judges, enterprise partners, and the OmniVeo executive team. to a verified workflow."
       },
       "8": {
         "text": "PS5-inspired horizontal venture coverflow & hero backdrop\n12-slide interactive OmniVeo master investor deck\nLive telemetry badges synced with Floppy Founder Atlas\n1-click launch into live product demos and repos"
@@ -5380,10 +5380,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "PlayStation 5 widescreen console dashboard with dynamic ambient background crossfades."
       },
       "11": {
-        "text": "Idea Brief for OmniVeo PS5 Venture Studio Incubator (OV-20): 12-slide master investor pitch deck paired with a PlayStation 5 inspired horizontal game-carousel venture launcher where every OmniVeo product can be browsed, launched, and inspected with cinematic key art. Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas JSON store."
+        "text": "Idea Brief for OmniVeo PS5 Venture Studio Incubator (OV-20): 12-slide master investor pitch deck paired with a PlayStation 5 inspired horizontal game-carousel venture launcher where every OmniVeo product can be browsed, launched, and inspected with cinematic key art. Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas store."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas JSON store."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas store."
       }
     },
     "resolved": {
@@ -5403,7 +5403,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "12-slide master investor pitch deck paired with a PlayStation 5 inspired horizontal game-carousel venture launcher where every OmniVeo product can be browsed, launched, and inspected with cinematic key art.",
-      "workingIdea": "12-slide master investor deck & PS5 horizontal game-library venture launcher.",
+      "workingIdea": "12-slide master investor deck & PS5 horizontal venture studio launcher.",
       "aiGeneratedVersion": "12-slide master investor pitch deck paired with a PlayStation 5 inspired horizontal game-carousel venture launcher where every OmniVeo product can be browsed, launched, and inspected with cinematic key art.",
       "confirmedVersion": "12-slide master investor pitch deck paired with a PlayStation 5 inspired horizontal game-carousel venture launcher where every OmniVeo product can be browsed, launched, and inspected with cinematic key art.",
       "status": "resolved",
@@ -5438,7 +5438,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-20)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-20] OmniVeo PS5 Venture Studio Incubator — Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas JSON store. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-20] OmniVeo PS5 Venture Studio Incubator — Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas store. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://github.com/NewSamBellamy/omniveo-incubator",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -5454,7 +5454,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas JSON store.",
+          "text": "Execute Next Action: Link PS5 Incubator cards directly to the Floppy Founder Atlas store.",
           "done": false
         }
       ],
@@ -5490,7 +5490,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236d83bd%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%236d83bd%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2338bdf8%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2338bdf8%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%236d83bd%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-20%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%2012-Slide%20Deck%20%2B%20PS%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EOmniVeo%20Incubator%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3E12-slide%20master%20investor%20deck%20%26amp%3B%20PS5%20horizontal%20game-%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2338bdf8%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2232%22%20y%3D%2254%22%20width%3D%22104%22%20height%3D%2262%22%20rx%3D%2220%22%20fill%3D%22none%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2273%22%20x2%3D%2258%22%20y2%3D%2297%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2246%22%20y1%3D%2285%22%20x2%3D%2270%22%20y2%3D%2285%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22106%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23edbd70%22%2F%3E%3Ccircle%20cx%3D%22118%22%20cy%3D%2291%22%20r%3D%226%22%20fill%3D%22%2334d399%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-ps5-venture-incubator.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -5513,7 +5513,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-32",
     "name": "Executive Cockpits & CareFlow IHSS",
     "productName": "OmniVeo Executive Cockpits",
-    "subtitle": "Nemo CEO, Vespa CFO, Perry Life & CareFlow IHSS Copilot (base-minute integer arithmetic).",
+    "subtitle": "Nemo CEO, Vespa CFO, Perry Life & CareFlow IHSS base-minute copilot.",
     "projectDescription": "Role-specialized command centers for Nemo (CEO strategy), Vespa (CFO FinOps & subscription governance), Perry (Life/Legal docket operations), and CareFlow IHSS Copilot (deterministic base-minute h*60+m timesheet math for 183h/mo pool).",
     "problem": "Founder life, legal deadlines, SaaS burn, and California IHSS caregiver timesheet rules (183h monthly cap, base-60 minute conversion errors) cause costly administrative mistakes when tracked manually.",
     "audience": "Shannon Long, OmniVeo executive agents (Nemo, Vespa, Perry), and IHSS caregivers/recipients.",
@@ -5524,7 +5524,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "Claude Code"
     ],
-    "nextAction": "Keep subscription ledger and cloud grant runway synced in 02_AREAS/Finance/.",
+    "nextAction": "Keep subscription ledger and cloud grant runway synced in 02_AREAS.",
     "localPath": "C:\\Users\\shann\\OmniVeo-HQ\\01_PROJECTS\\Vespa-Finance-Dashboard",
     "repoUrl": "",
     "liveUrl": "",
@@ -5554,7 +5554,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "CareFlow IHSS Timesheet Calculator + Vespa CFO FinOps Burn & Grant Runway Cockpit."
       },
       "7": {
-        "text": "OmniVeo Executive Cockpits (OV-32): Nemo CEO, Vespa CFO, Perry Life & CareFlow IHSS Copilot (base-minute integer arithmetic). Connects Shannon Long, OmniVeo executive agents (Nemo, Vespa, Perry), and IHSS caregivers/recipients. to a verified workflow."
+        "text": "OmniVeo Executive Cockpits (OV-32): Nemo CEO, Vespa CFO, Perry Life & CareFlow IHSS base-minute copilot. Connects Shannon Long, OmniVeo executive agents (Nemo, Vespa, Perry), and IHSS caregivers/recipients. to a verified workflow."
       },
       "8": {
         "text": "CareFlow IHSS deterministic base-minute (h*60+m) timesheet allocator\nVespa CFO subscription audit & $850K grant runway tracker\nNemo CEO hackathon & stage-gate countdown radar\nPerry Life & legal docket deadline monitor"
@@ -5566,10 +5566,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "High-trust financial and operational ledger with zero-ambiguity validation badges."
       },
       "11": {
-        "text": "Idea Brief for Executive Cockpits & CareFlow IHSS (OV-32): Role-specialized command centers for Nemo (CEO strategy), Vespa (CFO FinOps & subscription governance), Perry (Life/Legal docket operations), and CareFlow IHSS Copilot (deterministic base-minute h*60+m timesheet math for 183h/mo pool). Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS/Finance/."
+        "text": "Idea Brief for Executive Cockpits & CareFlow IHSS (OV-32): Role-specialized command centers for Nemo (CEO strategy), Vespa (CFO FinOps & subscription governance), Perry (Life/Legal docket operations), and CareFlow IHSS Copilot (deterministic base-minute h*60+m timesheet math for 183h/mo pool). Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS/Finance/."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS."
       }
     },
     "resolved": {
@@ -5589,7 +5589,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Role-specialized command centers for Nemo (CEO strategy), Vespa (CFO FinOps & subscription governance), Perry (Life/Legal docket operations), and CareFlow IHSS Copilot (deterministic base-minute h*60+m timesheet math for 183h/mo pool).",
-      "workingIdea": "Nemo CEO, Vespa CFO, Perry Life & CareFlow IHSS Copilot (base-minute integer arithmetic).",
+      "workingIdea": "Nemo CEO, Vespa CFO, Perry Life & CareFlow IHSS base-minute copilot.",
       "aiGeneratedVersion": "Role-specialized command centers for Nemo (CEO strategy), Vespa (CFO FinOps & subscription governance), Perry (Life/Legal docket operations), and CareFlow IHSS Copilot (deterministic base-minute h*60+m timesheet math for 183h/mo pool).",
       "confirmedVersion": "Role-specialized command centers for Nemo (CEO strategy), Vespa (CFO FinOps & subscription governance), Perry (Life/Legal docket operations), and CareFlow IHSS Copilot (deterministic base-minute h*60+m timesheet math for 183h/mo pool).",
       "status": "resolved",
@@ -5633,7 +5633,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-32)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-32] Executive Cockpits & CareFlow IHSS — Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS/Finance/. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-32] Executive Cockpits & CareFlow IHSS — Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -5649,7 +5649,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS/Finance/.",
+          "text": "Execute Next Action: Keep subscription ledger and cloud grant runway synced in 02_AREAS.",
           "done": true
         }
       ],
@@ -5685,7 +5685,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23cf6c2c%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%234ade80%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23cf6c2c%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%234ade80%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-32%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%203%20MVP%20%C2%B7%20Zero-Float%20IHSS%20Math%20Ver%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EOmniVeo%20Executive%20Cockpits%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3ENemo%20CEO%2C%20Vespa%20CFO%2C%20Perry%20Life%20%26amp%3B%20CareFlow%20IHSS%20Copi%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%234ade80%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M84%2032%20L128%2050%20V86%20C128%20114%20106%20132%2084%20140%20C62%20132%2040%20114%2040%2086%20V50%20Z%22%20fill%3D%22none%22%20stroke%3D%22%234ade80%22%20stroke-width%3D%224%22%2F%3E%3Cpolyline%20points%3D%2266%2C86%2079%2C100%20104%2C70%22%20fill%3D%22none%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-executive-cockpits-careflow.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -5708,7 +5708,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-33",
     "name": "Extreme Game Trailer & Dispatch Engine",
     "productName": "Extreme Game Trailer",
-    "subtitle": "High-converting SoCal mobile game truck booking site + automated buffer-math dispatch parser.",
+    "subtitle": "SoCal mobile game truck booking site + automated buffer-math dispatch.",
     "projectDescription": "High-converting Southern California mobile game truck booking website (laser tag, foam party, Fortnite/VR truck galleries) paired with an automated schedule parser computing traffic and setup buffers (+30m traffic, +45m trailer, +90m laser tag).",
     "problem": "Mobile event operators lose bookings to outdated websites and suffer scheduling collisions when Wednesday dispatch drops don't account for SoCal traffic and equipment setup/teardown buffers.",
     "audience": "Southern California event clients (parents, schools, corporate events) and mobile game trailer operators.",
@@ -5719,7 +5719,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Desktop Hub",
       "Google Keep"
     ],
-    "nextAction": "Connect Wednesday schedule drop parser to automated calendar block creation.",
+    "nextAction": "Connect Wednesday schedule drop parser to automated calendar blocks.",
     "localPath": "C:\\Users\\shann\\.zcode\\workspace\\default\\extreme-game-trailer",
     "repoUrl": "",
     "liveUrl": "",
@@ -5749,7 +5749,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Multi-page Extreme Game Trailer booking site + Wednesday schedule drop parser with automatic buffer calculation."
       },
       "7": {
-        "text": "Extreme Game Trailer (OV-33): High-converting SoCal mobile game truck booking site + automated buffer-math dispatch parser. Connects Southern California event clients (parents, schools, corporate events) and mobile game trailer operators. to a verified workflow."
+        "text": "Extreme Game Trailer (OV-33): SoCal mobile game truck booking site + automated buffer-math dispatch. Connects Southern California event clients (parents, schools, corporate events) and mobile game trailer operators. to a verified workflow."
       },
       "8": {
         "text": "High-converting mobile game truck, laser tag & foam party booking pages\nDeterministic setup/teardown buffer calculator (+30m/+45m/+90m)\nWednesday dispatch schedule text parser to calendar blocks\nMobile-first photo galleries & instant quote flow"
@@ -5761,10 +5761,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "High-energy arcade neon party aesthetic with clear parent-friendly booking packages."
       },
       "11": {
-        "text": "Idea Brief for Extreme Game Trailer & Dispatch Engine (OV-33): High-converting Southern California mobile game truck booking website (laser tag, foam party, Fortnite/VR truck galleries) paired with an automated schedule parser computing traffic and setup buffers (+30m traffic, +45m trailer, +90m laser tag). Next Action: Connect Wednesday schedule drop parser to automated calendar block creation."
+        "text": "Idea Brief for Extreme Game Trailer & Dispatch Engine (OV-33): High-converting Southern California mobile game truck booking website (laser tag, foam party, Fortnite/VR truck galleries) paired with an automated schedule parser computing traffic and setup buffers (+30m traffic, +45m trailer, +90m laser tag). Next Action: Connect Wednesday schedule drop parser to automated calendar blocks."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Connect Wednesday schedule drop parser to automated calendar block creation."
+        "text": "Readiness confirmed at Stage 2. Immediate Next Action: Connect Wednesday schedule drop parser to automated calendar blocks."
       }
     },
     "resolved": {
@@ -5784,7 +5784,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "High-converting Southern California mobile game truck booking website (laser tag, foam party, Fortnite/VR truck galleries) paired with an automated schedule parser computing traffic and setup buffers (+30m traffic, +45m trailer, +90m laser tag).",
-      "workingIdea": "High-converting SoCal mobile game truck booking site + automated buffer-math dispatch parser.",
+      "workingIdea": "SoCal mobile game truck booking site + automated buffer-math dispatch.",
       "aiGeneratedVersion": "High-converting Southern California mobile game truck booking website (laser tag, foam party, Fortnite/VR truck galleries) paired with an automated schedule parser computing traffic and setup buffers (+30m traffic, +45m trailer, +90m laser tag).",
       "confirmedVersion": "High-converting Southern California mobile game truck booking website (laser tag, foam party, Fortnite/VR truck galleries) paired with an automated schedule parser computing traffic and setup buffers (+30m traffic, +45m trailer, +90m laser tag).",
       "status": "resolved",
@@ -5810,7 +5810,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-33)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-33] Extreme Game Trailer & Dispatch Engine — Next Action: Connect Wednesday schedule drop parser to automated calendar block creation. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-33] Extreme Game Trailer & Dispatch Engine — Next Action: Connect Wednesday schedule drop parser to automated calendar blocks. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -5826,7 +5826,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Connect Wednesday schedule drop parser to automated calendar block creation.",
+          "text": "Execute Next Action: Connect Wednesday schedule drop parser to automated calendar blocks.",
           "done": true
         }
       ],
@@ -5862,7 +5862,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d76883%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23d76883%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2334d399%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%2334d399%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23d76883%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%2334d399%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-33%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%203%20MVP%20%C2%B7%20ZCode%20Multi-Page%20Site%20Bu%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EExtreme%20Game%20Trailer%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EHigh-converting%20SoCal%20mobile%20game%20truck%20booking%20site%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%2334d399%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2232%22%20y%3D%2254%22%20width%3D%22104%22%20height%3D%2262%22%20rx%3D%2220%22%20fill%3D%22none%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2258%22%20y1%3D%2273%22%20x2%3D%2258%22%20y2%3D%2297%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Cline%20x1%3D%2246%22%20y1%3D%2285%22%20x2%3D%2270%22%20y2%3D%2285%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22106%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23edbd70%22%2F%3E%3Ccircle%20cx%3D%22118%22%20cy%3D%2291%22%20r%3D%226%22%20fill%3D%22%2334d399%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-extreme-game-trailer.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,
@@ -5885,7 +5885,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     "code": "OV-34",
     "name": "Miranda Realty, SMB Review Engine & Poetic Chivalry",
     "productName": "Poetic Chivalry & Client Ops",
-    "subtitle": "Inland Empire real estate competitive cron, NFC/QR SMB Google Review engine & Poetic Chivalry apparel.",
+    "subtitle": "IE real estate competitive cron, NFC review engine & Poetic Chivalry.",
     "projectDescription": "Client & personal venture suite combining David Miranda Realty (weekly Inland Empire real estate competitive intelligence cron in ZCode), the Tobi SMB NFC/QR Google Review growth engine, and Poetic Chivalry / Homeless Dog Crew skate & streetwear brand.",
     "problem": "Local brick-and-mortar businesses and realtors lack automated local competitor monitoring and frictionless in-person Google Review capture, while personal creative apparel brands need clean separation from core AI SaaS ops.",
     "audience": "Inland Empire real estate clients, local brick-and-mortar SMBs, and Poetic Chivalry community supporters.",
@@ -5896,7 +5896,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       "Google Keep",
       "Desktop Hub"
     ],
-    "nextAction": "Maintain ZCode weekly Inland Empire real estate competitive cron and keep Poetic Chivalry archived in 03_PERSONAL/.",
+    "nextAction": "Maintain weekly IE real estate cron and preserve Poetic Chivalry vault.",
     "localPath": "C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\product ideas\\21_Poetic_Chivalry",
     "repoUrl": "",
     "liveUrl": "https://poeticshivalry.com",
@@ -5926,7 +5926,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Weekly IE Real Estate Competitive Cron + NFC/QR Review Capture Funnel + PoeticShivalry.com preserved storefront."
       },
       "7": {
-        "text": "Poetic Chivalry & Client Ops (OV-34): Inland Empire real estate competitive cron, NFC/QR SMB Google Review engine & Poetic Chivalry apparel. Connects Inland Empire real estate clients, local brick-and-mortar SMBs, and Poetic Chivalry community supporters. to a verified workflow."
+        "text": "Poetic Chivalry & Client Ops (OV-34): IE real estate competitive cron, NFC review engine & Poetic Chivalry. Connects Inland Empire real estate clients, local brick-and-mortar SMBs, and Poetic Chivalry community supporters. to a verified workflow."
       },
       "8": {
         "text": "Automated weekly Inland Empire real estate competitive analysis cron\nOne-tap NFC/QR storefront Google Review & SMS follow-up engine\nPoetic Chivalry & Homeless Dog Crew custom skate deck archive\nStrict quarantine boundary between client/personal ops and core AI fleet"
@@ -5938,10 +5938,10 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "text": "Clean local-business trust cards paired with raw street-art skate deck graphics."
       },
       "11": {
-        "text": "Idea Brief for Miranda Realty, SMB Review Engine & Poetic Chivalry (OV-34): Client & personal venture suite combining David Miranda Realty (weekly Inland Empire real estate competitive intelligence cron in ZCode), the Tobi SMB NFC/QR Google Review growth engine, and Poetic Chivalry / Homeless Dog Crew skate & streetwear brand. Next Action: Maintain ZCode weekly Inland Empire real estate competitive cron and keep Poetic Chivalry archived in 03_PERSONAL/."
+        "text": "Idea Brief for Miranda Realty, SMB Review Engine & Poetic Chivalry (OV-34): Client & personal venture suite combining David Miranda Realty (weekly Inland Empire real estate competitive intelligence cron in ZCode), the Tobi SMB NFC/QR Google Review growth engine, and Poetic Chivalry / Homeless Dog Crew skate & streetwear brand. Next Action: Maintain weekly IE real estate cron and preserve Poetic Chivalry vault."
       },
       "12": {
-        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Maintain ZCode weekly Inland Empire real estate competitive cron and keep Poetic Chivalry archived in 03_PERSONAL/."
+        "text": "Readiness confirmed at Stage 1. Immediate Next Action: Maintain weekly IE real estate cron and preserve Poetic Chivalry vault."
       }
     },
     "resolved": {
@@ -5961,7 +5961,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
     },
     "idea": {
       "rawIdea": "Client & personal venture suite combining David Miranda Realty (weekly Inland Empire real estate competitive intelligence cron in ZCode), the Tobi SMB NFC/QR Google Review growth engine, and Poetic Chivalry / Homeless Dog Crew skate & streetwear brand.",
-      "workingIdea": "Inland Empire real estate competitive cron, NFC/QR SMB Google Review engine & Poetic Chivalry apparel.",
+      "workingIdea": "IE real estate competitive cron, NFC review engine & Poetic Chivalry.",
       "aiGeneratedVersion": "Client & personal venture suite combining David Miranda Realty (weekly Inland Empire real estate competitive intelligence cron in ZCode), the Tobi SMB NFC/QR Google Review growth engine, and Poetic Chivalry / Homeless Dog Crew skate & streetwear brand.",
       "confirmedVersion": "Client & personal venture suite combining David Miranda Realty (weekly Inland Empire real estate competitive intelligence cron in ZCode), the Tobi SMB NFC/QR Google Review growth engine, and Poetic Chivalry / Homeless Dog Crew skate & streetwear brand.",
       "status": "resolved",
@@ -6005,7 +6005,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
         "kind": "file",
         "title": "Master Product Atlas (OV-34)",
         "sourceBadge": "Desktop Hub",
-        "text": "[OV-34] Miranda Realty, SMB Review Engine & Poetic Chivalry — Next Action: Maintain ZCode weekly Inland Empire real estate competitive cron and keep Poetic Chivalry archived in 03_PERSONAL/. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
+        "text": "[OV-34] Miranda Realty, SMB Review Engine & Poetic Chivalry — Next Action: Maintain weekly IE real estate cron and preserve Poetic Chivalry vault. | # 🏛️ Shannon Long — Master Product & Idea Atlas (All 8 Sources Consolidated) **Compiled:** October 20, 2026 **Custodian:** Vespa (CFO & Operations Agent) **Spin-Off Repository:** `C:\\Users\\shann\\Desktop\\OmniVeo_Workspaces\\01_Active_Projects\\Floppy-Founder-Atlas` (Branch: `spinoff/founder-product-atlas`, forked from `NewSamBellamy/floppy` `floppy-v3`) **Sourc",
         "url": "https://poeticshivalry.com",
         "createdAt": "2026-10-20T14:00:00Z"
       }
@@ -6021,7 +6021,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
           "done": true
         },
         {
-          "text": "Execute Next Action: Maintain ZCode weekly Inland Empire real estate competitive cron and keep Poetic Chivalry archived in 03_PERSONAL/.",
+          "text": "Execute Next Action: Maintain weekly IE real estate cron and preserve Poetic Chivalry vault.",
           "done": false
         }
       ],
@@ -6057,7 +6057,7 @@ export const FOUNDER_ATLAS_PROJECTS = [
       ]
     },
     "projectArt": {
-      "sourceUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20width%3D%22800%22%20height%3D%22400%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23111916%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231c2a24%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23ba7253%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22accent%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ba7253%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23edbd70%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3Cpattern%20id%3D%22grid%22%20width%3D%2232%22%20height%3D%2232%22%20patternUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%2032%200%20L%200%200%200%2032%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%220.6%22%20stroke-opacity%3D%220.08%22%2F%3E%0A%20%20%20%20%3C%2Fpattern%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23bg%29%22%2F%3E%0A%20%20%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22url%28%23grid%29%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22680%22%20cy%3D%22110%22%20r%3D%22150%22%20fill%3D%22%23edbd70%22%20opacity%3D%220.14%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22650%22%20cy%3D%22290%22%20r%3D%22110%22%20fill%3D%22%23ba7253%22%20opacity%3D%220.18%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%22352%22%20rx%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.18%22%20stroke-width%3D%221.5%22%2F%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2224%22%20width%3D%22744%22%20height%3D%226%22%20rx%3D%223%22%20fill%3D%22url%28%23accent%29%22%2F%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%2054%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22128%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%230d1412%22%20fill-opacity%3D%220.75%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%221.2%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2264%22%20y%3D%2220%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EOV-34%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22142%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2230%22%20rx%3D%226%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.09%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22158%22%20y%3D%2220%22%20fill%3D%22%23f3f6f4%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22600%22%20letter-spacing%3D%220.8%22%3EStage%202%20Prototype%20%C2%B7%20ZCode%20Cron%20%2B%20Prese%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20138%29%22%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Trebuchet%20MS%2C%20Segoe%20UI%2C%20sans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20letter-spacing%3D%22-0.5%22%3EPoetic%20Chivalry%20%26amp%3B%20Client%20O%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%220%22%20y%3D%2242%22%20fill%3D%22%23d3dfd9%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22500%22%3EInland%20Empire%20real%20estate%20competitive%20cron%2C%20NFC%2FQR%20S%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%2852%2C%20235%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22440%22%20height%3D%2292%22%20rx%3D%228%22%20fill%3D%22%230b110f%22%20fill-opacity%3D%220.62%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2218%22%20y%3D%2228%22%20fill%3D%22%23edbd70%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20letter-spacing%3D%221.2%22%3EOMNIVEO%20FOUNDER%20ATLAS%20%2F%2F%20VERIFIED%20TELEMETRY%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2218%22%20y1%3D%2240%22%20x2%3D%22422%22%20y2%3D%2240%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%220.12%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2228%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%234ade80%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2244%22%20y%3D%2269%22%20fill%3D%22%23e2ece7%22%20font-family%3D%22Consolas%2C%20monospace%22%20font-size%3D%2213%22%20font-weight%3D%22600%22%3EREPO%20%26amp%3B%20DISK%20TRUTH%20%C2%B7%20ZERO%20AI%20SLOP%3C%2Ftext%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20transform%3D%22translate%28565%2C%20118%29%22%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22168%22%20height%3D%22168%22%20rx%3D%2222%22%20fill%3D%22%230d1512%22%20fill-opacity%3D%220.72%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.65%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%2250%22%20fill%3D%22none%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%224%22%2F%3E%3Cpolygon%20points%3D%2284%2C46%2098%2C84%2084%2C122%2070%2C84%22%20fill%3D%22none%22%20stroke%3D%22%23edbd70%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%2284%22%20cy%3D%2284%22%20r%3D%226%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+      "sourceUrl": "art/atlas-miranda-realty-poetic-chivalry.jpg",
       "sourceType": "builtin",
       "crop": {
         "x": 0,

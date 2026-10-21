@@ -116,7 +116,11 @@ test('FOUNDER_ATLAS_PROJECTS contains all 32 unique projects with complete schem
       assert.ok(p.stageChecklist[stageKey].length > 0);
     }
 
-    assert.ok(p.projectArt?.sourceUrl?.startsWith('data:image/svg+xml;utf8,'), `${p.id} missing SVG data URI`);
+    assert.ok((p.projectArt?.sourceUrl?.startsWith('art/atlas-') && p.projectArt.sourceUrl.endsWith('.jpg')) || p.projectArt?.sourceUrl === 'art/floppy.png', `${p.id} missing studio artwork path: ${p.projectArt?.sourceUrl}`);
+    assert.ok(fs.existsSync(path.resolve(p.projectArt.sourceUrl)), `Studio artwork file missing on disk: ${p.projectArt.sourceUrl}`);
+    assert.ok(fs.existsSync(path.resolve('dist', p.projectArt.sourceUrl)), `Dist studio artwork file missing on disk: dist/${p.projectArt.sourceUrl}`);
+    assert.ok(p.subtitle.length < 85, `${p.id} subtitle exceeds 85 chars (${p.subtitle.length})`);
+    assert.ok(p.nextAction.length < 85, `${p.id} nextAction exceeds 85 chars (${p.nextAction.length})`);
     assert.equal(p.projectArt.sourceType, 'builtin');
     assert.deepEqual(p.projectArt.crop, { x: 0, y: 0, zoom: 1 });
     assert.ok(VALID_COLORS.has(p.color), `Invalid disk color ${p.color} on ${p.id}`);

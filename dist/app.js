@@ -4,6 +4,7 @@ import {chapterFlow} from './chapter-intelligence.mjs?v=chapter-intelligence-2';
 import {recoverProjectSession} from './project-recovery.mjs';
 import {renderDecisionArtifact} from './chapter-artifact.mjs';
 import {renderProductWorkspace} from './product-workspace.mjs?v=staging-handoff-1';
+import {renderCinematicPortfolio} from './cinematic-portfolio.mjs';
 import {commitProjectArt,createProjectArt as makeProjectArt,cropImageStyle,normalizeProjectArt,projectArtSource,FLOPPY_ART_WINDOW_ASPECT_RATIO,FLOPPY_GEOMETRY} from './project-art.mjs?v=project-art-8';
 import {loadLocalSnapshot,savedAtFromSnapshot,saveLocalSnapshot,withSaveTime} from './local-store.mjs?v=local-store-1';
 import {buildIdeaBrief,buildReadiness} from './product-shaping.mjs';
@@ -116,7 +117,7 @@ const ATLAS_STORE='floppy-founder-atlas-v1';
 let atlasState=createAtlasState();
 let localSaveChain=Promise.resolve(),latestLocalSerialized='';
 function validCollection(saved){return [2,3,4].includes(saved?.version)&&Array.isArray(saved.projects)&&saved.projects.length&&saved.projects.every(p=>['id','name','subtitle','context','problem','audience'].every(k=>typeof p[k]==='string')&&Number.isInteger(p.stage)&&p.stage>=0&&p.stage<5&&Array.isArray(p.notes)&&Array.isArray(p.history)&&p.done&&typeof p.done==='object'&&(saved.version===4?typeof p.projectArt?.sourceUrl==='string':typeof p.art==='string'));}
-function applyCollection(saved,raw){projects=saved.projects.map(p=>hydrateProject(p,saved.version));if(projects.length<=3)projects=mergeFounderAtlasProjects(projects,hydrateProject);active=projects.some(p=>p.id===saved.active)?saved.active:projects[0].id;lastStored=raw;lastSavedAt=savedAtFromSnapshot(raw)||0;deviceSnapshot=structuredClone({version:4,projects,active});}
+function applyCollection(saved,raw){projects=saved.projects.map(p=>hydrateProject(p,saved.version));projects=mergeFounderAtlasProjects(projects,hydrateProject);active=projects.some(p=>p.id===saved.active)?saved.active:projects[0].id;lastStored=raw;lastSavedAt=savedAtFromSnapshot(raw)||0;deviceSnapshot=structuredClone({version:4,projects,active});}
 function queueLocalSnapshot(serialized){latestLocalSerialized=serialized;localSaveChain=localSaveChain.catch(()=>{}).then(()=>saveLocalSnapshot(serialized)).catch(error=>{if(serialized===latestLocalSerialized){saveError='Your local workspace could not be saved. Keep this tab open and try again.';showSaveError();toast(saveError);}});}
 function hydrateProject(p,version){const answers=p.answers||{0:{text:p.context||''}},resolved={...(p.resolved||{})};let idea=p.idea;if(!idea||typeof idea.rawIdea!=='string'){idea=blankIdea(answers[0]?.text||p.context||'',answers[0]?.text?'drafted':'unresolved');delete resolved[0];}else idea={...blankIdea(idea.rawIdea),...idea};const contexts=(Array.isArray(p.contexts)?p.contexts:[]).map(c=>({...c,id:c.id||crypto.randomUUID()}));const project={...p,productName:typeof p.productName==='string'?p.productName:'',stage:version>=3?p.stage:0,chapter:version>=3?Math.min(Number.isInteger(p.chapter)?p.chapter:0,chapters.length-1):0,answers,idea,resolved,contexts,discovery:hydrateDiscoveryState(p.discovery),workBriefs:p.workBriefs||{},problemSynthesis:p.problemSynthesis||null,phaseNotes:p.phaseNotes||{},done:p.done||{},notes:p.notes||[],history:p.history||[]};project.projectArt=normalizeProjectArt(p.projectArt,p.art);delete project.art;return project;}
 projects=mergeFounderAtlasProjects(projects,hydrateProject);
@@ -142,14 +143,15 @@ function projectDescription(p){const value=p.projectDescription||p.idea?.confirm
 function projectProgress(p){const resolved=Object.keys(p.resolved||{}).filter(key=>p.resolved[key]).length+(p.idea?.status==='resolved'?1:0);const completed=p.stage>0?chapters.length+p.stage:Math.min(chapters.length,resolved);return Math.min(100,Math.round(completed/(chapters.length+4)*100));}
 function projectUpdatedAt(p){const dates=[p.updatedAt,p.createdAt,p.idea?.updatedAt,...(p.history||[]).map(item=>item.date),...(p.contexts||[]).map(item=>item.createdAt||item.date)].map(value=>Date.parse(value||'')).filter(Number.isFinite);return dates.length?Math.max(...dates):0;}
 function visibleProjects(){const filtered=projects.filter(p=>projectMatchesAtlasFilters(p,{query:libraryQuery,category:atlasState.category,source:atlasState.source}));return filtered.sort((a,b)=>librarySort==='title'?a.name.localeCompare(b.name):librarySort==='progress'?projectProgress(b)-projectProgress(a)||a.name.localeCompare(b.name):projectUpdatedAt(b)-projectUpdatedAt(a));}
-function disk(p){const art=normalizeProjectArt(p.projectArt,p.art),image=`<div class="disk-art-window" data-floppy-art-frame><img data-floppy-art-image data-crop-x="${art.crop.x}" data-crop-y="${art.crop.y}" data-crop-zoom="${art.crop.zoom}" src="${esc(projectArtSource(p))}" alt="Artwork for ${esc(p.name)}"></div>`;return `<article class="disk-card ${p.id===active?'selected':''}" data-id="${esc(p.id)}"><button class="disk-select" data-id="${esc(p.id)}" aria-label="Choose ${esc(p.name)} · ${projectProgress(p)}% complete" aria-pressed="${p.id===active}">${diskShell(colorOf(p),image,`<strong>${esc(p.name)}</strong><span class="disk-progress">${projectProgress(p)}%</span>`)}</button><button class="art-edit" data-art-id="${esc(p.id)}" aria-label="Edit image for ${esc(p.name)}">Edit image</button></article>`;}
+function disk(p){const art=normalizeProjectArt(p.projectArt,p.art),stageTag=['Idea','Prototype','MVP','Live','Live'][Number(p.stage||0)]||'Idea',image=`<div class="disk-art-window" data-floppy-art-frame><img data-floppy-art-image data-crop-x="${art.crop.x}" data-crop-y="${art.crop.y}" data-crop-zoom="${art.crop.zoom}" src="${esc(projectArtSource(p))}" alt="Artwork for ${esc(p.name)}"></div>`;return `<article class="disk-card ${p.id===active?'selected':''}" data-id="${esc(p.id)}"><button class="disk-select" data-id="${esc(p.id)}" aria-label="Choose ${esc(p.name)}" aria-pressed="${p.id===active}">${diskShell(colorOf(p),image,`<strong>${esc(p.name)}</strong><span class="disk-progress">${esc(stageTag)}</span>`)}</button><button class="art-edit" data-art-id="${esc(p.id)}" aria-label="Edit image for ${esc(p.name)}">Edit image</button></article>`;}
 function applyFloppyArtCrop(image,crop){if(!image?.naturalWidth||!image.naturalHeight)return;const style=cropImageStyle({imageWidth:image.naturalWidth,imageHeight:image.naturalHeight,frameAspectRatio:FLOPPY_ART_WINDOW_ASPECT_RATIO,crop});if(style)Object.assign(image.style,style);}
 function bindFloppyArtImages(root=document){root.querySelectorAll('[data-floppy-art-image]').forEach(image=>{const crop={x:Number(image.dataset.cropX),y:Number(image.dataset.cropY),zoom:Number(image.dataset.cropZoom)};image.onload=()=>applyFloppyArtCrop(image,crop);if(image.complete)applyFloppyArtCrop(image,crop);});}
 function openProjectById(id){if(!projects.some(p=>p.id===id))return;select(id,false);open();}
 function library(){
  const items=visibleProjects();
  if(items.length&&!items.some(p=>p.id===active))active=items[0].id;
- $('library').querySelector('h1').textContent=projects.length?'Choose a project':'Start an idea';
+ $('library').dataset.viewMode=atlasState.viewMode;
+ $('library').querySelector('h1').textContent=projects.length?'Studio Archive':'Start an idea';
  const hasFilter=Boolean(libraryQuery||(atlasState.category&&atlasState.category.toLowerCase()!=='all')||atlasState.source!=='All Sources');
  $('projectFilterStatus').textContent=hasFilter?`${items.length} of ${projects.length} venture${projects.length===1?'':'s'} shown`:`${projects.length} venture${projects.length===1?'':'s'} · ${librarySort==='recent'?'recently updated':librarySort==='title'?'alphabetical':'progress'}`;
  $('clearProjectSearch').hidden=!hasFilter;
@@ -171,7 +173,8 @@ function library(){
  if(isCarousel&&projects.length)resume();
  if(!isCarousel&&altEl){
   if(atlasState.viewMode==='grid'){
-   renderAtlasGridView(altEl,items,{activeId:active,colorOf,projectProgress,projectArtSource,onSelectProject:id=>{select(id,false);library();},onOpenProject:openProjectById});
+   renderAtlasGridView(altEl,items,{activeId:active,colorOf,projectProgress,projectArtSource,onSelectProject:id=>{select(id,false);},onOpenProject:openProjectById});
+   bindFloppyArtImages(altEl);
    altEl.querySelector('[data-reset-atlas-filters]')?.addEventListener('click',()=>{$('projectSearch').value='';libraryQuery='';atlasState.category='all';atlasState.source='All Sources';library();});
   }else if(atlasState.viewMode==='matrix'){
    renderAtlasMatrixView(altEl,items,{colorOf,projectProgress,onOpenProject:openProjectById});
@@ -180,7 +183,7 @@ function library(){
   }
  }
 }
-function resume(){const p=current();if(!p)return;$('resumeTitle').textContent=p.code?`${p.code} · ${p.name}`:p.name;$('resumeSubtitle').textContent=p.nextAction?`Next Action: ${p.nextAction} — ${projectDescription(p)}`:projectDescription(p);$('resumeMeta').textContent=`${projectProgress(p)}% complete · ${p.verificationBadge||state(p)}${p.category?` · ${p.category}`:''}`;$('diskCount').textContent=`${projects.indexOf(p)+1} of ${projects.length}`;}
+function resume(){const p=current();if(!p)return;const stageTag=['Idea','Prototype','MVP','Live','Live'][Number(p.stage||0)]||'Idea';$('resumeTitle').textContent=p.name;$('resumeSubtitle').textContent=p.subtitle||projectDescription(p);$('resumeMeta').textContent=p.nextAction?`${p.code?`${p.code} · `:''}${stageTag} · Next: ${p.nextAction}`:`${projectProgress(p)}% complete · ${state(p)}`;$('diskCount').textContent=`${projects.indexOf(p)+1} of ${projects.length}`;}
 function select(id,scroll=false){if(!projects.some(project=>project.id===id))return;active=id;for(const item of $('carousel').children){item.classList.toggle('selected',item.dataset.id===id);const b=item.querySelector('.disk-select');b?.setAttribute('aria-pressed',String(item.dataset.id===id));}resume();if(scroll){const b=[...$('carousel').children].find(b=>b.dataset.id===id);if(b)$('carousel').scrollTo({left:b.offsetLeft-($('carousel').clientWidth-b.offsetWidth)/2,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}persist();}
 function move(n){if(!projects.length)return;select(projects[(projects.indexOf(current())+n+projects.length)%projects.length].id,true);}
 $('previous').onclick=()=>move(-1);$('next').onclick=()=>move(1);
@@ -394,6 +397,9 @@ async function nextDiscoveryQuestion(p,initial=false){
  finally{state.interviewStatus='idle';persist();if(current()?.id===p.id&&view==='project')renderProject();}
 }
 function renderProject(){
+ const p=current();
+ renderCinematicPortfolio(p);
+ return;
  $('actionPanel').classList.remove('decision-confirmed','product-thinking');
  const p=current(),stage=p.stage,chapter=p.chapter||0,isIdea=stage===0,discovery=isIdea&&p.discovery?.mode==='studio',working=isIdea&&chapter===0&&!discovery;$('actionPanel').classList.toggle('idea-mode',working);$('actionPanel').classList.remove('investigation-mode');document.body.classList.toggle('project-view',view==='project');const previousChapter=document.body.dataset.activeChapter;document.body.dataset.activeChapter=String(chapter);if(previousChapter!==String(chapter))document.querySelector('.workspace-main').scrollTop=0;document.querySelector('.context-strip')?.toggleAttribute('hidden',working||(isIdea&&chapter>0&&!discovery));
  $('projectStage').textContent=discovery?'PHASE 01 · DISCOVERY STUDIO':stage===0?'PHASE 01 · IDEA / CHAPTER '+String(chapter+1).padStart(2,'0')+' — '+chapters[chapter].name:phases[stage].toUpperCase()+' / '+(task(p)?.name||'IN PROGRESS');
